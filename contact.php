@@ -15,22 +15,7 @@
     <?php $highlight = "contact"; ?>
     <?php include("navbar.php"); ?>
 
-    <iframe width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=8025+Lamon+Avenue,+Skokie,+IL+60077&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;gl=us&amp;ll=42.027981,-87.74995&amp;spn=0.124728,0.198097&amp;t=m&amp;z=13&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=8025+Lamon+Avenue,+Skokie,+IL+60077&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;gl=us&amp;ll=42.027981,-87.74995&amp;spn=0.124728,0.198097&amp;t=m&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
-    <!--
-    <div class="row">
-        <div class="span4">
-            <iframe width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=8025+Lamon+Avenue,+Skokie,+IL+60077&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;gl=us&amp;ll=42.027981,-87.74995&amp;spn=0.124728,0.198097&amp;t=m&amp;z=13&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=8025+Lamon+Avenue,+Skokie,+IL+60077&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;gl=us&amp;ll=42.027981,-87.74995&amp;spn=0.124728,0.198097&amp;t=m&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-        </div>
-        <div class="span4">
-        </div>
-        <div class="span4">
-            <div style="width: 543px;">
-                <img src="assets/sciencePark.jpg" width="600">
-            </div>
-        </div>
-    </div>
-    -->
+    <iframe width=100% height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=8025+Lamon+Ave,+Skokie,+IL&amp;aq=0&amp;oq=8025+l&amp;sll=37.6,-95.665&amp;sspn=48.229126,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;t=m&amp;ll=42.043939,-87.747974&amp;spn=0.040794,0.171661&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=8025+Lamon+Ave,+Skokie,+IL&amp;aq=0&amp;oq=8025+l&amp;sll=37.6,-95.665&amp;sspn=48.229126,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=8025+Lamon+Ave,+Skokie,+Illinois+60077&amp;t=m&amp;ll=42.043939,-87.747974&amp;spn=0.040794,0.171661&amp;z=13&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
     <!-- Content
     ================================================== -->

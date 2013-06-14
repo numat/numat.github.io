@@ -21,9 +21,7 @@
     <div class="hero-unit">
         <div class="ac">
             <h1>Meet our team</h1>
-            <!--
-                <p> Innovation is at the core of who we are. As such, NuMat’s team is comprised of key technologist with deep expertise in material design and synthesis, chemical engineering, computational modeling and software development - all focused on the rapid design, synthesis and integration of high performing materials. </p>
-            -->
+                <p> Innovation is at the core of who we are. As such, NuMat’s team is comprised of key technologists with deep expertise in material design and synthesis, chemical engineering, computational modeling and software development - all focused on the rapid design, synthesis and integration of high performing materials. </p>
         </div>
     </div>
 
@@ -32,24 +30,10 @@
         <div class="row">
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/benBioPic.jpg"/> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-twitter"></a>
-                    <a href="#" class="icon-linkedin"></a>
-                    <a href="#" class="icon-facebook"></a>
-                    <a href="#" class="icon-google-plus"></a>
-                    <a href="#" class="icon-phone"></a>
-                    <a href="#" class="icon-envelope"></a>
-                -->
-                    <a href="mailto:ben@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Benjamin Hernandez</h3>
             <h4 class="member-position">Founder, CEO, and Board Member</h4>
             <p class="member-bio">
-                Prior to NuMat, Ben worked as an operations professional at Arcapita, a global private equity and venture capital firm with over $28 B in transaction value. At Arcapita, Ben was responsible for leading board-level strategy, operations and human capital initiatives at portfolio companies, including major sales and marketing, distribution, product and cost transformation initiatives to drive enterprise growth. Prior to this, he worked as a management consultant at Booz & Company in the operations strategy practice.
+                Prior to NuMat, Ben worked as an operations professional at Arcapita, a global private equity and venture capital firm with over $28 B in transaction value. At Arcapita, Ben was responsible for leading board-level strategy, operations and human capital initiatives at portfolio companies, including major sales and marketing, distribution, product and cost transformation initiatives to drive enterprise growth. Prior to this, he worked as a management consultant at Booz and Company in the operations strategy practice.
             </p>
             <p class="member-bio">
                 Ben earned an M.B.A. from the Kellogg School of Management, a J.D. from the Northwestern University School of Law and a B.S. from the McCormick School of Engineering at Northwestern University.
@@ -57,18 +41,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/omarBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-twitter"></a>
-                    <a href="#" class="icon-linkedin"></a>
-                    <a href="#" class="icon-github"></a>
-                    <a href="#" class="icon-pinterest"></a>
-                -->
-                    <a href="mailto:omar@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Dr. Omar Farha</h3>
             <h4 class="member-position">Founder, President, and Board Member</h4>
             <p class="member-bio">
@@ -80,16 +52,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/chrisBioPic.jpg"  /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                    <a href="tel:+18478599404" class="icon-phone"></a>
-                -->
-                <a href="mailto:chris@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Christopher E. Wilmer</h3>
             <h4 class="member-position">Founder, Technology Leader</h4>
             <p class="member-bio">
@@ -103,15 +65,6 @@
         <div style="clear: both;">&nbsp;</div>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/patBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                -->
-                <a href="mailto:pat@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Patrick Fuller</h3>
             <h4 class="member-position">Lead Software Developer</h4>
             <p class="member-bio">
@@ -123,17 +76,8 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/hanBioPic.jpg"  /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                -->
-                <a href="mailto:han@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Dr. Han Sung Kim</h3>
-            <h4 class="member-position">Senior Computational Engineer</h4>
+            <h4 class="member-position">Lead Computational Engineer</h4>
             <p class="member-bio">
                 Han is the leader of the computational engineering group at NuMat Technologies, primarily responsible for multi-physics and multi-scale simulations of gas adsorbent systems. For the past 15 years, Han has been involved in a variety of interdisciplinary research projects, including the design of nanocomposites, polymer composites, energy storage systems, MEMS, and drug delivery materials.
             </p>
@@ -143,15 +87,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                -->
-                <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-            </p>
             <h3 class="member-name">Dr. Mitch Weston</h3>
             <h4 class="member-position">Synthesis Leader</h4>
             <p class="member-bio">
@@ -165,17 +100,6 @@
         <div style="clear: both;">&nbsp;</div>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-
-                <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-
-                -->
-            </p>
             <h3 class="member-name">Prof. Randall Snurr</h3>
             <h4 class="member-position">Technical Advisor</h4>
             <p class="member-bio">
@@ -187,17 +111,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-
-                <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-
-                -->
-            </p>
             <h3 class="member-name">Prof. Joseph Hupp</h3>
             <h4 class="member-position">Technical Advisor</h4>
             <p class="member-bio">
@@ -211,17 +124,6 @@
         <div style="clear: both;">&nbsp;</div>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-
-                <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-
-                -->
-            </p>
             <h3 class="member-name">Luka Erceg</h3>
             <h4 class="member-position">Board Member</h4>
             <p class="member-bio">
@@ -233,15 +135,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                    <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-                -->
-            </p>
             <h3 class="member-name">Robert Winter</h3>
             <h4 class="member-position">Board Member</h4>
             <p class="member-bio">
@@ -253,15 +146,6 @@
         </article>
 
         <article class="member span4">
-            <div class="member-avatar">
-                <!-- <img alt="" class="thumbnail" src="assets/mitchBioPic.jpg" /> -->
-            </div>
-            <p class="member-networks">
-                <!--
-                    <a href="#" class="icon-facebook"></a>
-                    <a href="mailto:mitch@numat-tech.com" class="icon-envelope"></a>
-                -->
-            </p>
             <h3 class="member-name">Jack M. Gill</h3>
             <h4 class="member-position">Board Observer</h4>
             <p class="member-bio">
@@ -271,10 +155,9 @@
                 Jack M. Gill earned his bachelor's degree in chemistry and engineering from Lamar University in 1958. Four years later, he received his Ph.D. in organic chemistry from Indiana University.
             </p>
         </article>
-
         </div>
-
-    </div>    </div>
+    </div>
+    </div>
 
     <?php include("footer.php"); ?>
 

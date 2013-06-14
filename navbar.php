@@ -9,6 +9,7 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="index.php">
+                <img src="img/numat-logo.png" alt="" width="40" style="margin-right:10px;" />
                 <b>NuMat</b>Technologies
             </a>
             <div class="nav-collapse">
@@ -22,12 +23,6 @@
                     <li <?php if ($GLOBALS['highlight'] == "whoWeAre") echo "class='active'"; ?> >
                         <a href="whoWeAre.php">Who We Are</a>
                     </li>
-                    <!-- <li><a href="plans.html">Pricing</a></li> -->
-                    <!--
-                        <li><a href="explore.html">Explore</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="alt.html">Alt</a></li>
-                    -->
                     <li <?php if ($GLOBALS['highlight'] == "news") echo "class='active'"; ?> >
                         <a href="news.php">News</a>
                     </li>
