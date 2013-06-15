@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="span4">
-                <img rel="tooltip" title="Simulation of natural gas (orange) in a MOF (grey)." alt="" class="thumbnail fr hidden-phone" src="assets/breakthroughTechnology_image1.jpg" width="240" />
+                <img rel="tooltip" title="Simulation of natural gas (orange) in a MOF (grey)." alt="" class="thumbnail fr hidden-phone" src="img/methane-simulation.jpg" width="240" />
             </div>
         </div>
 
@@ -70,7 +70,7 @@
         <div id="hookMarkets" class="row">
 
             <div class="span4">
-                <img rel="tooltip" title="Natural gas is already used in homes and businesses across the world." alt="" class="thumbnail fl hidden-phone" src="img/flame.jpg" width="240" />
+                <img rel="tooltip" title="Natural gas is already used in homes and businesses around the world." alt="" class="thumbnail fl hidden-phone" src="img/flame.jpg" width="240" />
             </div>
             <div class="span8">
                 <h3><span class="grey">Markets: </span>Many opportunities.</h3>
