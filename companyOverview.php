@@ -106,7 +106,7 @@
                 </p>
             </div>
             <div class="span4" style="margin-bottom: 50px;">
-                <img rel="tooltip" title="Our materials can replace expensive machinery in many applications." alt="" class="thumbnail fr phone-hidden" src="img/short-distillation.jpg" width="240" />
+                <img rel="tooltip" title="Our materials can replace expensive machinery in many applications." alt="" class="thumbnail fr hidden-phone" src="img/short-distillation.jpg" width="240" />
             </div>
         </div>
 

@@ -26,7 +26,7 @@
         <!-- posts -->
         <div class="offset2 span8">
 
-            <!-- NuMat is featured on "Planet Forward" -->
+            <!-- NuMat Closes $2.0 Million Seed Round -->
             <article class="post">
                 <a href="http://online.wsj.com/article/PR-CO-20130612-906161.html" class="entry-media">
                     <img src="img/the-wall-street-journal-logo.jpg" alt="" width="600" />
@@ -48,7 +48,7 @@
             <!-- NuMat is featured on "Planet Forward" -->
             <article class="post video-post">
                 <div class="entry-media">
-                    <script src="http://player.ooyala.com/player.js?embedCode=M1bzMwNjqXRJEdj7B9mAOIIXvH-c0B9M&playerBrandingId=8a7a9c84ac2f4e8398ebe50c07eb2f9d&width=600&deepLinkEmbedCode=M1bzMwNjqXRJEdj7B9mAOIIXvH-c0B9M&height=360&thruParam_bloomberg-ui[popOutButtonVisible]=FALSE"></script>
+                    <div id="ooyala-sucks-at-loading"></div>
                 </div>
                 <div class="entry-body">
                     <a href="http://planetforward.org/tv-segments/a-compressed-natural-alternative-at-the-gas-pump/">
@@ -87,11 +87,11 @@
             <!-- High density energy storage using self-assembled materials -->
             <article class="post video-post">
                 <div class="entry-media">
-                    <iframe width="600" height="340" src="http://www.youtube.com/embed/QaKSekjAnqY" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="600" height="340" src="http://www.youtube.com/embed/QaKSekjAnqY" frameborder="0"></iframe>
                 </div>
                 <div class="entry-body">
                     <h2 class="entry-title">High density energy storage using MOFs</h2>
-                    <p>This video was created for the 2011 NSF International Science & Engineering Visualization Challenge. Featured in <a href="http://www.wired.com/wiredscience/2012/02/science-visualizations-2011/?pid=3021&pageid=94650&viewall=true">Wired</a>, <a href="http://www.sciencemag.org/site/special/vis2011/">Science</a>, and <a href="http://cosmiclog.nbcnews.com/_news/2012/02/02/10301206-scientific-visions-that-take-the-prize">NBC News</a>, it explains the process of material discovery at NuMat Technologies.</p>
+                    <p>This video was created for the 2011 NSF International Science and Engineering Visualization Challenge. Featured in <a href="http://www.wired.com/wiredscience/2012/02/science-visualizations-2011/?pid=3021&pageid=94650&viewall=true">Wired</a>, <a href="http://www.sciencemag.org/site/special/vis2011/">Science</a>, and <a href="http://cosmiclog.nbcnews.com/_news/2012/02/02/10301206-scientific-visions-that-take-the-prize">NBC News</a>, it explains the process of material discovery at NuMat Technologies.</p>
                 </div>
                 <div class="entry-meta">
                     <span class="entry-type"></span>
@@ -108,6 +108,9 @@
     </div>
 
     <?php include("footer.php"); ?>
+
+<!-- load ooyala videos after the rest of the page -->
+<script src="http://player.ooyala.com/player.js?embedCode=M1bzMwNjqXRJEdj7B9mAOIIXvH-c0B9M&playerBrandingId=8a7a9c84ac2f4e8398ebe50c07eb2f9d&width=640&deepLinkEmbedCode=M1bzMwNjqXRJEdj7B9mAOIIXvH-c0B9M&height=360&thruParam_bloomberg-ui[popOutButtonVisible]=FALSE&targetReplaceId=ooyala-sucks-at-loading"></script>
 
 </body>
 </html>
