@@ -10,7 +10,7 @@
             </a>
             <a class="brand" href="index.php">
                 <img src="img/numat-logo.png" alt="" width="40" style="margin-right:10px;" />
-                <b>NuMat</b>Technologies
+                NuMat<b class="hidden-phone">Technologies</b>
             </a>
             <div class="nav-collapse">
                 <ul class="nav">

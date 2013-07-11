@@ -52,13 +52,13 @@
         </article>
 
         <article class="member span4">
-            <h3 class="member-name">Christopher E. Wilmer</h3>
+            <h3 class="member-name">Dr. Christopher E. Wilmer</h3>
             <h4 class="member-position">Founder, Technology Leader</h4>
             <p class="member-bio">
                 An inventor of NuMat’s proprietary MOF discovery algorithm, Chris is responsible for supporting key advancements in the design of novel material structures. Chris has expertise in computational modeling, high performance computing, and specializes in rapidly designing the high performance MOFs.
             </p>
             <p class="member-bio">
-                Chris earned his B.A.Sc. degree from the Engineering Science program at the University of Toronto and his doctoral research is on the design of optimal porous materials. Chris was recently named to the <a href="http://www.forbes.com/pictures/mef45jdde/chris-wilmer-29/">"30 under 30 in Energy" list at Forbes Magazine</a>.
+                Chris earned his Ph.D. in Chemical and Biological Engineering from Northwestern University working on the design of porous materials. Previously, he earned a B.A.Sc. degree from the Engineering Science program at the University of Toronto. Chris was recently named to the <a href="http://www.forbes.com/pictures/mef45jdde/chris-wilmer-29/">"30 under 30 in Energy" list at Forbes Magazine</a>.
             </p>
         </article>
 
