@@ -121,6 +121,18 @@
             </p>
         </article>
 
+        <article class="member span4">
+            <h3 class="member-name">William J. Kroll</h3>
+            <h4 class="member-position">Advisor</h4>
+            <p class="member-bio">
+                Mr. Kroll is the Executive Chairman, and former CEO of Matheson TriGas, the largest subsidiary of the Taiyo Nippon Sanso Corporation Group, the largest Japanese supplier of industrial gases and one of the five largest suppliers of industrial, specialty, and electronic gases in the world, where Mr. Kroll also serves as a Lead Director. During his executive tenor at Matheson, Mr. Kroll oversaw global businesses for industrial, medical, specialty and electronic gases, gas handling equipment, high performance purification systems, and engineering and gas management services. Prior to Matheson, he served as Executive Vice President of Business Development at Emcore, where he was instrumental in taking that company public.
+            </p>
+            <p class="member-bio">
+                Mr. Kroll completed his undergraduate and graduate work at Northwestern University.
+            </p>
+        </article>
+
+        <div style="clear: both;">&nbsp;</div>
         <div style="clear: both;">&nbsp;</div>
 
         <article class="member span4">
