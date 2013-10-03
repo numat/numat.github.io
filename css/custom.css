@@ -1,0 +1,133 @@
+body {
+    margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.header-image {
+    background: url("../img/exxon_mobil_singapore.jpg") no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-position: top;
+    height: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline > .container > h1 {
+    font-size: 130px;
+    background: #ffffff;
+    background: #fff;
+    padding: 0.5em;
+}
+
+.headline > .container > h2 {
+    font-size: 30px;
+    background: #ffffff;
+    background: #fff;
+    padding: 0.5em;
+}
+
+.headline > .container > .svg {
+    background: #ffffff;
+    background: #fff;
+    width: 100%;
+    padding: 1.5em;
+}
+
+.post-img {
+    border:1px solid #aaa;
+    width: 100%;
+    height: auto;
+}
+
+.people-row {
+    margin-bottom: 20px;
+}
+
+.post, .featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.imolecule {
+    height: 500px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+.headline > .container > h1 {font-size: 140px;}
+.headline > .container > h2 {font-size: 24px;}
+.featurette-divider {margin: 50px 0;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 35px;}
+
+}
+
+@media (max-width: 991px) {
+
+.headline > .container > h1 {font-size: 105px;}
+.headline > .container > h2 {font-size: 18px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-image {max-width: 50%;}
+.featurette-image.pull-left {margin-right: 10px;}
+.featurette-image.pull-right {margin-left: 10px;}
+.featurette-heading {font-size: 30px;}
+
+}
+
+@media (max-width: 768px) {
+
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+
+}
+
+
+@media (max-width: 668px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.featurette-divider {margin: 30px 0;}
+
+}
+
+@media (max-width: 640px) {
+
+.headline {padding: 75px 0 25px 0;}
+.headline > .container > h1 {font-size: 60px;}
+.headline > .container > h2 {font-size: 14px;}
+
+}
+
+@media (max-width: 375px) {
+
+.featurette-divider {margin: 10px 0;}
+.featurette-image {max-width: 100%;}
+.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
+.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+.headline > .container > h2 {font-size: 10px;}
+
+}
