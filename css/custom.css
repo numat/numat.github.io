@@ -42,7 +42,7 @@ body {
     height: auto;
 }
 
-.people-row {
+.people-row, .values-row {
     margin-bottom: 20px;
 }
 
