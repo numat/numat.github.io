@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS - bootstrap, icons, custom -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- core javascript -->
+    <script src="/js/jquery-1.10.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Top menu -->
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+            <li><a href="/people">People</a></li>
+            <li><a href="/technology">Technology</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      {{ content }}
+
+    <div class="container">
+      <hr>
+      <div class="footer">
+        <p>Copyright &copy; NuMat Technologies 2014</p>
+      </div>
+    </div>
+
+    <!-- non-core javascript -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/retina-1.1.0.js"></script>
+  </body>
+</html>
