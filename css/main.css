@@ -2,6 +2,14 @@ body {
     margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */
 }
 
+p {
+    text-align: justify;
+}
+
+p.lead {
+    text-align: left;
+}
+
 .header-image {
     background: url("../img/exxon_mobil_singapore.jpg") no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
     background-position: top;
