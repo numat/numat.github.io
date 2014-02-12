@@ -5,8 +5,7 @@ layout: default
 
 <div class="header-image">
   <div class="headline">
-    <div class="container">
-      <object class="svg" data="img/NuMat_CMYK.svg" type="image/svg+xml" align="center" width="50%"></object><br /><br />
+    <div class="container" id="title-logo">
       <h2>
         Changing the way the world stores, separates, and transports gases.
       </h2>
@@ -52,3 +51,12 @@ layout: default
     </p>
   </div>
 </div>
+
+<script src="/js/modernizr.svg-webgl.js"></script>
+<script type="text/javascript">
+  if (Modernizr.svg) {
+    $('#title-logo').prepend('<object class="svg" data="img/NuMat_CMYK.svg" type="image/svg+xml" align="center" width="50%"></object>');
+  } else {
+    $('#title-logo').prepend('<img class="svg" src="/img/NuMat-Raster.png"></img>');
+  }
+</script>

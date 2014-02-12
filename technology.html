@@ -43,8 +43,13 @@ permalink: /technology/
 </div>
 
 <!-- Draws NU-100 -->
+<script src="/js/modernizr.svg-webgl.js"></script>
 <script src="/js/imolecule.min.js"></script>
 <script type="text/javascript">
-  imolecule.create(".imolecule", {drawingType: "space filling", z: 100});
-  $.getJSON("/js/nu_100.json", function (mof) { imolecule.draw(mof); });
+  if (Modernizr.webgl) {
+    imolecule.create('.imolecule', {drawingType: 'space filling', z: 100});
+    $.getJSON('/js/nu_100.json', function (mof) { imolecule.draw(mof); });
+  } else {
+    $('.imolecule').html('<img src="/img/webgl-backup.png"></img>');
+  }
 </script>
