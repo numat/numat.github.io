@@ -11,7 +11,11 @@ p.lead {
 }
 
 .header-image {
-    background: url("../img/exxon_mobil_singapore.jpg") no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background: url("../img/exxon_mobil_singapore.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: top;
     height: auto;
     display: block;
