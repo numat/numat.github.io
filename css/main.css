@@ -1,3 +1,7 @@
+body {
+  padding-top: 40px; /* Handles cutoff from navbar */
+}
+
 p {
     text-align: justify;
 }
