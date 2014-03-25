@@ -11,7 +11,7 @@ p.lead {
 }
 
 .header-image {
-    background: url("../img/exxon_mobil_singapore.jpg") no-repeat center center fixed;
+    background: url("../img/pp_plant.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,21 +29,18 @@ p.lead {
 
 .headline > .container > h1 {
     font-size: 130px;
-    background: #ffffff;
-    background: #fff;
+    color: #fff;
     padding: 0.5em;
 }
 
 .headline > .container > h2 {
     font-size: 30px;
-    background: #ffffff;
-    background: #fff;
+    color: #fff;
     padding: 0.5em;
 }
 
 .headline > .container > .svg {
-    background: #ffffff;
-    background: #fff;
+    color: #fff;
     width: 100%;
     padding: 1.5em;
 }
