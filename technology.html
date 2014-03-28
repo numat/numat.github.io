@@ -7,49 +7,92 @@ permalink: /technology/
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">Technology</h1>
-      <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li class="active">Technology</li>
-      </ol>
     </div>
   </div>
 
   <div class="row">
     <div class="col-sm-6">
-      <h2>Experiment meets theory.</h2>
-      <p>NuMat Technologies is a materials technology company committed to
-      enabling fundamental performance shifts in the gas storage and
-      separations industries. We do so by tailor-designing nanoporous
-      materials - specifically metal-organic frameworks - for high-value
-      applications which critically depend on material performance.</p>
-      <p>Compared to currently used sorbents - zeolites and activated
-      carbon - metal-organic frameworks possess two game-changing properties:
-      performance and tunability.</p>
-      <p>In performance, their internal surface area is an order of magnitude
-      larger than other options. The material shown to the right has a surface
-      area greater than 6,000 m<sup>2</sup>/g, and even better materials have
-      been synthesized in our labs. This means that gas molecules have
-      significantly more contact area with the sorbent, drastically increasing
-      the amount of adsorbed gas.</p>
-      <p>Metal-organic frameworks are not only higher performing than their
-      competitors, but possess a unique property that simply cannot be emulated
-      with either zeolites or activated carbon: atomically precise tunability.
-      By adjusting the starting materials used, a near-infinite amount of
-      metal-organic frameworks - all with unique and controllable
-      properties - can be created.</p>
+      <h2>Materials-enabled product and system innovation.</h2>
+      <p>
+        NuMat Technologies is a materials technology company committed to
+        enabling fundamental performance shifts in the gas storage and
+        separations industries. We do so by tailor-designing nanoporous
+        materials - specifically metal-organic frameworks - for high-value
+        applications which critically depend on material performance.
+      </p>
+      <p>
+        Compared to currently used sorbents - zeolites and activated
+        carbon - metal-organic frameworks possess two game-changing properties:
+        performance and tunability.
+      </p>
+      <p>
+        The capabilities of our synthetic team are complemented by accurate
+        high-throughput computational simulations, allowing us to test millions
+        of materials without performing a single experiment.
+      </p>
     </div>
-    <div class="col-sm-6 imolecule"></div>
+    <div class="col-sm-6">
+      <img class="img-responsive" src="/img/nu-100.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img class="img-responsive" src="/img/surface_area.png">
+    </div>
+    <div class="col-sm-6" style="padding-top:75px;">
+      <h2>The highest performing materials in the world.</h2>
+      <p>
+        We create a class of materials with astronomical internal surface areas.
+        A single gram of one of our world-record-shattering materials
+        would be able to cover 1.5 American football fields when unfolded.
+        This means that gas molecules have significantly more contact area with
+        the sorbent, drastically increasing the amount of adsorbed gas.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6" style="padding-top:75px;">
+      <h2>The perfect material for every application.</h2>
+        <p>
+          Metal-organic frameworks are not only higher performing than their
+          competitors, but possess a unique property that simply cannot be emulated
+          with either zeolites or activated carbon: atomically precise tunability.
+          By adjusting the starting materials used, a near-infinite amount of
+          metal-organic frameworks - all with unique and controllable
+          properties - can be created.
+        </p>
+        <p>
+          In contrast to non-crystalline materials such as activated carbon,
+          this means that we are able to design materials that fully utilize
+          their internal surface area. We control pore size and pore volume with
+          sub-angstrom accuracy, and are able to covalently and uniformly bond
+          functional motifs into the framework.
+        </p>
+    </div>
+    <div class="col-sm-6">
+      <img class="img-responsive" src="/img/block_mof.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img class="img-responsive" src="/img/computational.jpg">
+    </div>
+    <div class="col-sm-6" style="padding-top:75px;">
+      <h2>An elegant solution to material design.</h2>
+        <p>
+          Our materials are crystalline, meaning that they consist of
+          highly predictable repeated unit cells. This enables us to predict the
+          structure of materials in sub-second time, rather than spending resources
+          synthesizing and characterizing every new material.
+        </p>
+        <p>
+          Once a structure has been determined, we use established practices to
+          accurately determine the performance of the material in a given application.
+          From beginning to end, the time between initial ideation and performance
+          measurement takes approximately ten minutes. This is experimentation
+          at the speed of thought, allowing us to rapidly prototype and test new
+          ideas as quickly as we can dream them up.
+        </p>
+    </div>
   </div>
 </div>
-
-<!-- Draws NU-100 -->
-<script src="/js/modernizr.svg-webgl.js"></script>
-<script src="/js/imolecule.min.js"></script>
-<script type="text/javascript">
-  if (Modernizr.webgl) {
-    imolecule.create('.imolecule', {drawingType: 'space filling', z: 100});
-    $.getJSON('/js/nu_100.json', function (mof) { imolecule.draw(mof); });
-  } else {
-    $('.imolecule').html('<img src="/img/webgl-backup.png"></img>');
-  }
-</script>

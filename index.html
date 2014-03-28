@@ -3,60 +3,76 @@ title: NuMat Technologies
 layout: default
 ---
 
-<div class="header-image">
-  <div class="headline">
-    <div class="container" id="title-logo">
-      <h2>
-        Changing the way the world stores, separates, and transports gases.
-      </h2>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <hr class="featurette-divider">
-  <div class="featurette" id="about">
-    <img class="featurette-image img-responsive pull-right" src="img/nu-100.png">
-    <h2 class="featurette-heading">We are a <span class="text-muted">Materials Technology Company.</span></h2>
-    <p class="lead">
-      We are committed to enabling fundamental performance shifts
-      in the gas storage and separations industries through our tailor-designed
-      nanoporous materials.
+<section id="first" class="front">
+  <article>
+    <h1>We are a materials-enabled gas technology company.</h1>
+    <p>
+      Our proprietary packaging and separation technology enables fundamental
+      performance shifts in high-value consumer, commercial, and industrial
+      products and systems.
     </p>
-  </div>
+  </article>
+</section>
 
-  <hr class="featurette-divider">
-
-  <div class="featurette" id="services">
-    <img class="featurette-image img-circle img-responsive pull-left" src="img/mof_samples.jpg">
-    <h2 class="featurette-heading">We Create the <span class="text-muted">Best Materials in the World.</span></h2>
-    <p class="lead">
-      With our patented supercritical activation technique, our synthesized
-      materials retain astronomical internal surface areas. One of our materials
-      holds the surface area world record, with just one gram being able to
-      cover two acres of land when unfolded.
+<section id="second" class="front">
+  <article>
+    <h1>We are changing the way the world stores, separates, and transports gases.</h1>
+    <p>
+      Similar to a sponge soaking up water, our materials soak up gases at high
+      concentrations. Simply put, a cylinder filled with one of our materials will
+      store more gas than an empty vessel. This fundamental property grants us
+      unparalleled design flexibility, enabling gas storage and transportation
+      on container ships - forgoing costly cryogenic or high-pressure transport.
     </p>
-  </div>
+  </article>
+</section>
 
-  <hr class="featurette-divider">
-
-  <div class="featurette" id="contact">
-    <img class="featurette-image img-responsive pull-right" src="img/block_mof.png">
-    <h2 class="featurette-heading">We Tailor Materials <span class="text-muted">to Applications that Matter.</span></h2>
-    <p class="lead">
-      We are able to rapidly prototype materials with our patented computational
-      tools, screening millions of hypothetical structures in a matter of hours.
-      We build our materials from the ground up with atomic precision and then
-      integrate these materials into high value products and processes.
+<section id="third" class="front">
+  <article>
+    <h1>We are a platform solution.</h1>
+    <p>
+      With millions of potential combinations, our materials can be custom tailored
+      for each and every application. This is complemented by our high-throughput
+      computational approach to material discovery, enabling us to exhaustively
+      and accurately test materials without performing a single experiment.
     </p>
-  </div>
-</div>
+  </article>
+</section>
 
-<script src="/js/modernizr.svg-webgl.js"></script>
+<section id="fourth" class="front">
+  <article>
+    <h1>We have traction.</h1>
+    <p>
+      Our company is backed by an elite group of angel investors, and our
+      technology has been lauded as a game changer for the gas storage,
+      separation, and transportation industries. We've been especially proud of
+      our ability to support research around moonshot ideas, looking into the
+      future to address the true potential of our technology as a transformative
+      next-generation platform.
+    </p>
+  </article>
+</section>
+
 <script type="text/javascript">
-  if (Modernizr.svg) {
-    $('#title-logo').prepend('<object class="svg" data="img/NuMat_CMYK.svg" type="image/svg+xml" align="center" width="50%"></object>');
-  } else {
-    $('#title-logo').prepend('<img class="svg" src="/img/NuMat_raster.png"></img>');
-  }
+  // Logic for the foreground-background parallax effect, adapted from the
+  // Smashing Magazine parallax tutorial
+  $(document).ready(function () {
+    $window = $(window);
+    var speed = 3; // Ratio between foreground and background speed
+    $('section[class="front"]').each(function () {
+      // Store some variables based on where we are
+      var $self = $(this), topOffset = $self.offset().top;
+      $window.scroll(function() {
+        // True if the section is in view
+        if ($window.scrollTop() + $window.height() > topOffset &&
+          topOffset + $self.height() > $window.scrollTop()) {
+          // Scroll the background at variable speed, edit by a heuristic
+          // to make sure that we're scrolling the middle of the images
+          var yPos = -$window.scrollTop() / speed + ($self.height() + 100)
+                     * 11 / 36 * ($self.index() - 1);
+          $self.css({ backgroundPosition: '50% ' + yPos + 'px' });
+        }
+      });
+    });
+  });
 </script>
