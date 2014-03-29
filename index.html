@@ -57,12 +57,21 @@ layout: default
   // Logic for the foreground-background parallax effect, adapted from the
   // Smashing Magazine parallax tutorial
   $(document).ready(function () {
+    // The backgrounds are too large to load in iOS devices. This is a hacky
+    // workaround that uses only one background
+    if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+      $('.front').css({'height': '500px', 'background': 'url(../img/multiple_materials.jpg) 100% 0 repeat fixed'});
+      $('#second').css('height', '700px');
+      $('.front > article').css('margin-top', '50px');
+      return;
+    }
+
     $window = $(window);
     var speed = 3; // Ratio between foreground and background speed
     $('section[class="front"]').each(function () {
       // Store some variables based on where we are
       var $self = $(this), topOffset = $self.offset().top;
-      $window.scroll(function() {
+      $window.scroll(function () {
         // True if the section is in view
         if ($window.scrollTop() + $window.height() > topOffset &&
           topOffset + $self.height() > $window.scrollTop()) {
