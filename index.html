@@ -61,7 +61,7 @@ layout: default
   $(document).ready(function () {
     // The backgrounds are too large to load in iOS devices. This is a hacky
     // workaround that uses only one background
-    if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+    if (navigator.userAgent.match(/(iPhone|iPod)/g)) {
       $('.front').css({
         'background': 'transparent',
         'max-width': '640px',
@@ -69,6 +69,12 @@ layout: default
       });
       $('.front > article').css('margin-top', '25px');
       $('.front > article > h1').css('font-size', '24px');
+      $('.ios-container').css('background','url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
+      return;
+    }
+    if (navigator.userAgent.match(/iPad/g)) {
+      $('.front').css('background', 'transparent');
+      $('.front > article').css('margin-top', '150px');
       $('.ios-container').css('background','url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
       return;
     }
@@ -84,8 +90,7 @@ layout: default
           topOffset + $self.height() > $window.scrollTop()) {
           // Scroll the background at variable speed, edit by a heuristic
           // to make sure that we're scrolling the middle of the images
-          var yPos = -$window.scrollTop() / speed + ($self.height() + 100)
-                     * 11 / 36 * ($self.index() - 1);
+          var yPos = -$window.scrollTop() / speed + $self.height() * $self.index() / 3;
           $self.css({ backgroundPosition: '50% ' + yPos + 'px' });
         }
       });
