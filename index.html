@@ -3,55 +3,57 @@ title: NuMat Technologies
 layout: default
 ---
 
-<section id="first" class="front">
-  <article>
-    <h1>We are a materials-enabled gas technology company.</h1>
-    <p>
-      Our proprietary packaging and separation technology enables fundamental
-      performance shifts in high-value consumer, commercial, and industrial
-      products and systems.
-    </p>
-  </article>
-</section>
+<div class="ios-container">
+  <section id="first" class="front">
+    <article>
+      <h1>We are a materials-enabled gas technology company.</h1>
+      <p>
+        Our proprietary packaging and separation technology enables fundamental
+        performance shifts in high-value consumer, commercial, and industrial
+        products and systems.
+      </p>
+    </article>
+  </section>
 
-<section id="second" class="front">
-  <article>
-    <h1>We are changing the way the world stores, separates, and transports gases.</h1>
-    <p>
-      Similar to a sponge soaking up water, our materials soak up gases at high
-      concentrations. Simply put, a cylinder filled with one of our materials will
-      store more gas than an empty vessel. This fundamental property grants us
-      unparalleled design flexibility, enabling gas storage and transportation
-      on container ships - forgoing costly cryogenic or high-pressure transport.
-    </p>
-  </article>
-</section>
+  <section id="second" class="front">
+    <article>
+      <h1>We are changing the way the world stores, separates, and transports gases.</h1>
+      <p>
+        Similar to a sponge soaking up water, our materials soak up gases at high
+        concentrations. Simply put, a cylinder filled with one of our materials will
+        store more gas than an empty vessel. This fundamental property grants us
+        unparalleled design flexibility, enabling gas storage and transportation
+        on container ships - forgoing costly cryogenic or high-pressure transport.
+      </p>
+    </article>
+  </section>
 
-<section id="third" class="front">
-  <article>
-    <h1>We are a platform solution.</h1>
-    <p>
-      With millions of potential combinations, our materials can be custom tailored
-      and optimized for applications. This is complemented by our high-throughput
-      computational approach to material discovery, enabling us to exhaustively
-      and accurately test materials without performing a single experiment.
-    </p>
-  </article>
-</section>
+  <section id="third" class="front">
+    <article>
+      <h1>We are a platform solution.</h1>
+      <p>
+        With millions of potential combinations, our materials can be custom tailored
+        and optimized for applications. This is complemented by our high-throughput
+        computational approach to material discovery, enabling us to exhaustively
+        and accurately test materials without performing a single experiment.
+      </p>
+    </article>
+  </section>
 
-<section id="fourth" class="front">
-  <article>
-    <h1>We have traction.</h1>
-    <p>
-      Our company is backed by an elite group of angel investors, and our
-      technology has been lauded as a game changer for the gas storage,
-      separation, and transportation industries. We've been especially proud of
-      our ability to support research around moonshot ideas, looking into the
-      future to address the true potential of our technology as a transformative
-      next-generation platform.
-    </p>
-  </article>
-</section>
+  <section id="fourth" class="front">
+    <article>
+      <h1>We have traction.</h1>
+      <p>
+        Our company is backed by an elite group of angel investors, and our
+        technology has been lauded as a game changer for the gas storage,
+        separation, and transportation industries. We've been especially proud of
+        our ability to support research around moonshot ideas, looking into the
+        future to address the true potential of our technology as a transformative
+        next-generation platform.
+      </p>
+    </article>
+  </section>
+</div>
 
 <script type="text/javascript">
   // Logic for the foreground-background parallax effect, adapted from the
@@ -60,9 +62,14 @@ layout: default
     // The backgrounds are too large to load in iOS devices. This is a hacky
     // workaround that uses only one background
     if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
-      $('.front').css({'height': '500px', 'background': 'url(../img/multiple_materials.jpg) 100% 0 repeat fixed'});
-      $('#second').css('height', '700px');
-      $('.front > article').css('margin-top', '50px');
+      $('.front').css({
+        'background': 'transparent',
+        'max-width': '640px',
+        'height': '600px'
+      });
+      $('.front > article').css('margin-top', '25px');
+      $('.front > article > h1').css('font-size', '24px');
+      $('.ios-container').css('background','url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
       return;
     }
 
