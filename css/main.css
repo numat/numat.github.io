@@ -101,13 +101,19 @@ h1, h2 {
 }
 
 /*
- * Custom spacing for the people page
+ * Custom spacing for the technology and people pages
  */
+.technology > .row {
+  margin-bottom: 50px;
+}
 .people {
   margin-bottom: 25px;
   text-align: justify;
 }
 
+/*
+ * Custom formatting for the news posts
+ */
 .post {
   background: #ddd;
   padding: 19px;
@@ -146,7 +152,5 @@ h1, h2 {
 }
 
 .post-img {
-  width: 100%;
   margin-bottom: 10px;
-  height: auto;
 }

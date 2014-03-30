@@ -360,15 +360,14 @@ permalink: /news/
 
 <script src="/js/jquery.fitvids.js"></script>
 <script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function () {
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
     $('.entry-media').fitVids();
-  });
 
-  // Cascading news articles
-  $(window).load(function () {
-    $('.masonry').masonry({
+    // Cascading news articles
+    var masonryOpts = {
       itemSelector: '.post',
       isFitWidth: true,
       isAnimated: true,
@@ -377,6 +376,9 @@ permalink: /news/
         easing: 'linear',
         queue: false
       }
+    };
+    $('.masonry').masonry(masonryOpts).imagesLoaded(function () {
+        $('.masonry').masonry(masonryOpts); // Reload after images are in
     });
   });
 </script>
