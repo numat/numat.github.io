@@ -84,6 +84,9 @@ h1, h2 {
     margin-left: 10px;
     width: 300px;
   }
+  .front > article > h1 {
+    font-size: 24px;
+  }
 }
 
 .front > article p {

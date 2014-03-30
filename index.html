@@ -68,14 +68,16 @@ layout: default
         'height': '600px'
       });
       $('.front > article').css('margin-top', '25px');
-      $('.front > article > h1').css('font-size', '24px');
       $('.ios-container').css('background','url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
       return;
     }
     if (navigator.userAgent.match(/iPad/g)) {
-      $('.front').css('background', 'transparent');
-      $('.front > article').css('margin-top', '150px');
-      $('.ios-container').css('background','url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
+      $('.front').css({
+        'background': 'transparent',
+        'height': '576px'
+      });
+      $('.front > article').css('margin-top', '50px');
+      $('.ios-container').css('background','url(../img/background_ipad.jpg) 100% 0 no-repeat fixed');
       return;
     }
 
