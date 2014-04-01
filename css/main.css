@@ -110,6 +110,13 @@ h1, h2 {
 .technology > .row {
   margin-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .people {
   margin-bottom: 25px;
   text-align: justify;
