@@ -126,11 +126,9 @@ h1, h2 {
  * Custom formatting for the news posts
  */
 .post {
-  background: #ddd;
   padding: 19px;
   line-height: 1.5em;
-  box-shadow: 0 0 25px rgba(0,0,0,0.3);
-  border: 1px solid rgba(150,150,150,0.1);
+  border: 1px solid #333;
   margin: 10px;
   width: 400px;
 }
