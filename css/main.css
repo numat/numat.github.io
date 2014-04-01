@@ -67,11 +67,10 @@ h1, h2 {
     background: url(../img/traction.jpg) 50% 0 no-repeat fixed;
 }
 
-.front > article {
+.front > .container > article {
   background: url(../img/grain.png) repeat #333;
   width: 500px;
-  margin-left: 100px;
-  margin-top: 250px;
+  margin-top: 200px;
   color: #fff;
   padding: 10px 20px;
   line-height: 1.5em;
@@ -80,16 +79,21 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
-  .front > article {
-    margin-left: 10px;
+  .front > .container > article {
     width: 300px;
   }
-  .front > article > h1 {
+  .front > .container > article > h1 {
     font-size: 24px;
   }
 }
 
-.front > article p {
+@media (max-width: 360px) {
+  .front > .container > article {
+    width: auto;
+  }
+}
+
+.front > .container > article p {
   margin-top: 25px;
 }
 
