@@ -122,6 +122,17 @@ h1, h2 {
   text-align: justify;
 }
 
+.role, .role a {
+  color: #888;
+}
+.role a:hover {
+  color: #ccc;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
 /*
  * Custom formatting for the news posts
  */
