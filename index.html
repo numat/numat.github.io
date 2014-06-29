@@ -3,109 +3,64 @@ title: NuMat Technologies
 layout: default
 ---
 
-<div class="ios-container">
-  <section id="first" class="front">
-    <div class="container">
-      <article>
-        <h1>We are a materials-enabled gas technology company.</h1>
-        <p>
-          Our proprietary packaging and separation technology enables fundamental
-          performance shifts in high-value consumer, commercial, and industrial
-          products and systems.
-        </p>
-      </article>
+<div id="first" class="front">
+  <div class="vertical-center-table">
+    <div class="banner banner-full">
+      <h1>We are changing how the world uses gas.</h1>
+      <p>
+        Gas storage and separation are fundamental technical challenges. We
+        provide solutions that enable step-change performance shifts in
+        high-value consumer, commercial, and industrial products and systems.
+      </p>
     </div>
-  </section>
-
-  <section id="second" class="front">
-    <div class="container">
-      <article>
-        <h1>We are changing the way the world stores, separates, and transports gases.</h1>
-        <p>
-          Similar to a sponge soaking up water, our materials soak up gases at high
-          concentrations. Simply put, a cylinder filled with one of our materials will
-          store more gas than an empty vessel. This fundamental property grants us
-          unparalleled design flexibility, enabling gas storage and transportation
-          on container ships - forgoing costly cryogenic or high-pressure transport.
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <section id="third" class="front">
-    <div class="container">
-      <article>
-        <h1>We are a platform solution.</h1>
-        <p>
-          With millions of potential combinations, our materials can be custom tailored
-          and optimized for applications. This is complemented by our high-throughput
-          computational approach to material discovery, enabling us to exhaustively
-          and accurately test materials without performing a single experiment.
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <section id="fourth" class="front">
-    <div class="container">
-      <article>
-        <h1>We have traction.</h1>
-        <p>
-          Our company is backed by an elite group of angel investors, and our
-          technology has been lauded as a game changer for the gas storage,
-          separation, and transportation industries. We've been especially proud of
-          our ability to support research around moonshot ideas, looking into the
-          future to address the true potential of our technology as a transformative
-          next-generation platform.
-        </p>
-      </article>
-    </div>
-  </section>
+  </div>
+  <a href="#second" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
 </div>
 
-<script type="text/javascript">
-  // Logic for the foreground-background parallax effect, adapted from the
-  // Smashing Magazine parallax tutorial
-  $(document).ready(function () {
-    // The backgrounds are too large to load in iOS devices. This is a hacky
-    // workaround that uses only one background
-    if (navigator.userAgent.match(/(iPhone|iPod)/g)) {
-      $('.front').css({
-        'background': 'transparent',
-        'max-width': '640px',
-        'height': '600px'
-      });
-      $('.front > .container > article').css('margin-top', '25px');
-      $('.ios-container').css('background', 'url(../img/background_iphone.jpg) 100% 0 no-repeat fixed');
-      $('.ios-container').css('background-position', 'center top');
-      return;
-    }
-    if (navigator.userAgent.match(/iPad/g)) {
-      $('.front').css({
-        'background': 'transparent',
-        'height': '576px'
-      });
-      $('.front > .container > article').css('margin-top', '100px');
-      $('.ios-container').css('background', 'url(../img/background_ipad.jpg) 100% 0 no-repeat fixed');
-      $('.ios-container').css('background-position', 'center top');
-      return;
-    }
+<div id="second" class="front">
+  <div class="vertical-center-table">
+    <div class="banner banner-left">
+      <h1>We focus on material-based innovation.</h1>
+      <p>
+        Similar to a sponge soaking up water, our materials soak up gases at high
+        concentrations. Simply put, a cylinder filled with one of our materials will
+        store more gas than an empty vessel. This fundamental property grants us
+        unparalleled design flexibility, enabling the creation of next-generation
+        products for any application that uses gas.
+      </p>
+    </div>
+  </div>
+  <a href="#third" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
+</div>
 
-    $window = $(window);
-    var speed = 3; // Ratio between foreground and background speed
-    $('section[class="front"]').each(function () {
-      // Store some variables based on where we are
-      var $self = $(this), topOffset = $self.offset().top;
-      $window.scroll(function () {
-        // True if the section is in view
-        if ($window.scrollTop() + $window.height() > topOffset &&
-          topOffset + $self.height() > $window.scrollTop()) {
-          // Scroll the background at variable speed, edit by a heuristic
-          // to make sure that we're scrolling the middle of the images
-          var yPos = -$window.scrollTop() / speed + $self.height() * $self.index() / 3;
-          $self.css({ backgroundPosition: '50% ' + yPos + 'px' });
-        }
-      });
-    });
-  });
-</script>
+<div id="third" class="front">
+  <div class="vertical-center-table">
+    <div class="banner banner-right">
+      <h1>We are a platform solution.</h1>
+      <p>
+        Gas is everywhere: home health care, carbon sequestration, semiconductor
+        manufacturing, gas purification, natural gas vehicles, and more. Our
+        custom materials enable the creation of transformative solutions for all
+        of these markets. We decrease compression costs, boost battery lives,
+        unburden logistics, and improve safety across industries.
+      </p>
+    </div>
+  </div>
+  <a href="#fourth" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
+</div>
+
+<div id="fourth" class="front">
+  <div class="vertical-center-table">
+    <div class="banner banner-left">
+      <h1>We have traction.</h1>
+      <p>
+        Our company is backed by an elite group of angel investors, and our
+        technology has been lauded as a game changer for the gas storage,
+        separation, and transportation industries. We've been especially proud of
+        our ability to support research around moonshot ideas, looking into the
+        future to address the true potential of our technology as a transformative
+        next-generation platform.
+      </p>
+    </div>
+  </div>
+</div>
