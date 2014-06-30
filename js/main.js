@@ -1,9 +1,16 @@
-/*global $, location, document, Headroom*/
+/*global $, location, document, navigator, Headroom*/
 "use strict";
 
 // Show and hide the navbar on scroll
 var headroom = new Headroom(document.querySelector('.navbar-fixed-top'));
 headroom.init();
+
+// Changes background scrolling and sizing for mobile devices
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    $('#first, #second, #third, #fourth, #technology-header, #people-header').css(
+        {'background-attachment': 'scroll', 'background-size': 'auto 100%'}
+    );
+}
 
 // Introduces easing for anchor (ie. same page) links.
 // From http://css-tricks.com/snippets/jquery/smooth-scrolling/

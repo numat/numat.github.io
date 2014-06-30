@@ -123,17 +123,10 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 #first, #second, #third, #fourth, #technology-header, #people-header {
-  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-position: 50% 50%;
-}
-
-@media (min-width: 480px) {
-  #first, #second, #third, #fourth, #technology-header, #people-header {
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .banner {
