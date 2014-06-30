@@ -24,6 +24,10 @@ a, a:hover, a:visited, a:active, a:focus {
   text-decoration: none;
 }
 
+.row {
+  margin-top: 20px;
+}
+
 /*
  * Settings for the top navigation bar
  */
@@ -266,16 +270,15 @@ a, a:hover, a:visited, a:active, a:focus {
  * Custom formatting for the news posts
  */
 .post {
-  background-color: #e8e8e8;
+  background-color: #fff;
   padding: 19px;
   line-height: 1.5em;
   margin: 10px;
   width: 400px;
 }
 
-.post a {
-  color: inherit;
-  text-decoration: none;
+.post p {
+  text-align: justify;
 }
 
 .post p > a {
@@ -287,7 +290,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 .date {
-  color: #867429;
+  color: #383294;
   font-family: AvenirLT-Black, Arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -304,8 +307,8 @@ a, a:hover, a:visited, a:active, a:focus {
   }
 }
 
-.post-img {
-  margin-bottom: 10px;
+.entry-body {
+  margin-top: 20px;
 }
 
 .footer > p {
