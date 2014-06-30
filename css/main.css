@@ -118,8 +118,11 @@ a, a:hover, a:visited, a:active, a:focus {
 #technology-header {
   background: url(../img/multiple_materials.jpg);
 }
+#people-header {
+  background: url(../img/office_mof.jpg);
+}
 
-#first, #second, #third, #fourth, #technology-header {
+#first, #second, #third, #fourth, #technology-header, #people-header {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -127,7 +130,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 @media (min-width: 480px) {
-  #first, #second, #third, #fourth, #technology-header {
+  #first, #second, #third, #fourth, #technology-header, #people-header {
     background-attachment: fixed;
     background-size: cover;
   }
@@ -249,22 +252,12 @@ a, a:hover, a:visited, a:active, a:focus {
   }
 }
 
-.people {
-  margin-bottom: 25px;
-}
-
 .role, .role a {
   color: #888;
 }
 .role a:hover {
   color: #ccc;
 }
-
-/*
-.fa {
-  margin-left: 5px;
-}
-*/
 
 /*
  * Custom formatting for the news posts
