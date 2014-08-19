@@ -235,7 +235,7 @@ a, a:hover, a:visited, a:active, a:focus {
 /*
  * Custom spacing for the technology and people pages
  */
-#technology > .row {
+#technology > .row, #people > .row {
   margin-top: 50px;
 }
 @media (max-width: 767px) {
