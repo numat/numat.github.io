@@ -300,3 +300,8 @@ a, a:hover, a:visited, a:active, a:focus {
 .footer > p {
   font-size: 10px;
 }
+
+.btn {
+  background: #383294;
+  border: none;
+}
