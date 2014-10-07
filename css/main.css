@@ -10,13 +10,17 @@ body, html {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Lato', sans-serif;
   margin-top: 0;
 }
 
 p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  p {
+    font-size: 20px;
+  }
 }
 
 a, a:hover, a:visited, a:active, a:focus {
@@ -142,6 +146,10 @@ a, a:hover, a:visited, a:active, a:focus {
   padding: 30px;
 }
 
+.banner-full > p {
+  margin: 0 10%;
+}
+
 .banner > h1, .banner > h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -165,10 +173,6 @@ a, a:hover, a:visited, a:active, a:focus {
     margin-bottom: 20px;
   }
 
-  .banner-full > p {
-    margin: 0 10%;
-  }
-
   .banner-left {
     margin-left: 0;
     padding-left: 60px;
@@ -186,22 +190,26 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 @media (min-width: 768px) {
+  .banner > p {
+      font-size: 20px;
+  }
+
   .banner > h1, .banner > h2 {
     font-size: 48px;
     margin-bottom: 30px;
   }
 
+  .banner-left, .banner-right {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) {
   .banner > p {
-    font-size: 20px;
-    line-height: 30px;
+      font-size: 24px;
   }
 
   .banner-full > p {
     margin: 0 20%;
-  }
-
-  .banner-left, .banner-right {
-    width: 500px;
   }
 }
 
@@ -265,6 +273,7 @@ a, a:hover, a:visited, a:active, a:focus {
 
 .post p {
   text-align: justify;
+  font-size: 15px;
 }
 
 .post p > a {
