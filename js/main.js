@@ -18,7 +18,7 @@ var pad = function () {
     var width, $this;
     width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-    if (width <= 768) {
+    if (width < 768) {
         return 0;
     }
 

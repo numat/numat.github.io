@@ -187,7 +187,7 @@ a, a:hover, a:visited, a:active, a:focus {
 
 @media (min-width: 768px) {
   .banner > p {
-      font-size: 20px;
+      font-size: 18px;
   }
 
   .banner > h1, .banner > h2 {
