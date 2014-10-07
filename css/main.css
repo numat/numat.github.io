@@ -142,7 +142,7 @@ a, a:hover, a:visited, a:active, a:focus {
   padding: 30px;
 }
 
-.banner > h1 {
+.banner > h1, .banner > h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -160,7 +160,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 @media (min-width: 480px) {
-  .banner > h1 {
+  .banner > h1, .banner > h2 {
     font-size: 28px;
     margin-bottom: 20px;
   }
@@ -186,7 +186,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 @media (min-width: 768px) {
-  .banner > h1 {
+  .banner > h1, .banner > h2 {
     font-size: 48px;
     margin-bottom: 30px;
   }
