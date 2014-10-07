@@ -1,4 +1,4 @@
-/*global $, location, document, navigator, Headroom*/
+/*global $, location, document, window, screen, navigator, Headroom*/
 "use strict";
 
 // Show and hide the navbar on scroll
@@ -11,6 +11,26 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         {'background-attachment': 'scroll', 'background-size': 'auto 100%'}
     );
 }
+
+// Vertically centers images on the technology page
+// (could not get CSS solutions to play well with bootstrap)
+var pad = function () {
+    var width, $this;
+    width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+    if (width <= 768) {
+        return 0;
+    }
+
+    $this = $(this);
+    return Math.max(($this.siblings().height() - $this.children('.img-responsive').height()) / 2.0, 0);
+};
+$(window).resize(function () {
+    $('.vertical-center').css('padding-top', pad);
+});
+$(window).load(function () {
+    $('.vertical-center').css('padding-top', pad);
+});
 
 // Introduces easing for anchor (ie. same page) links.
 // From http://css-tricks.com/snippets/jquery/smooth-scrolling/

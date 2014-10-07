@@ -146,10 +146,6 @@ a, a:hover, a:visited, a:active, a:focus {
   padding: 30px;
 }
 
-.banner-full > p {
-  margin: 0 10%;
-}
-
 .banner > h1, .banner > h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -171,6 +167,10 @@ a, a:hover, a:visited, a:active, a:focus {
   .banner > h1, .banner > h2 {
     font-size: 28px;
     margin-bottom: 20px;
+  }
+
+  .banner-full > p {
+    margin: 0 10%;
   }
 
   .banner-left {
