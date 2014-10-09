@@ -104,22 +104,22 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 #first {
-  background: url(../img/water_bubbles.jpg);
+  background: #4f5e6e url(../img/water_bubbles.jpg);
 }
 #second {
-  background: url(../img/mof_barrel.jpg);
+  background: #768a78 url(../img/mof_barrel.jpg);
 }
 #third {
-  background: url(../img/cylinders.jpg);
+  background: #656051 url(../img/cylinders.jpg);
 }
 #fourth {
-  background: url(../img/traction.jpg);
+  background: #7976a0 url(../img/traction.jpg);
 }
 #technology-header {
-  background: url(../img/multiple_materials.jpg);
+  background: #777571 url(../img/multiple_materials.jpg);
 }
 #people-header {
-  background: url(../img/office_mof.jpg);
+  background: #b6a38d url(../img/office_mof.jpg);
 }
 
 #first, #second, #third, #fourth, #technology-header, #people-header {
