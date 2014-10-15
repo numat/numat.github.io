@@ -9,23 +9,27 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  margin-top: 0;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-p {
-  font-size: 15px;
+p, li, .btn {
+  font-size: 18px;
 }
 
 @media (min-width: 992px) {
-  p {
-    font-size: 20px;
+  p, li, .btn {
+    font-size: 18px;
   }
 }
 
 a, a:hover, a:visited, a:active, a:focus {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+}
+a:hover {
+  color: #00a;
 }
 
 /*
@@ -52,10 +56,18 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-  padding: 20px 20px;
   color: #383533;
-  font-size: 20px;
+  text-decoration: none;
   line-height: 30px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  .navbar-default .navbar-nav > li > a {
+    padding: 20px;
+    font-size: 20px;
+  }
 }
 
 .headroom {
@@ -79,7 +91,7 @@ a, a:hover, a:visited, a:active, a:focus {
   width: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #logo {
     height: 50px;
   }
@@ -120,6 +132,9 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 #people-header {
   background: #b6a38d url(../img/office_mof.jpg);
+}
+#job-header {
+  background: #9397a8 url(../img/office_building.jpg);
 }
 
 #first, #second, #third, #fourth, #technology-header, #people-header {
@@ -239,7 +254,7 @@ a, a:hover, a:visited, a:active, a:focus {
 /*
  * Custom spacing for two-column pages
  */
-.col-sm-6 {
+.top-row {
   margin-top: 50px;
 }
 @media (max-width: 767px) {
@@ -280,12 +295,23 @@ a, a:hover, a:visited, a:active, a:focus {
   color: #00a;
 }
 
-.date {
-  color: #383294;
+.date, .btn {
   font-family: AvenirLT-Black, Arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.date {
+  color: #383294;
+}
+.btn {
+  background: #383294;
+  line-height: 24px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+.btn:hover {
+  background: #524CAE;
 }
 
 .video-post {
@@ -306,7 +332,9 @@ a, a:hover, a:visited, a:active, a:focus {
   font-size: 10px;
 }
 
-.btn {
-  background: #383294;
-  border: none;
+/*
+ * For job postings
+ */
+#job-title {
+  margin-top: 50px;
 }
