@@ -1,0 +1,32 @@
+---
+title: Technology | NuMat
+layout: default
+permalink: /technology/
+---
+{% assign header = site.data.technology.header %}
+<div class="front" style="background-color: {{ header.color }};
+                          background-image: url(../img/{{ header.background }});">
+  <div class="vertical-center-table">
+    <div class="banner banner-full">
+      <h1>{{ header.title }}</h1>
+      <p>{{ header.description }}</p>
+    </div>
+  </div>
+  <a href="#technology" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
+</div>
+
+<div class="container" id="technology">
+  <div class="top-row">
+
+  {% for item in site.data.technology.content %}
+  <div class="row">
+    <div class="col-sm-6 {% cycle 'col-sm-push-6', nil %} vertical-center">
+      <img class="img-responsive" src="/img/{{ item.image }}" alt="{{ item.alt }}">
+    </div>
+    <div class="col-sm-6 {% cycle 'col-sm-pull-6', nil %}">
+      <h2>{{ item.title }}</h2>
+      {{ item.description | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+</div>

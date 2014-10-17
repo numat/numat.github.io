@@ -108,40 +108,16 @@ a:hover {
   position: relative;
   width: 100%;
   height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .vertical-center-table {
   display: table-cell;
   vertical-align: middle;
-}
-
-#first {
-  background: #4f5e6e url(../img/water_bubbles.jpg);
-}
-#second {
-  background: #768a78 url(../img/mof_barrel.jpg);
-}
-#third {
-  background: #656051 url(../img/cylinders.jpg);
-}
-#fourth {
-  background: #7976a0 url(../img/traction.jpg);
-}
-#technology-header {
-  background: #777571 url(../img/multiple_materials.jpg);
-}
-#people-header {
-  background: #b6a38d url(../img/office_mof.jpg);
-}
-#job-header {
-  background: #9397a8 url(../img/office_building.jpg);
-}
-
-#first, #second, #third, #fourth, #technology-header, #people-header {
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .banner {

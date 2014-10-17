@@ -7,24 +7,24 @@ $(document).ready(function () {
     // Show and hide the navbar on scroll
     headroom = new Headroom(document.querySelector('.navbar-fixed-top'));
     headroom.init();
-    
+
     // Changes background scrolling and sizing for mobile devices
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $('#first, #second, #third, #fourth, #technology-header, #people-header').css(
+        $('.front').css(
             {'background-attachment': 'scroll', 'background-size': 'auto 100%'}
         );
     }
-    
+
     // Vertically centers images on the technology page
     // (could not get CSS solutions to play well with bootstrap)
     pad = function () {
         var width, $this;
         width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    
+
         if (width < 768) {
             return 0;
         }
-    
+
         $this = $(this);
         return Math.max(($this.siblings().height() - $this.children('.img-responsive').height()) / 2.0, 0);
     };
@@ -34,7 +34,7 @@ $(document).ready(function () {
     $(window).load(function () {
         $('.vertical-center').css('padding-top', pad);
     });
-    
+
     // Introduces easing for anchor (ie. same page) links.
     // From http://css-tricks.com/snippets/jquery/smooth-scrolling/
     $(function () {
@@ -52,17 +52,17 @@ $(document).ready(function () {
             }
         });
     });
-    
+
     // Subtle transparency change on arrow hover
     $('.scroll-button').hover(function () {
         $(this).animate({opacity: 1}, {queue: false, duration: 250});
     }, function () {
         $(this).animate({opacity: 0.9}, {queue: false, duration: 250});
     });
-    
+
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
     $('.entry-media').fitVids();
-    
+
     // Cascading news articles
     masonryOpts = {
         itemSelector: '.post',
