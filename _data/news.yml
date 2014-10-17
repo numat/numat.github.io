@@ -1,6 +1,7 @@
 - title: Inside Northwestern University’s startup machine
   date: May 2014
   image: fortune_logo.png
+  alt: Fortune Logo
   link: http://management.fortune.cnn.com/2014/05/06/northwestern-startup-mba-rice-university/
   description: Last year’s Northwestern team, SiNode Systems, won first place
       for their plan to improve lithium-ion batteries, and took home $911,400 in
@@ -33,6 +34,7 @@
 - title: NuMat in Chicago Sun-Times
   date: July 2013
   image: sun_times_logo.png
+  alt: Chicago Sun-Times Logo
   link: http://voices.suntimes.com/business-2/grid/numat-fill-car-turn-america-energy-exporter/
   description: A local clean-energy startup is taking Daniel Burnham up on his
       “make no little plans” advice. NuMat Technologies aims to shake up the auto
@@ -42,10 +44,14 @@
 - title: NuMat closes $2.0 million seed round
   date: June 2013
   images:
-    - businesswire_logo.png
-    - wsj_logo.png
-    - bloomberg_logo.png
-    - reuters_logo.png
+    - file: businesswire_logo.png
+      alt: Businesswire Logo
+    - file: wsj_logo.png
+      alt: Wall Street Journal Logo
+    - file: bloomberg_logo.png
+      alt: Bloomberg Logo
+    - file: reuters_logo.png
+      alt: Reuters Logo
   link: http://www.businesswire.com/news/home/20130612005153/en/National-Cleantech-Competition-Winner-NuMat-Technologies-Announces#.UzWiN61kHxg
   description: NuMat Technologies, a materials technology company that captured
       top honors at cleantech business competitions across the country, today
@@ -55,6 +61,7 @@
 - title: NuMat moves into new facility
   date: May 2013
   image: skokie_station.jpg
+  alt: Skokie Yellow Line Station
   link: http://www.scienceparkillinois.com/tenants-of-illinois-sciences-technology-park/numat-technologies
   description: NuMat Technologies is now located in the Illinois Science and
       Technology Park in beautiful Skokie, IL!
@@ -62,6 +69,7 @@
 - title: NuMat co-founder listed in Forbes’ 30 under 30
   date: December 2012
   image: forbes_logo.png
+  alt: Forbes Logo
   link: http://www.forbes.com/pictures/mef45jdde/chris-wilmer-29/
   description: With colleagues at Northwestern, invented algorithm to find and
       synthesize highly porous nanomaterials, 300 of which show the ability to
@@ -71,6 +79,7 @@
 - title: A Tale of Three Companies
   date: November 2012
   image: northwestern_logo.png
+  alt: Northwestern University Logo
   link: http://www.mccormick.northwestern.edu/magazine/fall-2012/pdf/tale-of-three-companies.pdf
   description: "NuMat Technologies combines expertise from three Northwestern
       schools: talent from the McCormick School of Engineering, the Weinberg College
@@ -80,6 +89,7 @@
 - title: NuMat awarded ARPA-E grant
   date: October 2012
   image: arpa_e.png
+  alt: ARPA-E Logo
   link: http://arpa-e.energy.gov/?q=arpa-e-projects/low-pressure-conformable-natural-gas-vehicle-tank
   description: NuMat Technologies has partnered with Northwestern University and
       the Gas Technology Institute in order to create a low-pressure solution for
@@ -88,6 +98,7 @@
 - title: NuMat’s technology discussed in Popular Science
   date: October 2012
   image: popular_science_logo.png
+  alt: Popular Science Logo
   link: http://www.popsci.com/science/article/2012-09/tiny-synthetic-particles-have-enough-surface-area-cover-desk
   description: "Today in cool stuff happening in university labs: Northwestern
       researchers have created two new record-setting synthetic materials with the
@@ -109,6 +120,7 @@
 - title: NuMat featured in Bloomberg’s Planet Forward
   date: September 2012
   image: planet_forward_logo.png
+  alt: Planet Forward Logo
   link: http://www.planetforward.org/tv-segments/a-compressed-natural-alternative-at-the-gas-pump
   description: On America’s roads, we’re seeing a lot more big vehicles, like buses
       and trucks, that run on Compressed Natural Gas (CNG). So why don’t we see any
@@ -127,6 +139,7 @@
 - title: NuMat rings closing bell at Nasdaq
   date: August 2012
   image: numat_nasdaq.jpg
+  alt: NuMat Rings Bell at NASDAQ
   link: http://ir.nasdaqomx.com/releasedetail.cfm?releaseid=702041
   description: "NuMat Technologies is commercializing a new class of
       nanomaterials that can store gases just like a sponge soaks up water. One of
@@ -154,6 +167,7 @@
       at Austin: NuMat Wins"
   date: June 2012
   image: huffington_post_logo.png
+  alt: Huffington Post Logo
   link: http://www.huffingtonpost.com/2012/06/11/global-venture-labs-investment-competition-university-of-texas-austin_n_1581041.html
   description: Are young entrepreneurs out to change the world? That was the
       impression I got last month when I served as a judge at the Global Venture
@@ -169,6 +183,7 @@
 - title: NuMat takes $100,000 clean energy title
   date: June 2012
   image: clean_energy_trust_logo.png
+  alt: Clean Energy Trust Logo
   link: http://www.cleanenergytrust.org/clean-energy-challenge-winner-takes-100000-national-clean-energy-competition-title/
   description: The Clean Energy Trust congratulates NuMat Technologies, which
       won first place in the inaugural Department of Energy National Clean Energy
@@ -179,6 +194,7 @@
 - title: NuMat featured in Fortune Magazine
   date: May 2012
   image: fortune_logo.png
+  alt: Fortune Logo
   link: http://alliance.rice.edu/uploadedFiles/News/RBPC/2012/Fortune_HailToTheChampions2.pdf
   description: It may not have the ubiquity of Facebook or the scale of
       Wal-Mart, but NuMat Technologies someday could change the world just a little
@@ -187,6 +203,7 @@
 - title: NuMat crowned Rice Business Plan Competition champion
   date: April 2012
   image: rice_logo.png
+  alt: Rice Business Plan Competition Logo
   link: http://news.rice.edu/2012/04/17/numat-technologies-from-northwestern-crowned-rice-business-plan-competition-champion-2/
   description: The 2012 Rice Business Plan Competition (RBPC) crowned NuMat
       Technologies from Northwestern University as the world champion startup
@@ -198,6 +215,7 @@
 - title: NuMat featured in B-School Highlights
   date: March 2012
   image: bloomberg_logo.png
+  alt: Bloomberg Logo
   link: http://www.businessweek.com/articles/2012-03-16/b-school-highlights-march-16
   description: NuMat Technologies, a startup led by two JD-MBA students at the
       Kellogg School of Management, won $100,000 in the student-team division of the
@@ -208,6 +226,7 @@
 - title: NuMat’s computational technology featured in Nature Chemistry
   date: March 2012
   image: nat_chem_cover.jpg
+  alt: Wilmer Nature Chemistry MOF Cover
   link: http://www.nature.com/nchem/journal/v4/n2/full/nchem.1192.html
   description: Not only are our materials high performing and tailorable, but
       they are also *predictable*. Knowing nothing more than the starting reagents,

@@ -18,10 +18,10 @@ permalink: /news/
     <a href="{{ post.link }}" target="_blank">
     {% if post.images %}
     {% for image in post.images %}
-      <img class="post-img" src="/img/{{ image }}" alt="Fortune logo"/>
+    <img class="post-img" src="/img/{{ image.file }}" alt="{{ image.alt }}"/>
     {% endfor %}
     {% elsif post.image %}
-      <img class="post-img" src="/img/{{ post.image }}" alt="Fortune logo"/>
+    <img class="post-img" src="/img/{{ post.image }}" alt="{{ post.alt }}"/>
     {% endif %}
     </a>
   {% endif %}
