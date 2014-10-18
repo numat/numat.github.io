@@ -46,13 +46,16 @@
   images:
     - file: businesswire_logo.png
       alt: Businesswire Logo
+      link: http://www.businesswire.com/news/home/20130612005153/en/National-Cleantech-Competition-Winner-NuMat-Technologies-Announces#.UzWiN61kHxg
     - file: wsj_logo.png
       alt: Wall Street Journal Logo
+      link: http://online.wsj.com/article/PR-CO-20130612-906161.html
     - file: bloomberg_logo.png
       alt: Bloomberg Logo
+      link: http://www.bloomberg.com/article/2013-06-12/aWOwbSdIKLJo.html
     - file: reuters_logo.png
       alt: Reuters Logo
-  link: http://www.businesswire.com/news/home/20130612005153/en/National-Cleantech-Competition-Winner-NuMat-Technologies-Announces#.UzWiN61kHxg
+      link: http://www.reuters.com/article/2013/06/18/il-clean-energy-trust-idUSnBw185321a+100+BSW20130618
   description: NuMat Technologies, a materials technology company that captured
       top honors at cleantech business competitions across the country, today
       announced it closed a $2 million seed round, bringing the nanotech startup’s

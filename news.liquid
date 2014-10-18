@@ -15,15 +15,17 @@ permalink: /news/
 
   {% else %}
   <div class="post">
-    <a href="{{ post.link }}" target="_blank">
     {% if post.images %}
     {% for image in post.images %}
-    <img class="post-img" src="/img/{{ image.file }}" alt="{{ image.alt }}"/>
+    <a href="{{ image.link }}" target="_blank">
+      <img class="post-img" src="/img/{{ image.file }}" alt="{{ image.alt }}"/>
+    </a>
     {% endfor %}
     {% elsif post.image %}
-    <img class="post-img" src="/img/{{ post.image }}" alt="{{ post.alt }}"/>
-    {% endif %}
+    <a href="{{ post.link }}" target="_blank">
+      <img class="post-img" src="/img/{{ post.image }}" alt="{{ post.alt }}"/>
     </a>
+    {% endif %}
   {% endif %}
 
     <div class="entry-body">
