@@ -14,6 +14,6 @@ their comfort zone and always taking pride in their work.
 
 ###Open Positions
 
-[Senior Chemist](/jobs/senior-chemist)
+[Senior Chemist](/jobs/senior-chemist/)
 
-[Chemist](/jobs/chemist)
+[Chemist](/jobs/chemist/)
