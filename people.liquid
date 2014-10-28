@@ -34,7 +34,6 @@ permalink: /people/
     <div class="col-sm-6">
       <h3>{{ member.name }}</h3>
       <p class="role">{{ member.position }}</p>
-
       <p class="role">
         {% if member.linkedin %}
           <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i></a>
@@ -47,7 +46,10 @@ permalink: /people/
       <hr>
       <p>{{ member.education }}</p>
     </div>
-  {% cycle nil, '</div><div class="row people">' %}
+    {% capture mod %}{{ forloop.index | modulo:2 }}{% endcapture %}
+    {% if mod == "0" %}
+      </div><div class="row people">
+    {% endif %}
   {% endfor %}
   </div>
   {% endfor %}
