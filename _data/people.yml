@@ -104,6 +104,16 @@ groups:
               Previously, he obtained a B.Sc. in Chemistry from the University of
               Victoria.
 
+        - name: John Siegfried
+          position: Product Engineer
+          email: john@numat-tech.com
+          description: Prior to NuMat, John worked as a field engineer at UOP LLC
+              (a Honeywell Company) providing on-site technical support and training
+              for startup activities, plant operation, process optimization and 
+              troubleshooting for refineries and petrochemical complexes.  While at UOP,
+              John also worked in R&D on various process and material development projects.
+          education: John earned a Masters and Bachelors of Science in Chemical Engineering from
+               the McCormick School of Engineering at Northwestern University.
     - name: Board Members
       members:
 
