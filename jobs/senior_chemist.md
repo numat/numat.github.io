@@ -50,9 +50,10 @@ cultures as a leader, mentor, and follower.
 ###About You
 
 * You have a Ph.D. in chemistry or materials science.
+* You have strong coordination chemistry _or_ organometallic experience.
 * You have post-doctoral experience in a highly productive experimental research group,
   working in an academic or industrial setting.
-* You have a strong background in organic synthesis _or_ prior experience with
+* You preferably have a background in organic synthesis _or_ prior experience with
   MOF synthesis.
 * You have a demonstrated capability to take ownership of projects.
 * You have experience with creating successful scientific grant proposals.
