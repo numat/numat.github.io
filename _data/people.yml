@@ -15,23 +15,23 @@ groups:
       members:
 
         - name: Benjamin Hernandez
-          position: CEO, Founder, Board Member
+          position: CEO, Co-founder
           linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
           email: ben@numat-tech.com
-          description: Prior to NuMat, Ben worked as an operations professional at Arcapita,
-              a global private equity and venture capital firm with over $28 B in
-              transaction value. At Arcapita, Ben was responsible for leading
+          description: Prior to NuMat, Ben worked as an operations professional at
+              a global private equity and venture capital firm with over $30 B in
+              invested capital. Ben was responsible for leading
               board-level strategy, operations and human capital initiatives at
               portfolio companies, including major sales and marketing, distribution,
-              product and cost transformation initiatives to drive enterprise growth.
-              Prior to this, he worked as a management consultant at Booz and Company
-              in the operations strategy practice.
-          education: Ben earned an M.B.A. from the Kellogg School of Management, a J.D.
+              product and cost transformation initiatives to drive enterprise growth at 
+              material-enabled technology organizations. Prior to this, he worked as management consultant,
+              supporting strategic growth and operations initiatives in advanced manufacturing and healthcare. 
+          education: Ben received an M.B.A. from the Kellogg School of Management, a J.D.
                from the Northwestern University School of Law and a B.S. from the
                McCormick School of Engineering at Northwestern University.
 
         - name: Omar Farha
-          position: President, Founder, Board Member
+          position: Chief Science Officer, Co-founder
           linkedin: https://www.linkedin.com/pub/omar-farha/49/616/242
           email: omar@numat-tech.com
           description: An inventor of NuMat’s synthetic capabilities, Omar is responsible
