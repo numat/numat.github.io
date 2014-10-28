@@ -53,10 +53,10 @@ cultures as a leader, mentor, and follower.
 * You have strong coordination chemistry _or_ organometallic experience.
 * You have post-doctoral experience in a highly productive experimental research group,
   working in an academic or industrial setting.
-* You preferably have a background in organic synthesis _or_ prior experience with
-  MOF synthesis.
 * You have a demonstrated capability to take ownership of projects.
 * You have experience with creating successful scientific grant proposals.
+* You preferably have a background in organic synthesis _or_ prior experience with
+  MOF synthesis.
 * You preferably have experience in porous material sorption and characterization
   techniques.
 * You preferably have familiarity with the theory behind porous materials in gas
