@@ -25,7 +25,7 @@ a, a:hover, a:visited, a:active, a:focus {
   color: inherit;
   text-decoration: underline;
 }
-a:hover {
+a:hover, a>i:hover {
   color: #00a;
 }
 
@@ -261,10 +261,6 @@ a:hover {
 
 .post p > a {
   text-decoration: underline;
-}
-
-.post a:hover {
-  color: #00a;
 }
 
 .date, .btn {
