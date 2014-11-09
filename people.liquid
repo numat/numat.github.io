@@ -38,6 +38,9 @@ permalink: /people/
         {% if member.linkedin %}
           <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i></a>
         {% endif %}
+        {% if member.github %}
+          <a href="http://github.com/{{ member.github }}" target="_blank"><i class="fa fa-github"></i></a>
+        {% endif %}
         {% if member.email %}
           <a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope"></i></a>
         {% endif %}
