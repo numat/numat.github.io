@@ -9,15 +9,21 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 h1 {
   margin-top: 0;
 }
+h5, h6 {
+    margin: 0;
+}
 
 p, li, .btn {
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
 
@@ -110,7 +116,7 @@ a:hover, a>i:hover {
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 75%;
 
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -139,6 +145,10 @@ a:hover, a>i:hover {
 .banner > h1, .banner > h2 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.banner > p {
+    font-weight: 300;
 }
 
 .banner-full {
@@ -226,7 +236,7 @@ a:hover, a>i:hover {
  * Prevents the navigation bar from cutting off the tops of pages
  */
 .page-header {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /*
@@ -235,6 +245,7 @@ a:hover, a>i:hover {
 .top-row {
   margin-top: 50px;
 }
+
 @media (max-width: 767px) {
   .img-responsive {
     margin-left: auto;
@@ -242,11 +253,99 @@ a:hover, a>i:hover {
   }
 }
 
-.role, .role a {
-  color: #888;
+/*
+ * For people page
+ */
+.people, .person-detail {
+    margin: 0;
 }
-.role a:hover {
-  color: #ccc;
+
+.group {
+    margin-top: 50px;
+}
+
+.person-detail {
+    margin-bottom: 20px;
+}
+
+.person-detail p {
+    font-size: 14px;
+    text-align: justify;
+}
+@media (min-width: 768px) {
+    .person-detail {
+        margin-bottom: 0;
+    }
+    .person-detail p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+@media (min-width: 991px) {
+    .person-detail p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+.role, .role a {
+  color: #00a;
+}
+
+.person {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.person figure {
+    position: relative;
+}
+
+.person img, .person-detail img {
+    width: 100%;
+    height: auto;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+}
+
+.person figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 1px;
+    width: 100%;
+    background-color: #383533;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: 500;
+    font-size: 6px;
+}
+
+@media (min-width: 460px) {
+    .person figcaption {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+
+.person:hover figcaption {
+    background-color: #00a;
+    background-color: rgba(0, 0, 170, 0.5);
+}
+
+.person-detail {
+    display: none;
+}
+
+.person-detail div {
+    padding: 5px;
 }
 
 /*
