@@ -2,7 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var headroom, masonryOpts, pad;
+    var headroom, pad, lazy, lazyBackground;
 
     // Show and hide the navbar on scroll
     headroom = new Headroom(document.querySelector('.navbar-fixed-top'));
@@ -11,6 +11,29 @@ $(document).ready(function () {
     // Move headers on scroll
     skrollr.init({forceHeight: false});
 
+    // Lazy load images
+    lazy = function () {
+        $(this).attr('src', $(this).attr('data-src'));
+        $(this).load(function () {
+            this.style.opacity = 1;
+        });
+    };
+
+    // Background image loading. Need to load into an unassigned img in
+    // order to catch onload event
+    lazyBackground = function () {
+        var self = this, dataSrc = $(this).attr('data-src');
+        $('<img/>').attr('src', dataSrc).load(function () {
+            $(self).css('background-image', 'url(' + dataSrc + ')');
+            $(this).remove();
+            self.style.opacity = 1;
+        });
+    };
+
+    $('.post-img').each(lazy);
+    $('.person').find('img').each(lazy);
+    $('.header-background').each(lazyBackground);
+
     // Changes background scrolling and sizing for mobile devices
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $('.front').css(
@@ -18,56 +41,11 @@ $(document).ready(function () {
         );
     }
 
-    // Vertically centers images on the technology page
-    // (could not get CSS solutions to play well with bootstrap)
-    pad = function () {
-        var width, $this;
-        width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
-        if (width < 768) {
-            return 0;
-        }
-
-        $this = $(this);
-        return Math.max(($this.siblings().height() - $this.children('.img-responsive').height()) / 2.0, 0);
-    };
-    $(window).resize(function () {
-        $('.vertical-center').css('padding-top', pad);
-    });
-    $(window).load(function () {
-        $('.vertical-center').css('padding-top', pad);
-    });
-
-    // Introduces easing for anchor (ie. same page) links.
-    // From http://css-tricks.com/snippets/jquery/smooth-scrolling/
-    $(function () {
-        var target;
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-                target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 500);
-                    return false;
-                }
-            }
-        });
-    });
-
-    // Subtle transparency change on arrow hover
-    $('.scroll-button').hover(function () {
-        $(this).animate({opacity: 1}, {queue: false, duration: 250});
-    }, function () {
-        $(this).animate({opacity: 0.9}, {queue: false, duration: 250});
-    });
-
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
     $('.entry-media').fitVids();
 
     // Cascading news articles
-    masonryOpts = {
+    $('.masonry').masonry({
         itemSelector: '.post',
         isFitWidth: true,
         isAnimated: true,
@@ -76,9 +54,6 @@ $(document).ready(function () {
             easing: 'linear',
             queue: false
         }
-    };
-    $('.masonry').masonry(masonryOpts).imagesLoaded(function () {
-        $('.masonry').masonry(masonryOpts); // Reload after images are in
     });
 
     // Handles interactivity with people page
@@ -91,7 +66,7 @@ $(document).ready(function () {
         // Lazy load images on click
         $img = $('#' + id + '-detail img');
         if ($img.attr('src').substring(0, 4) === 'data') {
-            $img.attr('src', $img.attr('data-src'));
+            $img.each(lazy);
         }
 
         // Slide divs, change colors, and keep track with a "selected" data property

@@ -6,7 +6,7 @@ permalink: /people/
 
 {% assign header = site.data.people.header %}
 <div class="header">
-  <div class="header-background" style="background-image: url(../img/{{ header.background }});"></div>
+  <div class="header-background" data-src="/img/{{ header.background }}"></div>
   <div class="vertical-center-table">
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
       <h1>{{ header.title }}</h1>
@@ -35,7 +35,9 @@ permalink: /people/
     {% for member in group.members %}
     <div class="col-xs-3 person" id="{{member.name | downcase | replace:' ','-'}}">
       <figure>
-        <img class="grayscale" src="/img/people/{{member.name | downcase | replace:' ','_'}}.jpg" alt="{{ member.name }}">
+        <img class="grayscale" alt="{{ member.name }}"
+             src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+             data-src="/img/people/{{member.name | downcase | replace:' ','_'}}.jpg">
         <figcaption>{{ member.name }}</figcaption>
       </figure>
     </div>
@@ -46,7 +48,9 @@ permalink: /people/
       {% for member in group.members limit:4 offset:currentOffset %}
       <div class="row person-detail" id="{{member.name | downcase | replace:' ','-'}}-detail">
         <div class="col-xs-12 col-sm-6">
-          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/img/people/{{member.name | downcase | replace:' ','_'}}_full.jpg" alt="{{ member.name }}">
+          <img alt="{{ member.name }}"
+               src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+               data-src="/img/people/{{member.name | downcase | replace:' ','_'}}_full.jpg">
         </div>
         <div class="col-xs-12 col-sm-6">
           <h2>{{ member.name }}</h2>

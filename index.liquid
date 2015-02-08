@@ -6,7 +6,7 @@ permalink: /
 
 {% for item in site.data.index %}
 <div class="header">
-  <div class="header-background" style="background-image: url(../img/{{ item.background }});"></div>
+  <div class="header-background" data-src="/img/{{ item.background }}"></div>
   <div class="vertical-center-table">
       <div class="header-title skrollable skrollable-between" data-{{ forloop.index0 | times:720 }}="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
       <h1>{{ item.title }}</h1>

@@ -5,7 +5,7 @@ permalink: /technology/
 ---
 {% for item in site.data.technology.content %}
 <div class="header">
-  <div class="header-background" style="background-image: url(../img/{{ item.background }});"></div>
+  <div class="header-background" data-src="/img/{{ item.background }}"></div>
   <div class="vertical-center-table">
     {% if forloop.first %}
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">

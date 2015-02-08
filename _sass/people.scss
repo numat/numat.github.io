@@ -57,6 +57,7 @@
 
 .person img,
 .person-detail img {
+  @extend %lazy;
   height: auto;
   width: 100%;
 }
