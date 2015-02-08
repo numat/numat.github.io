@@ -1,0 +1,79 @@
+$font-stack: 'Lato', sans-serif;
+
+$thin: 300;
+$normal: 400;
+$thick: 900;
+
+$black: #222;
+$white: #fff;
+$purple: #383294;
+$light-purple: #524cae;
+
+@mixin filter($filter) {
+  -webkit-filter: $filter;
+  -moz-filter: $filter;
+  -ms-filter: $filter;
+  -o-filter: $filter;
+  filter: $filter;
+}
+
+@mixin transparent-background($color, $opacity: .8) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+body,
+html {
+  color: $black;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack;
+  font-weight: $thick;
+}
+
+p,
+li {
+  font-family: $font-stack;
+  font-weight: $thin;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $purple;
+}
+
+button,
+.btn {
+  background: $purple;
+  border: 0;
+  color: $white;
+  font-size: 12px;
+  font-weight: $thick;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: background-color .5s ease;
+}
+
+button:hover,
+.btn:hover {
+  background: $light-purple;
+}
+
+.footer > p {
+  font-size: 10px;
+}

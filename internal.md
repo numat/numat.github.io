@@ -1,7 +1,6 @@
 ---
-title: Jobs | NuMat
-layout: banner
-color: #6d6965
+title: Internal | NuMat
+layout: header
 background: switchboard_operators.jpg
 permalink: /internal/
 ---

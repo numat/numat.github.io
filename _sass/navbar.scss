@@ -1,0 +1,60 @@
+@import 'global';
+
+.navbar {
+  background: $white;
+  border: 0;
+  border-bottom: 1px solid $black;
+}
+
+.nav > li > a {
+  color: $black;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .nav > li > a {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+.icon-bar {
+  background-color: $black;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: $white;
+}
+
+.headroom {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all .5s ease-in-out;
+}
+
+.headroom--unpinned {
+  top: -100px;
+}
+
+.headroom--pinned {
+  top: 0;
+}
+
+.logo {
+  float: left;
+  height: 30px;
+  margin-top: 10px;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    height: 50px;
+  }
+}

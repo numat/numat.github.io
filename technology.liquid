@@ -5,12 +5,12 @@ permalink: /technology/
 ---
 {% for item in site.data.technology.content %}
 <div class="header">
-  <div class="bg" style="background-image: url(../img/{{ item.background }});"></div>
+  <div class="header-background" style="background-image: url(../img/{{ item.background }});"></div>
   <div class="vertical-center-table">
     {% if forloop.first %}
-    <div class="banner banner-full isSkrollrContainer skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
+    <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
     {% else %}
-    <div class="banner banner-full">
+    <div class="header-title">
     {% endif %}
       <h1>{{ item.title }}</h1>
     </div>

@@ -1,0 +1,66 @@
+@import 'global';
+
+.post {
+  background-color: #fff;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+  padding-bottom: 19px;
+  width: 250px;
+}
+
+.post-img {
+  height: auto;
+  width: 250px;
+}
+
+@media (min-width: 460px) {
+  .post {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  .post-img {
+    width: 360px;
+  }
+}
+
+.post p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.post p > a {
+  text-decoration: underline;
+}
+
+.date {
+  color: $purple;
+  font-size: 12px;
+  font-weight: $thick;
+  text-transform: uppercase;
+}
+
+.video-post {
+  width: 250px;
+}
+
+@media (min-width: 460px) {
+  .video-post {
+    width: 400px;
+  }
+}
+
+@media (min-width: 991px) {
+  .video-post {
+    width: 820px;
+  }
+}
+
+.entry-body {
+  margin-top: 20px;
+}
+
+.footer > p {
+  font-size: 10px;
+}

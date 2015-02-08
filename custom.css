@@ -1,0 +1,28 @@
+/*
+ * Prevents the navigation bar from cutting off the tops of pages
+ */
+.page-header {
+  margin-top: 50px;
+}
+
+/*
+ * Custom spacing for two-column pages
+ */
+.top-row {
+  margin-top: 50px;
+}
+
+.tech-img {
+  margin: 20px auto;
+}
+
+.footer > p {
+  font-size: 10px;
+}
+
+/*
+ * For job postings
+ */
+#job-title {
+  margin-top: 50px;
+}

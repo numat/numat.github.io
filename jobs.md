@@ -1,7 +1,6 @@
 ---
 title: Jobs | NuMat
-layout: banner
-color: #9397a8
+layout: header
 background: office_mof.jpg
 permalink: /jobs/
 ---

@@ -1,0 +1,88 @@
+@import 'global';
+
+.top {
+  margin-top: 100px;
+}
+
+.people,
+.person-detail {
+  margin: 0;
+}
+
+.person-detail {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.person-detail div {
+  padding: 5px;
+}
+
+.person-detail p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .person-detail p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 991px) {
+  .person-detail p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.group {
+  margin-top: 50px;
+}
+
+.role,
+.role a {
+  color: $purple;
+}
+
+.person {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.person figure {
+  position: relative;
+}
+
+.person img,
+.person-detail img {
+  height: auto;
+  width: 100%;
+}
+
+.grayscale {
+  @include filter(grayscale(100%));
+}
+
+.person figcaption {
+  @include transparent-background($black);
+  bottom: 0;
+  color: $white;
+  font-size: 6px;
+  font-weight: $normal;
+  padding: 1px;
+  position: absolute;
+  width: 100%;
+}
+
+@media (min-width: 460px) {
+  .person figcaption {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+.person:hover figcaption {
+  @include transparent-background($purple);
+}
