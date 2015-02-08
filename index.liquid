@@ -5,30 +5,13 @@ permalink: /
 ---
 
 {% for item in site.data.index %}
-<div id="{{ forloop.index }}" class="front"
-     style="background-color: {{ item.color }};
-            background-image: url(../img/{{ item.background }});">
+<div class="header">
+  <div class="bg" style="background-image: url(../img/{{ item.background }});"></div>
   <div class="vertical-center-table">
-
-    {% if forloop.first %}
-    <div class="banner banner-full">
-    {% else %}
-    <div class="banner {% cycle 'banner-left', 'banner-right' %}">
-    {% endif %}
-
-      {% if forloop.first %}
+      <div class="banner banner-full isSkrollrContainer skrollable skrollable-between" data-{{ forloop.index0 | times:720 }}="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
       <h1>{{ item.title }}</h1>
-      {% else %}
-      <h2>{{ item.title }}</h2>
-      {% endif %}
-
       <p>{{ item.description }}</p>
     </div>
   </div>
-
-  {% unless forloop.last %}
-  <a href="#{{ forloop.index | plus:1 }}" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
-  {% endunless %}
-
 </div>
 {% endfor %}

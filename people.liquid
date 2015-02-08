@@ -5,24 +5,29 @@ permalink: /people/
 ---
 
 {% assign header = site.data.people.header %}
-<div class="front" style="background-color: {{ header.color }};
-                          background-image: url(../img/{{ header.background }});">
+<div class="header">
+  <div class="bg" style="background-image: url(../img/{{ header.background }});"></div>
   <div class="vertical-center-table">
-    <div class="banner banner-full">
+    <div class="banner banner-full isSkrollrContainer skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
       <h1>{{ header.title }}</h1>
+      <p>{{ header.subtitle }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row description">
+    <div class="col-xs-12">
       <p>{{ header.description }}</p>
     </div>
   </div>
-  <a href="#people" class="scroll-button"><i class="fa fa-chevron-down"></i></a>
-</div>
-
-<div class="container" id="people">
 
   {% for group in site.data.people.groups %}
 
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">{{ group.name }}</h1>
+      <h1 class="page-header">The {{ group.name }}</h1>
     </div>
   </div>
 

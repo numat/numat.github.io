@@ -3,7 +3,7 @@ title: News | NuMat
 layout: default
 permalink: /news/
 ---
-<div class="container masonry page-header">
+<div class="container masonry top">
 
   {% for post in site.data.news %}
 
@@ -18,12 +18,12 @@ permalink: /news/
     {% if post.images %}
     {% for image in post.images %}
     <a href="{{ image.link }}" target="_blank">
-      <img class="post-img" src="/img/{{ image.file }}" alt="{{ image.alt }}"/>
+      <img class="post-img" src="/img/news/{{ image.file }}" alt="{{ image.alt }}"/>
     </a>
     {% endfor %}
     {% elsif post.image %}
     <a href="{{ post.link }}" target="_blank">
-      <img class="post-img" src="/img/{{ post.image }}" alt="{{ post.alt }}"/>
+      <img class="post-img" src="/img/news/{{ post.image }}" alt="{{ post.alt }}"/>
     </a>
     {% endif %}
   {% endif %}

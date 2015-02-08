@@ -5,7 +5,7 @@ body, html {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #383533;
-  height: 100%;
+  height: 100% !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +39,10 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 a:hover, a>i:hover {
   color: #00a;
+}
+
+.top {
+  margin-top: 100px;
 }
 
 /*
@@ -93,6 +97,13 @@ a:hover, a>i:hover {
   top: 0;
 }
 
+.isSkrollrContainer {
+  position: relative;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+}
+
 #logo {
   margin-top: 10px;
   float: left;
@@ -109,19 +120,10 @@ a:hover, a>i:hover {
 /*
  * Settings for the front page
  */
-.front {
-  padding: 50px 0;
-  margin: 0 auto;
-
+.header {
+  width: 100%;
   display: table;
   position: relative;
-  width: 100%;
-  height: 75%;
-
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .vertical-center-table {
@@ -129,26 +131,50 @@ a:hover, a>i:hover {
   vertical-align: middle;
 }
 
-.banner {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.95);
+.bg {
+  display: block;
+  z-index: -1;
+  background-attachment: scroll;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  box-shadow: 0 0 25px rgba(0,0,0,0.3);
-  border: 1px solid rgba(150,150,150,0.1);
-
-  text-align: left;
-
-  margin: 10px auto;
-  padding: 30px;
+  -webkit-filter: brightness(50%);
 }
 
-.banner > h1, .banner > h2 {
-  font-size: 24px;
+.header, .bg {
+  height: 720px;
+}
+
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.description p {
+  padding-top: 50px;
+}
+
+.banner {
+  margin: 10px auto;
+  padding: 30px;
+  color: #fff;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.banner > h1 {
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .banner > p {
-    font-weight: 300;
+  font-weight: 300;
+  font-size: 28px;
 }
 
 .banner-full {
@@ -167,7 +193,7 @@ a:hover, a>i:hover {
 }
 
 @media (min-width: 480px) {
-  .banner > h1, .banner > h2 {
+  .banner > h1 {
     font-size: 28px;
     margin-bottom: 20px;
   }
@@ -193,8 +219,8 @@ a:hover, a>i:hover {
 }
 
 @media (min-width: 768px) {
-  .banner > h1, .banner > h2 {
-    font-size: 48px;
+  .banner > h1 {
+    font-size: 80px;
     margin-bottom: 30px;
   }
 
@@ -204,11 +230,14 @@ a:hover, a>i:hover {
 }
 @media (min-width: 992px) {
   .banner > p, .banner > ul > li {
-      font-size: 24px;
+      font-size: 28px;
   }
 
   .banner-full > p, .banner-full > ul {
     margin: 0 20%;
+  }
+  .banner-full > h1 {
+    margin: 20px 20%;
   }
 }
 
@@ -246,11 +275,8 @@ a:hover, a>i:hover {
   margin-top: 50px;
 }
 
-@media (max-width: 767px) {
-  .img-responsive {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.tech-img {
+  margin: 20px auto;
 }
 
 /*
@@ -361,6 +387,7 @@ a:hover, a>i:hover {
 
 .post-img {
   width: 250px;
+  height: auto;
 }
 
 @media (min-width: 460px) {
