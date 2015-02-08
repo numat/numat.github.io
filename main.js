@@ -9,7 +9,7 @@ $(document).ready(function () {
     headroom.init();
 
     // Move headers on scroll
-    skrollr.init();
+    skrollr.init({forceHeight: false});
 
     // Changes background scrolling and sizing for mobile devices
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {

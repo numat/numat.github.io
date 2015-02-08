@@ -45,7 +45,9 @@
   color: $white;
   margin: 10px auto;
   padding: 30px;
+  text-align: center;
   text-shadow: 0 2px 0 rgba($black, .2);
+  width: 100%;
 }
 
 .header-title > h1 {
@@ -53,29 +55,10 @@
   margin-bottom: 10px;
 }
 
-.header-title > p {
-  font-size: 28px;
-  font-weight: $thin;
-}
-
-.header-title {
-  text-align: center;
-  width: 100%;
-}
-
-.header-title > ul {
-  text-align: left;
-}
-
 @media (min-width: 480px) {
   .header-title > h1 {
     font-size: 28px;
     margin-bottom: 20px;
-  }
-
-  .header-title > p,
-  .header-title > ul {
-    margin: 0 10%;
   }
 }
 
@@ -87,17 +70,31 @@
 }
 
 @media (min-width: 992px) {
-  .header-title > p,
-  .header-title > ul > li {
-    font-size: 28px;
-  }
-
-  .header-title > p,
-  .header-title > ul {
-    margin: 0 20%;
-  }
-
   .header-title > h1 {
     margin: 20px 20%;
+  }
+}
+
+.header-title > p {
+  font-size: 28px;
+  font-weight: $thin;
+}
+
+.header-title > ul {
+  text-align: left;
+}
+
+@media (min-width: 480px) {
+  .header-title > p,
+  .header-title > ul {
+    margin: 0 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-title > p,
+  .header-title > ul {
+    font-size: 28px;
+    margin: 0 20%;
   }
 }
