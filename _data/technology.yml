@@ -1,71 +1,36 @@
-header:
-
-    title: A material for every application.
-    background: multiple_materials.jpg
-    description: At the heart of our products are a class of highly
-        customizable materials. From this starting point, we build complete
-        packaged solutions for industrial processes and consumer needs.
-
 content:
 
-    - title: The next generation of sorbents.
-      image: surface_area.png
-      alt: Metal-Organic Framework Internal Surface Area Comparison
+    - title: A future without compression.
+      background: refinery.jpg
       description: |
-          We create products that take advantage of the scientific
-          cutting edge. We do so by tailor-designing nanoporous materials -
-          specifically metal-organic frameworks - for high-value applications which
-          critically depend on material performance.
+          Gases and the energy-intensive systems that create, deliver, and
+          capture them are used in nearly every sector of the global economy.
+          We design and build systems that displace the need to highly compress
+          gases. In doing so, we enable previously unachievable form factors
+          and cost-advantaged economics in the energy, healthcare, and
+          technology sectors.
 
-          While you may not notice them, sorbents are everywhere in today’s
-          world.  Activated carbon is used to purify our air and water, and zeolites
-          turn air into medical-grade gas. These sorbents all function by exploiting a
-          fundamental physical property: gases like to stick to surfaces. By containing
-          trillions of nano-sized pores, sorbents provide a lot of surface for gases.
-
-          Sorbents are often categorized by their internal surface area, as more
-          surface is correlated with higher performance. Our materials currently
-          hold the surface area world record; in fact, a single gram of one of our
-          materials would be able to cover 1.5 American football fields when
-          unfolded. This means that gas molecules have significantly more contact
-          area, drastically increasing the amount of adsorbed gas.
-
-    - title: An elegant solution to material design.
-      image: block_mof.png
-      alt: MOFs are made of Building Blocks
+    - title: An atomically engineered solution.
+      background: multiple_materials.jpg
       description: |
-          Metal-organic frameworks are not only higher performing than
-          their competitors, but possess a unique property that simply cannot be
-          emulated with current materials: atomically precise tunability. By adjusting the
-          starting materials used, a near-infinite amount of metal-organic frameworks
-          - all with unique and controllable properties - can be created.
+          A universal property of gases is that they highly concentrate on
+          surfaces. We leverage this property to create materials with vast
+          internal surface areas. One of our materials is the world record holder
+          with over 7,000 square meters of surface area per gram of material –
+          the equivalent of 1.5 football fields when unfolded. Gases stick to the
+          surfaces of our materials, creating a phenomenon where we soak up gases
+          similar to how a bath sponge soaks up water - displacing the need for
+          energy-intensive compression.
 
-          In contrast to non-crystalline materials such as activated carbon, this
-          means that we are able to design materials that fully utilize their
-          internal surface area. We control pore size and pore volume with
-          sub-angstrom accuracy, and are able to covalently and uniformly bond
-          functional motifs into the framework.
-
-          In order to take full advantage of the combinatoric complexity of this
-          class of materials, we use a suite of proprietary computational tools to
-          quickly narrow down on top performers. Our computationally driven approach
-          to material discovery allows us to quickly assess the performance of our
-          materials in an application without performing a single experiment.
-
-    - title: Safer, cleaner, cheaper, better systems.
-      image: green_earth.jpg
-      alt: Green Earth
+    - title: Materials science meets big data.
+      background: computing.jpg
       description: |
-          Processes and products that use sorbents are fundamentally
-          limited by the properties of the material. This limitation is always
-          present, even though it manifests itself differently across
-          applications.  Whether it means high-energy compression, impure offgas
-          streams, low battery life, or logistical complexity, the ramifications
-          of material limitations are felt across all gas-centric applications.
-
-          Our engineering team starts with the best sorbents in the world. This
-          provides unprecedented system-level design flexibility, allowing our
-          solutions to perform better, last longer, save energy, and ultimately
-          cost less.
-
-     
+          We design atomically engineered materials through the application of
+          modern computing infrastructure to proprietary material discovery
+          algorithms. Using our world-class discovery platform, we create
+          millions of hypothetical structures, store these structures in
+          databases, and then use high-performance cloud computing to rapidly
+          simulate their properties. This capital-light approach allows us to
+          dramatically reduce development cycles, rapidly generate IP, and
+          support valuable application platforms where solutions are
+          tailor-designed.
