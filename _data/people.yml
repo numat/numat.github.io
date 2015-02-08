@@ -1,13 +1,12 @@
 header:
 
     title: Welcome to NuMat Technologies.
+    subtitle: Innovation is at the core of who we are.
     background: office_mof.jpg
-    color: "#b6a38d"
-    description: Innovation is at the core of who we are. We are a team of
-        inventors with expertise in computational modeling, material design and
-        synthesis, material scale-up and adsorption system design – all focused
-        on designing products and systems that critically depend on material
-        performance.
+    description: We are a team of inventors with expertise in computational
+        modeling, material design and synthesis, material scale-up and adsorption
+        system design – all focused on designing products and systems that
+        critically depend on material performance.
 
 groups:
 
@@ -15,7 +14,7 @@ groups:
       members:
 
         - name: Benjamin Hernandez
-          position: CEO, Co-founder
+          position: CEO
           linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
           email: ben@numat-tech.com
           description: Prior to NuMat, Ben worked as an operations professional
@@ -33,7 +32,7 @@ groups:
               from the McCormick School of Engineering at Northwestern University.
 
         - name: Omar Farha
-          position: Chief Science Officer, Co-founder
+          position: President
           linkedin: https://www.linkedin.com/pub/omar-farha/49/616/242
           email: omar@numat-tech.com
           description: An inventor of NuMat’s synthetic capabilities, Omar is responsible
@@ -49,7 +48,7 @@ groups:
               Nanotechnology.
 
         - name: Patrick Fuller
-          position: Chief Engineer
+          position: Engineering, Computational
           linkedin: https://www.linkedin.com/in/patrickemmettfuller
           email: pat@numat-tech.com
           github: patrickfuller
@@ -65,7 +64,7 @@ groups:
               in finance and chemical engineering from Lehigh University.
 
         - name: Mitch Weston
-          position: Chief Scientist
+          position: Chemistry
           linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
           email: mitch@numat-tech.com
           description: Mitch is the lead synthetic chemist at NuMat Technologies, where he
@@ -80,7 +79,7 @@ groups:
               the total synthesis of anti-cancer marine-based alkaloids.
 
         - name: Michael Wolfenson
-          position: Business Development Associate
+          position: Strategy
           linkedin: http://www.linkedin.com/pub/michael-wolfenson/39/462/824
           email: wolf@numat-tech.com
           description: At NuMat, Michael is focused on supporting the identification
@@ -94,7 +93,7 @@ groups:
               McCormick School of Engineering at Northwestern University.
 
         - name: Paul Siu
-          position: Senior Chemist
+          position: Chemistry
           linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
           email: paul@numat-tech.com
           description: Prior to NuMat, Paul carried out postdoctoral research at
@@ -108,20 +107,52 @@ groups:
               Victoria.
 
         - name: John Siegfried
-          position: Product Engineer
+          position: Engineering
           email: john@numat-tech.com
           description: Prior to NuMat, John worked as a field engineer at UOP LLC
               (a Honeywell Company) providing on-site technical support and training
-              for startup activities, plant operation, process optimization and 
+              for startup activities, plant operation, process optimization and
               troubleshooting for refineries and petrochemical complexes.  While at UOP,
               John also worked in R&D on various process and material development projects.
           education: John earned a Master and Bachelor of Science in Chemical Engineering from
                the McCormick School of Engineering at Northwestern University.
-    - name: Board Members
+
+        - name: William Hoover
+          position: Chemistry
+          email: bill@numat-tech.com
+          description: Production capabilities are William’s chief focus at NuMat
+              Technologies, where he is developing new methods to scale up and automate
+              porous sorbent synthesis. His prior experience includes an internship
+              with the Food and Drug Administration developing procedures for rapid
+              detection of drug contamination.
+          education:  William will earn a  Bachelor of Science in Chemistry
+              from the Weinberg School of Arts and Sciences at Northwestern University.
+
+        - name: Rachelle Richardson
+          position: Chemistry
+          email: Rachelle@numat-tech.com
+          description: Prior to NuMat, Rachelle had an internship at Université
+              Joseph Fourier in Grenoble, France, where she conducted research on a
+              derivative of a plant starch for use as a potential anti-malarial drug.
+              While at Xavier University she researched potential anti-cancer nanotherapeutic
+              drugs in the lab of Dr. Stassi DiMaggio.
+          education: Rachelle earned a Bachelor of Science in Chemistry from
+              Xavier University of Louisiana.
+
+        - name: David Cho
+          position: Chemistry
+          email: david@numat-tech.com
+          description: Prior to NuMat, David carried out undergraduate research
+              at Northwestern University, where he developed and investigated nucleic
+              acid-metal organic framework nanoparticle conjugates as well as carried
+              out catalytic reactions on surfaces utilizing lithography tools.
+          education:  David earned a  Bachelor of Science in Chemistry
+              from the Weinbeg School of Arts and Sciences at Northwestern University.
+
+    - name: Board
       members:
 
         - name: William Kroll
-          position: Board Member
           description: Mr. Kroll is the Executive Chairman, and former CEO of
               Matheson TriGas, a global leader in the gas industry. During his
               executive tenure at Matheson, Mr. Kroll oversaw global businesses for
@@ -137,7 +168,6 @@ groups:
               Northwestern University.
 
         - name: Luka Erceg
-          position: Board Member
           description: Mr. Erceg was founder, President and CEO of Simbol Materials
               where he led the company through $75+ million in capital raised, an
               international marketing agreement, permitting of two commercial
@@ -161,27 +191,7 @@ groups:
               Canada. Mr. Erceg was born and raised in Toronto, Canada, and now
               resides in Menlo Park, California with his wife, daughter, and son.
 
-        - name: Robert Winter
-          position: Board Member
-          description: Mr. Winter has a long history in venture capital and private
-              investing. Prior to co-founding daVinci Capital Group, a Private
-              Equity firm, he was a Founding Managing Partner of Rocket Ventures, a
-              $70 million venture capital firm focused on software, semiconductor
-              and communications. His investments included Financial Interactive,
-              TriCN, Clairvoyante and several others. He also served as the CEO and
-              Chairman of one of Rocket’s portfolio companies, Financial
-              Interactive. Prior to co-founding Rocket Ventures, Mr. Winter founded
-              Menlo Park Group that still provides investment and strategic
-              consulting. Earlier, Mr. Winter was a General Partner at Comdisco
-              Ventures, a venture capital affiliate of Comdisco, where investments
-              included NetApp, NVidia and many others, and a Senior Associate at
-              Canaan Partners, a $400+ million venture capital fund, where he also
-              served as acting CEO of an optical components manufacturer he sold.
-          education: He holds a BS in Electrical Engineering (with a minor in
-              Biochemistry) from Rice University and an MBA from Harvard University.
-
         - name: Jack Gill
-          position: Board Observer
           description: At 33, Jack founded his first business, which pioneered
               micro-processor-based scientific instruments and computers for
               chromatography laboratories. In 1972, Jack merged the company into
@@ -204,7 +214,7 @@ groups:
       members:
 
         - name: Richard Penning
-          position: Business Advisor
+          position: Strategy, Engineering
           description: As a 30-year veteran of technology organizations, Mr. Penning
               creates and builds science-based businesses. He guides companies in
               business strategy, organizational development, and work processes. His
@@ -228,7 +238,7 @@ groups:
               Quality from 3M and as a Six Sigma Black Belt from Honeywell.
 
         - name: Christopher Wilmer
-          position: Founder, Technical Advisor
+          position: Computational
           description: An inventor of NuMat’s proprietary MOF discovery algorithm,
               Chris is responsible for supporting key advancements in the design of
               novel material structures. Chris has expertise in computational
@@ -245,7 +255,7 @@ groups:
               Science program at the University of Toronto.
 
         - name: Randall Snurr
-          position: Technical Advisor
+          position: Computational
           description: Randy Snurr is a Professor of Chemical and Biological
               Engineering at Northwestern University. His research interests include
               development of new nanoporous materials for energy and environmental
@@ -265,7 +275,7 @@ groups:
               fellowship from the Alexander von Humboldt Foundation.
 
         - name: Joseph Hupp
-          position: Technical Advisor
+          position: Chemistry
           description: Joe Hupp is a Professor of Chemistry at Northwestern
               University and also holds an appointment as a Senior Science Fellow at
               Argonne National Laboratory in the Division of Materials Science and
