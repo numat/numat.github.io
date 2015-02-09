@@ -10,32 +10,28 @@
   margin-bottom: 10px;
   padding-bottom: 19px;
   width: 250px;
-}
-
-.post-img {
-  @extend %lazy;
-  width: 250px;
-}
-
-@media (min-width: 460px) {
-  .post {
+  @media (min-width: 460px) {
     margin: 10px;
     padding: 20px;
     width: 400px;
   }
 
-  .post-img {
-    width: 360px;
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  a {
+    text-decoration: underline;
   }
 }
 
-.post p {
-  font-size: 14px;
-  text-align: justify;
-}
-
-.post a {
-  text-decoration: underline;
+.post-img {
+  @extend %lazy;
+  width: 250px;
+  @media (min-width: 460px) {
+    width: 360px;
+  }
 }
 
 .date {
@@ -47,16 +43,12 @@
 
 .video-post {
   width: 250px;
-}
 
-@media (min-width: 460px) {
-  .video-post {
+  @media (min-width: 460px) {
     width: 400px;
   }
-}
 
-@media (min-width: 991px) {
-  .video-post {
+  @media (min-width: 991px) {
     width: 820px;
   }
 }

@@ -126,11 +126,10 @@ button,
   line-height: 24px;
   text-transform: uppercase;
   transition: background-color .5s ease;
-}
 
-button:hover,
-.btn:hover {
-  background: $light-purple;
+  &:hover {
+    background: $light-purple;
+  }
 }
 
 .vertical-center-table {

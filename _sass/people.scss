@@ -3,26 +3,30 @@
 .people,
 .person-detail {
   margin: 0;
+
+  img {
+    @extend %lazy;
+    height: auto;
+    width: 100%;
+  }
 }
 
 .person-detail {
   display: none;
+
   margin-bottom: 20px;
-}
 
-.person-detail div {
-  padding: 5px;
-}
-
-@media (min-width: 768px) {
-  .person-detail p {
-    font-size: 10px;
+  div {
+    padding: 5px;
   }
-}
 
-@media (min-width: 991px) {
-  .person-detail p {
-    font-size: 14px;
+  p {
+    @media (min-width: 768px) {
+      font-size: 10px;
+    }
+    @media (min-width: 991px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -38,41 +42,31 @@
 .person {
   cursor: pointer;
   padding: 5px;
-}
 
-.person figure {
-  position: relative;
-}
+  figure {
+    position: relative;
+  }
 
-.person img,
-.person-detail img {
-  @extend %lazy;
-  height: auto;
-  width: 100%;
+  figcaption {
+    @include transparent-background($black);
+    bottom: 0;
+    color: $white;
+    font-size: 6px;
+    font-weight: $normal;
+    padding: 1px;
+    position: absolute;
+    width: 100%;
+    @media (min-width: 460px) {
+      font-size: 10px;
+      padding: 5px;
+    }
+  }
+
+  &:hover figcaption {
+    @include transparent-background($purple);
+  }
 }
 
 .grayscale {
   @include filter(grayscale(100%));
-}
-
-.person figcaption {
-  @include transparent-background($black);
-  bottom: 0;
-  color: $white;
-  font-size: 6px;
-  font-weight: $normal;
-  padding: 1px;
-  position: absolute;
-  width: 100%;
-}
-
-@media (min-width: 460px) {
-  .person figcaption {
-    font-size: 10px;
-    padding: 5px;
-  }
-}
-
-.person:hover figcaption {
-  @include transparent-background($purple);
 }

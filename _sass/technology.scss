@@ -1,26 +1,21 @@
 .tech-content {
   display: table;
-}
 
-@media (min-width: 768px) {
-  .tech-content {
+  @media (min-width: 768px) {
     height: 500px;
   }
-}
 
-.tech-content p {
-  display: table-cell;
-  vertical-align: middle;
+  p {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 .tech-img {
   @extend %lazy;
   height: auto;
   width: 250px;
-}
-
-@media (min-width: 768px) {
-  .tech-img {
+  @media (min-width: 768px) {
     width: 500px;
   }
 }

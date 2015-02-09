@@ -13,57 +13,55 @@
     border: 0;
     box-shadow: none;
   }
-}
 
-.navbar-transparent .logo {
-  @include filter(brightness(1000%));
-}
+  .logo {
+    @include filter(brightness(1000%));
+  }
 
-.navbar-transparent .navbar-nav > li > a,
-.navbar-transparent .navbar-nav > li > a:hover {
-  color: $white;
-  transition: color .5s ease;
+  a,
+  a:hover {
+    color: $white !important;
+    transition: color .5s ease;
+    }
 }
 
 .navbar-white {
   background: $white;
   box-shadow: rgba($black, .2) 0 0 2px 1px;
   transition: background .5s ease;
-}
 
-.navbar-white .logo {
-  @include filter(none);
-};
+  .logo {
+    @include filter(none);
+  }
 
-.navbar-white .navbar-nav > li > a,
-.navbar-white .navbar-nav > li > a:hover {
-  color: $black;
-  transition: color .5s ease;
+  a,
+  a:hover {
+    color: $black !important;
+    transition: color .5s ease;
+  }
 }
 
 .nav > li > a {
-  font-size: 15px;
   line-height: 30px;
-  padding: 10px;
   text-decoration: none;
-}
 
-@media (min-width: 992px) {
-  .nav > li > a {
+  @media (min-width: 992px) {
     font-size: 20px;
     padding: 20px;
   }
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: $black;
-}
+.navbar-default .navbar-toggle {
+  &,
+  &:focus,
+  &:hover {
+    background-color: $white;
+    border-color: $white;
 
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background-color: $white;
-  border-color: $white;
+    .icon-bar {
+      background-color: $black;
+    }
+  }
 }
 
 .logo {
@@ -71,10 +69,7 @@
   height: 30px;
   margin-top: 10px;
   width: auto;
-}
-
-@media (min-width: 992px) {
-  .logo {
+  @media (min-width: 992px) {
     height: 50px;
   }
 }
