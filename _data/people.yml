@@ -1,293 +1,279 @@
 header:
 
-    title: Innovation is at the core of who we are.
-    background: whiteboard.jpg
-    description: We are a team of inventors with expertise in computational
-        modeling, material design and synthesis, material scale-up and adsorption
-        system design – all focused on designing products and systems that
-        critically depend on material performance.
+  title: Innovation is at the core of who we are.
+  background: whiteboard.jpg
+  description: |
+    We are a team of inventors with expertise in computational
+    modeling, material design and synthesis, material scale-up and adsorption
+    system design – all focused on designing products and systems that
+    critically depend on material performance.
 
 groups:
 
-    - name: Team
-      members:
+  - name: Team
+    members:
 
-        - name: Benjamin Hernandez
-          position: CEO
-          linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
-          email: ben@numat-tech.com
-          description: Prior to NuMat, Ben worked as an operations professional
-              at a global private equity and venture capital firm with over $30 B in
-              invested capital. Ben was responsible for leading board-level
-              strategy, operations and human capital initiatives at portfolio
-              companies to drive enterprise growth. This included working with
-              material-enabled technology companies to execute against sales and
-              marketing, distribution, product and cost transformation milestones.
-              Prior to this, he worked as a management consultant, supporting
-              strategic growth and operations initiatives at Fortune 500 advanced
-              manufacturing and healthcare organizations.
-          education: Ben received an M.B.A. from the Kellogg School of Management,
-              a J.D. from the Northwestern University School of Law and a B.S.
-              from the McCormick School of Engineering at Northwestern University.
+      - name: Benjamin Hernandez
+        position: CEO, Co-founder
+        linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
+        email: ben@numat-tech.com
+        description: |
+          Ben is the CEO of NuMat and a member of the board of
+          directors.  In this role, he is responsible for managing the rapid
+          scale-up of the Company’s application platform and all other aspects
+          of the business.  An engineer by training, he also received graduate
+          degrees in law and business at Northwestern University. Prior to
+          NuMat, Ben was an operations professional at a global private equity
+          and venture capital firm with over $30 B in invested capital. In this
+          capacity, he led board-level strategy, operations and human capital
+          initiatives at material-enabled technology companies to drive
+          enterprise growth. He has also worked as a management consultant at a
+          top-tier firm and as an engineer in the aerodefense industry.
 
-        - name: Omar Farha
-          position: President
-          linkedin: https://www.linkedin.com/pub/omar-farha/49/616/242
-          email: omar@numat-tech.com
-          description: An inventor of NuMat’s synthetic capabilities, Omar is responsible
-              for supporting key material discovery, synthesis, business development, and
-              strategic partnership initiatives at NuMat. Omar also serves as a research
-              associate professor in the Chemistry Department at Northwestern University.
-              His research focuses on the rational design of metal–organic framework and
-              porous-organic polymer materials for sensing, catalysis, storage, separations
-              and light harvesting.
-          education: Omar earned his Ph.D. in Chemistry from the University of California,
-              Los Angeles, under the direction of Prof. M. Frederick Hawthorne. He carried
-              out his postdoctoral studies at Northwestern University’s Institute for
-              Nanotechnology.
+      - name: Omar Farha
+        position: President, Co-founder
+        linkedin: https://www.linkedin.com/pub/omar-farha/49/616/242
+        email: omar@numat-tech.com
+        description: |
+          Omar is the CSO of NuMat and a member of the board of
+          directors.  In this role, he oversees material development strategies
+          and key technical initiatives. Omar is a thought leader in the field
+          of ultra-high performing porous materials for gas storage,
+          separation, catalysis and sensing. He has over 130 peer-reviewed
+          publications and was recognized as a “top 1%” most cited chemist in
+          the world by Thomas Reuters. His research accomplishments and
+          inventions have been highlighted by numerous organizations including
+          Chemical & Engineering News, Chemistry World, Chemistry Views,
+          Science, Nature, Nature Chemistry, Fortune Magazine, and many others.
+          In addition to NuMat, Omar is a Research Professor at Northwestern
+          University.
 
-        - name: Patrick Fuller
-          position: Engineering, Computational
-          linkedin: https://www.linkedin.com/in/patrickemmettfuller
-          email: pat@numat-tech.com
-          github: patrickfuller
-          description: Patrick leads product design and software development at NuMat
-              Technologies, ensuring the rapid development of novel sorbents in new
-              applications. At NuMat, he also leads key intellectual property and
-              business development initiatives. Prior to NuMat, Patrick created software
-              used by companies, classrooms, and labs across multiple industries,
-              including high-throughput monte-carlo financial simulators, user
-              interfaces for scientific applications, and interactive coding tutorials.
-          education: Patrick earned a Master’s degree in chemical engineering from
-              Northwestern University. Previously, he obtained Bachelor’s degrees
-              in finance and chemical engineering from Lehigh University.
+      - name: Patrick Fuller
+        position: Engineering
+        linkedin: https://www.linkedin.com/in/patrickemmettfuller
+        email: pat@numat-tech.com
+        github: patrickfuller
+        description: |
+          Patrick leads product design and software development
+          efforts, ensuring the rapid development of material-enabled systems.
+          He also is responsible for key intellectual property and strategic
+          partner technical initiatives. A chemical engineer by training,
+          Patrick has received multiple design awards for the development of
+          novel gas purification systems. He is also an expert in computational
+          modeling, high performance computing, and specializes in rapidly
+          designing high performing materials. Pat has created software
+          packages used by Fortune 500 companies and top-tier research
+          institutions, including high-throughput monte-carlo simulators and
+          user interfaces for scientific applications.
 
-        - name: Mitch Weston
-          position: Chemistry
-          linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
-          email: mitch@numat-tech.com
-          description: Mitch is the lead synthetic chemist at NuMat Technologies, where he
-              is responsible for overseeing the design and synthesis of novel porous
-              materials. Prior to NuMat, Mitch completed a postdoctoral fellowship at
-              Northwestern University, developing new porous materials decorated with
-              metal-catecholates useful for gas storage, heterogeneous catalysis, and
-              chemical separation applications.
-          education: Mitch achieved his Ph.D. at the University of Calgary under
-              Professor Thomas G. Back. He focused on synthetic organic chemistry
-              through developing a novel ring expansion methodology which he applied in
-              the total synthesis of anti-cancer marine-based alkaloids.
+      - name: Mitch Weston
+        position: Chemistry
+        linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
+        email: mitch@numat-tech.com
+        description: |
+          Mitch is an expert in the rational design, synthesis and
+          characterization of porous materials. At NuMat, he oversees the
+          design and synthesis of novel material structures and their
+          integration into adsorption systems. As a synthetic chemist, his
+          prior research focused on developing new porous materials useful for
+          gas storage, heterogeneous catalysis, and chemical separation
+          applications.
 
-        - name: Michael Wolfenson
-          position: Strategy
-          linkedin: http://www.linkedin.com/pub/michael-wolfenson/39/462/824
-          email: wolf@numat-tech.com
-          description: At NuMat, Michael is focused on supporting the identification
-              of new product and market opportunities and the development and
-              execution of go-to-market product strategies. Prior to NuMat, Michael
-              worked as a strategy consultant at Booz & Company, a premier
-              management consulting firm, in the technology practice. In this role,
-              he worked with fortune 500 clients in leading key innovation, product,
-              operational and organizational change initiatives.
-          education: Michael earned a Bachelor of Science in engineering from the
-              McCormick School of Engineering at Northwestern University.
+      - name: Michael Wolfenson
+        position: Strategy
+        linkedin: http://www.linkedin.com/pub/michael-wolfenson/39/462/824
+        email: wolf@numat-tech.com
+        description: |
+          At NuMat Michael supports the identification of new
+          market opportunities and the development and execution of
+          go-to-market strategies.  Prior to this, he was a management
+          consultant at Booz & Company, a premier consulting firm. In this
+          role, he worked with Fortune 500 clients in leading key innovation,
+          product, and operational change initiatives. He previously worked as
+          an engineer in the transportation industry.
 
-        - name: Paul Siu
-          position: Chemistry
-          linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
-          email: paul@numat-tech.com
-          description: Prior to NuMat, Paul carried out postdoctoral research at
-              Northwestern University, where he designed porous materials to promote
-              pharmaceutically relevant reactions. He brings years of experience in
-              crystallography and diverse synthetic chemistry skills in various
-              areas of material chemistry, including flame retardants and plastics.
-          education: Paul earned his Ph.D. in Chemistry from the University of
-              British Columbia, under the direction of Prof. Derek P. Gates.
-              Previously, he obtained a B.Sc. in Chemistry from the University of
-              Victoria.
+      - name: Paul Siu
+        position: Chemistry
+        linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
+        email: paul@numat-tech.com
+        description: |
+          Paul is an expert in the design of ultra-high performing
+          porous materials. He brings years of experience in diverse synthetic
+          chemistry in various areas of material chemistry, including
+          flame-retardants and plastics. At NuMat, he oversees the design and
+          synthesis of novel materials. Prior to this, he was a chemist in the
+          pharmaceutical industry focused on drug discovery and also worked as
+          a chemist a global polymer company focused on catalyst discovery.
+          Paul also served as member of the Canadian National Reserve.
 
-        - name: John Siegfried
-          position: Engineering
-          email: john@numat-tech.com
-          description: Prior to NuMat, John worked as a field engineer at UOP LLC
-              (a Honeywell Company) providing on-site technical support and training
-              for startup activities, plant operation, process optimization and
-              troubleshooting for refineries and petrochemical complexes.  While at UOP,
-              John also worked in R&D on various process and material development projects.
-          education: John earned a Master and Bachelor of Science in Chemical Engineering from
-               the McCormick School of Engineering at Northwestern University.
+      - name: John Siegfried
+        position: Engineering
+        email: john@numat-tech.com
+        description: |
+          John leads system design and separation technology
+          development at NuMat. In addition to this he supports key production
+          and scale-up activities.  Prior to NuMat, John was a chemical
+          engineer and Chief Technical Advisor at UOP LLC (a Honeywell Company)
+          providing on-site leadership in process development and optimization
+          from pilot to demonstration-scale operations.  He also led various
+          material development initiatives in pilot to commercial scale testing
+          of catalyst and novel separation materials.
 
-        - name: William Hoover
-          position: Chemistry
-          email: bill@numat-tech.com
-          description: Production capabilities are William’s chief focus at NuMat
-              Technologies, where he is developing new methods to scale up and automate
-              porous sorbent synthesis. His prior experience includes an internship
-              with the Food and Drug Administration developing procedures for rapid
-              detection of drug contamination.
-          education:  William will earn a  Bachelor of Science in Chemistry
-              from the Weinberg School of Arts and Sciences at Northwestern University.
+      - name: William Hoover
+        position: Chemistry
+        email: bill@numat-tech.com
+        description: |
+          Bill supports the synthesis and scale-up of novel porous
+          materials at NuMat. He also focuses on new production capabilities,
+          developing innovative methods to scale and automate porous sorbent
+          synthesis. Prior to this, he worked at the FDA developing analytical
+          procedures for the rapid detection of drug contamination.
 
-        - name: Rachelle Richardson
-          position: Chemistry
-          email: Rachelle@numat-tech.com
-          description: Prior to NuMat, Rachelle had an internship at Université
-              Joseph Fourier in Grenoble, France, where she conducted research on a
-              derivative of a plant starch for use as a potential anti-malarial drug.
-              While at Xavier University she researched potential anti-cancer nanotherapeutic
-              drugs in the lab of Dr. Stassi DiMaggio.
-          education: Rachelle earned a Bachelor of Science in Chemistry from
-              Xavier University of Louisiana.
+      - name: Rachelle Richardson
+        position: Chemistry
+        email: rachelle@numat-tech.com
+        description: |
+          Rachelle supports the design and synthesis of novel
+          porous materials at NuMat. Prior to NuMat, she worked at the
+          Université Joseph Fourier in Grenoble, France, researching a
+          derivative of a plant starch for use as a potential anti-malarial
+          drug. Prior to this, she worked as a research assistant at Xavier
+          University researching anti-cancer nanotherapeutic drugs.
 
-        - name: David Cho
-          position: Chemistry
-          email: david@numat-tech.com
-          description: Prior to NuMat, David carried out undergraduate research
-              at Northwestern University, where he developed and investigated nucleic
-              acid-metal organic framework nanoparticle conjugates as well as carried
-              out catalytic reactions on surfaces utilizing lithography tools.
-          education:  David earned a  Bachelor of Science in Chemistry
-              from the Weinbeg School of Arts and Sciences at Northwestern University.
+      - name: David Cho
+        position: Chemistry
+        email: david@numat-tech.com
+        description: |
+          David supports the synthetic effort of novel porous
+          materials at NuMat. Prior to joining the team, David carried out
+          undergraduate research, where he developed and investigated nucleic
+          acid-metal organic framework nanoparticle conjugates as well as
+          carried out catalytic reactions on surfaces utilizing lithography
+          tools.
 
-    - name: Board
-      members:
+  - name: Board
+    members:
 
-        - name: William Kroll
-          description: Mr. Kroll is the Executive Chairman, and former CEO of
-              Matheson TriGas, a global leader in the gas industry. During his
-              executive tenure at Matheson, Mr. Kroll oversaw global businesses for
-              industrial, medical, specialty and electronic gases, gas handling
-              equipment, high performance purification systems, and engineering and
-              gas management services. Prior to Matheson, he served as Executive
-              Vice President of Business Development at Emcore, where he was
-              instrumental in taking that company public. Mr. Kroll also serves as a
-              lead Director at Taiyo Nippon Sanso Corporation Group, the largest
-              Japanese supplier of industrial gases and one of the five largest
-              suppliers of industrial, specialty, and electronic gases in the world.
-          education: Mr. Kroll completed his undergraduate and graduate work at
-              Northwestern University.
+      - name: William Kroll
+        description: |
+          Bill is the Executive Chairman, and former CEO of
+          Matheson TriGas, a global leader in the gas industry. During his
+          executive tenure at Matheson, Bill oversaw global businesses for
+          industrial, medical, specialty and electronic gases, gas handling
+          equipment, high performance purification systems, and engineering and
+          gas management services. Prior to Matheson, he served as Executive
+          Vice President of Business Development at Emcore, where he was
+          instrumental in taking that company public. Bill also serves as a
+          lead Director at Taiyo Nippon Sanso Corporation Group, the largest
+          Japanese supplier of industrial gases and one of the five largest
+          suppliers of industrial, specialty, and electronic gases in the
+          world.
 
-        - name: Luka Erceg
-          description: Mr. Erceg was founder, President and CEO of Simbol Materials
-              where he led the company through $75+ million in capital raised, an
-              international marketing agreement, permitting of two commercial
-              chemical plants in California, and other key activities. He brings 14+
-              years of transaction advisory experience predominantly in the energy
-              and energy technology sectors. Prior to founding Simbol Materials, Mr.
-              Erceg was engaged in private transactions related to oil and gas field
-              telemetry, petroleum marketing and coal gasification. Earlier in his
-              career, he was Director of Strategic Development for CenterPoint
-              Energy (NYSE:CNP) where he completed acquisitions of an oil and gas
-              field telemetry business, intellectual property licensing, and
-              pipeline and gas gathering system transactions. While at El Paso Corp.
-              (NYSE:EP), he led the valuation and analysis team for El Paso’s
-              domestic and international power asset portfolio of 77 power plants
-              and restructured power assets as part of a multi-billion dollar
-              financing vehicle.
-          education: Mr. Erceg holds a M.B.A. degree from Rice University, a Master
-              of Laws (LL.M.) in International Economic Law from the University of
-              Houston’s Law Center, a J.D. from the South Texas College of Law, and
-              a Bachelors (B.Com.) in Marketing from the University of Guelph in
-              Canada. Mr. Erceg was born and raised in Toronto, Canada, and now
-              resides in Menlo Park, California with his wife, daughter, and son.
+      - name: Jay Collins
+        description: |
+          Jay served as the CEO and President of Oceaneering
+          International (NYSE: Oll), a global oilfield provider of robotics,
+          engineered services and products primarily to the offshore and gas
+          industry, and continues to serve as a director. In addition to this,
+          Jay is a director of Murphy Oil Corporation (NYSE: MUR), Nautronix
+          Group, Pason Systems (TSE: PSI), the American Productivity & Quality
+          Center, Petroleum Equipment Suppliers Association. He also serves on
+          the Rice University Board of Trustees and as Chairman of the Council
+          of Overseers of the Jones Graduate School of Business.
 
-        - name: Jack Gill
-          description: At 33, Jack founded his first business, which pioneered
-              micro-processor-based scientific instruments and computers for
-              chromatography laboratories. In 1972, Jack merged the company into
-              Spectra Physics, a manufacturer of commercial, scientific and
-              industrial lasers. Jack stayed on with Spectra for nine years as an
-              Executive Vice President, managing a five-division group of laser and
-              instrument companies. In 1981, Jack founded Vanguard Ventures, a
-              high-tech venture capital firm in Palo Alto, California. Jack worked
-              as a managing general partner of Vanguard Ventures for 20 years.
-              Vanguard’s first five funds, totaling $155 million in capital,
-              returned over $1 billion to investors, ranking it among the top VC
-              returns. Since 2000, Jack has been teaching Entrepreneur Courses at
-              Harvard, MIT, Rice, UC Davis, Indiana University and University
-              College London.
-          education: Jack M. Gill earned his bachelor’s degree in chemistry and
-              engineering from Lamar University in 1958. Four years later, he
-              received his Ph.D. in organic chemistry from Indiana University.
+      - name: Luka Erceg
+        description: |
+          Luka was founder, President and CEO of Simbol Materials
+          where he led the company through $75+ million in capital raised, an
+          international marketing agreement, permitting of two commercial
+          chemical plants in California, and other key activities. He brings
+          14+ years of transaction advisory experience predominantly in the
+          energy and energy technology sectors. Prior to founding Simbol
+          Materials, Luka was engaged in private transactions related to oil
+          and gas field telemetry, petroleum marketing and coal gasification.
+          Earlier in his career, he was Director of Strategic Development for
+          CenterPoint Energy (NYSE:CNP) where he completed acquisitions of an
+          oil and gas field telemetry business, intellectual property
+          licensing, and pipeline and gas gathering system transactions.
 
-    - name: Advisors
-      members:
+      - name: Jack Gill
+        description: |
+          At 33, Jack founded his first business, which pioneered
+          micro-processor-based scientific instruments and computers for
+          chromatography laboratories. In 1972, Jack merged the company into
+          Spectra Physics, a manufacturer of commercial, scientific and
+          industrial lasers. Jack stayed on with Spectra for nine years as an
+          Executive Vice President, managing a five-division group of laser and
+          instrument companies. In 1981, Jack founded Vanguard Ventures, a
+          high-tech venture capital firm in Palo Alto, California. Jack worked
+          as a managing general partner of Vanguard Ventures for 20 years.
+          Vanguard’s first five funds, totaling $155 million in capital,
+          returned over $1 billion to investors, ranking it among the top VC
+          returns. Since 2000, Jack has been teaching Entrepreneur Courses at
+          Harvard, MIT, Rice, UC Davis, Indiana University and University
+          College London.
 
-        - name: Richard Penning
-          position: Strategy, Engineering
-          description: As a 30-year veteran of technology organizations, Mr. Penning
-              creates and builds science-based businesses. He guides companies in
-              business strategy, organizational development, and work processes. His
-              experience includes senior executive positions at two leading global
-              technology licensing organizations as well as consulting engagements
-              for industry, academia, and governments spanning the energy,
-              chemicals, and materials industries. As head of the ventures group at
-              a major corporation he launched a venture company in hydrogen
-              generation and launched biofuels initiatives at two corporations. He
-              has led development of multi-billion-dollar projects, provided expert
-              opinions in intellectual property issues, and guided organizations in
-              business strategy, technology development, valuation, and deployment.
-              His strong global business acumen coupled with this breadth and depth
-              of technical expertise provides a unique viewpoint of technology
-              related issues bridging and translating technical features into
-              commercial value.
-          education: Mr. Penning earned his M.B.A. in Finance from the University of
-              Chicago Graduate School of Business. Previously, he earned a B.S.
-              degree in Chemical Engineering from Case Western Reserve University.
-              He is experienced in business transformation, being certified in Total
-              Quality from 3M and as a Six Sigma Black Belt from Honeywell.
+  - name: Advisors
+    members:
 
-        - name: Christopher Wilmer
-          position: Computational
-          description: An inventor of NuMat’s proprietary MOF discovery algorithm,
-              Chris is responsible for supporting key advancements in the design of
-              novel material structures. Chris has expertise in computational
-              modeling, high performance computing, and specializes in rapidly
-              designing the high performance MOFs. Chris was named to the ["30 under
-              30 in Energy" list at Forbes
-              Magazine](http://www.forbes.com/pictures/mef45jdde/chris-wilmer-29/).
-              He was additionally honored as a "top solver" by InnoCentive, being
-              amongst the top 16 individuals out of over 200,000 globally in the
-              submission of innovative solutions to real-world challenges.
-          education: Chris earned his Ph.D. in Chemical and Biological Engineering
-              from Northwestern University working on the design of porous
-              materials. Previously, he earned a B.A.Sc. degree from the Engineering
-              Science program at the University of Toronto.
+      - name: Richard Penning
+        position: Strategy, Engineering
+        description: |
+          As a 30-year veteran of technology organizations, Mr.
+          Penning creates and builds science-based businesses. He guides
+          companies in business strategy, organizational development, and work
+          processes. His experience includes senior executive positions at two
+          leading global technology licensing organizations as well as
+          consulting engagements for industry, academia, and governments
+          spanning the energy, chemicals, and materials industries. As head of
+          the ventures group at a major corporation he launched a venture
+          company in hydrogen generation and launched biofuels initiatives at
+          two corporations. He has led development of multi-billion-dollar
+          projects, provided expert opinions in intellectual property issues,
+          and guided organizations in business strategy, technology
+          development, valuation, and deployment.
 
-        - name: Randall Snurr
-          position: Computational
-          description: Randy Snurr is a Professor of Chemical and Biological
-              Engineering at Northwestern University. His research interests include
-              development of new nanoporous materials for energy and environmental
-              applications, molecular simulation, adsorption separations, diffusion
-              in nanoporous materials, and catalysis. He is a co-inventor of NuMat’s
-              proprietary MOF discovery algorithm. Professor Snurr is a Senior
-              Editor of the Journal of Physical Chemistry and has served on the
-              editorial boards of Adsorption, Adsorption Science and Technology,
-              Chemistry of Materials, Current Nanoscience, Journal of Molecular
-              Catalysis A, and Catalysis Communications. His work has been
-              recognized with multiple awards, including a CAREER award from the
-              National Science Foundation.
-          education: Professor Snurr holds BSE and PhD degrees in chemical
-              engineering from the University of Pennsylvania and the University of
-              California, Berkeley, respectively. He performed post-doctoral
-              research at the University of Leipzig in Germany supported by a
-              fellowship from the Alexander von Humboldt Foundation.
+      - name: Christopher Wilmer
+        position: Computational, Co-founder
+        description: |
+          Chris is currently an Assistant Professor in the
+          Department of Chemical & Petroleum Engineering at the University of
+          Pittsburgh, having earned his Ph.D. in Chemical and Biological
+          Engineering from Northwestern University. An expert in advanced
+          computational modeling, Chris was named to the “30 under 30 in
+          Energy” list at Forbes Magazine.  He was additionally honored as a
+          “top solver” by InnoCentive, being amongst the top 16 individuals out
+          of over 200,000 globally in the submission of innovative solutions to
+          real-world challenges.
 
-        - name: Joseph Hupp
-          position: Chemistry
-          description: Joe Hupp is a Professor of Chemistry at Northwestern
-              University and also holds an appointment as a Senior Science Fellow at
-              Argonne National Laboratory in the Division of Materials Science and
-              in the Division of Chemical Sciences and Engineering. His research
-              centers on energy-relevant materials chemistry, including chemical
-              separations, chemical catalysis, and high-capacity storage and release
-              of molecular hydrogen, much of it in collaboration with Professor
-              Randall Snurr and his research team. He is a co-inventor of NuMat’s
-              synthetic approach. Professor Hupp serves as an Associate Editor for
-              the Journal of the American Chemical Society, and has received
-              multiple awards for his work. He has mentored 50 students to Ph.D.
-              completion, advised roughly 70 postdoctoral research fellows, and
-              currently runs a lab of over two dozen researchers.
-          education: Professor Hupp holds BS and Ph.D. degrees from Houghton College
-              and Michigan State University, respectively. He performed
-              post-doctoral research at University of North Carolina.
+      - name: Randall Snurr
+        position: Computational
+        description: |
+          Randy Snurr is a Professor of Chemical and Biological
+          Engineering at Northwestern University. His research interests
+          include development of new nanoporous materials for energy and
+          environmental applications, molecular simulation, adsorption
+          separations, diffusion in nanoporous materials, and catalysis.
+          Professor Snurr is a Senior Editor of the Journal of Physical
+          Chemistry and has served on the editorial boards of Adsorption,
+          Adsorption Science and Technology, Chemistry of Materials, Current
+          Nanoscience, Journal of Molecular Catalysis A, and Catalysis
+          Communications. His work has been recognized with multiple awards,
+          including a CAREER award from the National Science Foundation.
+
+      - name: Joseph Hupp
+        position: Chemistry
+        description: |
+          Joe is a Professor of Chemistry at Northwestern
+          University and also holds an appointment as a Senior Science Fellow
+          at Argonne National Laboratory in the Division of Materials Science
+          and in the Division of Chemical Sciences and Engineering. His
+          research centers on energy-relevant materials chemistry, including
+          chemical separations, chemical catalysis, and high-capacity storage
+          and release of molecular hydrogen, much of it in collaboration with
+          Professor Randall Snurr and his research team.  Joe serves as an
+          Associate Editor for the Journal of the American Chemical Society,
+          and has received multiple awards for his work. He has mentored 50
+          students to Ph.D. completion, advised roughly 70 postdoctoral
+          research fellows, and currently runs a lab of over two dozen
+          researchers.
