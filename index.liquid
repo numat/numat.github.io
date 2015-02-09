@@ -3,15 +3,25 @@ title: NuMat
 layout: default
 permalink: /
 ---
-
-{% for item in site.data.index %}
+{% assign index = site.data.index %}
 <div class="header">
-  <div class="header-background" data-src="/img/{{ item.background }}"></div>
+  <div class="header-background" data-src="/img/{{ index.header.background }}"></div>
   <div class="vertical-center-table">
-      <div class="header-title skrollable skrollable-between" data-{{ forloop.index0 | times:720 }}="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
-      <h1>{{ item.title }}</h1>
-      <p>{{ item.description }}</p>
+    <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
+      <h1>{{ index.header.title }}</h1>
     </div>
   </div>
 </div>
-{% endfor %}
+
+<div class="container description">
+  <div class="row">
+    <div class="col-xs-5 col-xs-offset-1">
+      <h2>{{ index.challenge.title }}</h2>
+      <p>{{ index.challenge.description }}</p>
+    </div>
+    <div class="col-xs-5">
+      <h2>{{ index.solution.title }}</h2>
+      <p>{{ index.solution.description }}</p>
+    </div>
+  </div>
+</div>
