@@ -17,7 +17,7 @@ permalink: /news/
   <div class="post">
     {% for image in post.images %}
     <a href="{{ image.link }}" target="_blank">
-      <img class="post-img lazy" height="{{ image.height }}" alt="{{ image.alt }}"
+      <img class="post-img" height="{{ image.height }}" alt="{{ image.alt }}"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
            data-src="/img/news/{{ image.file }}" />
     </a>

@@ -33,6 +33,7 @@ $(document).ready(function () {
         $(this).attr('src', $(this).attr('data-src'));
         $(this).load(function () {
             this.style.opacity = 1;
+            $(this).css('height', 'auto');
         });
     };
 

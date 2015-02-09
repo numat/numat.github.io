@@ -6,7 +6,6 @@
 
 .post {
   background-color: #fff;
-  line-height: 1.5em;
   margin-bottom: 10px;
   padding-bottom: 19px;
   width: 250px;
@@ -17,8 +16,10 @@
   }
 
   p {
-    font-size: 14px;
     text-align: justify;
+    @media (min-width: 991px) {
+      font-size: 14px;
+    }
   }
 
   a {
