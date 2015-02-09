@@ -16,11 +16,17 @@ permalink: /news/
   {% else %}
   <div class="post">
     {% for image in post.images %}
+    {% if image.link %}
     <a href="{{ image.link }}" target="_blank">
       <img class="post-img" height="{{ image.height }}" alt="{{ image.alt }}"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
            data-src="/img/news/{{ image.file }}" />
     </a>
+    {% else %}
+    <img class="post-img" height="{{ image.height }}" alt="{{ image.alt }}"
+         src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+         data-src="/img/news/{{ image.file }}" />
+    {% endif %}
     {% endfor %}
   {% endif %}
 
