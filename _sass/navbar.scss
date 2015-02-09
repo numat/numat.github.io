@@ -8,6 +8,11 @@
   background: none;
   box-shadow: none;
   transition: background .5s ease;
+
+  .navbar-collapse {
+    border: 0;
+    box-shadow: none;
+  }
 }
 
 .navbar-transparent .logo {
@@ -50,13 +55,15 @@
   }
 }
 
-.icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
   background-color: $black;
 }
 
-.navbar-toggle:hover,
-.navbar-toggle:focus {
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: $white;
+  border-color: $white;
 }
 
 .logo {

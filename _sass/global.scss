@@ -48,12 +48,54 @@ h6 {
   font-weight: $thick;
 }
 
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
+
 p,
 li {
   font-family: $font-stack;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: $thin;
   text-align: justify;
+}
+
+@media (min-width: 480px) {
+  p,
+  li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  p,
+  li {
+    font-size: 18px;
+  }
 }
 
 a,
@@ -89,6 +131,11 @@ button,
 button:hover,
 .btn:hover {
   background: $light-purple;
+}
+
+.vertical-center-table {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .footer > p {

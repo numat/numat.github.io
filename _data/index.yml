@@ -3,24 +3,20 @@ header:
   title: Re-imagining how the world stores, separates, and transports gases.
   background: cylinders.jpg
 
-challenge:
+content:
 
-  title: The challenge.
-  image: bubbles.jpg
-  description: |
-    Gases are a 500-billion-dollar input to nearly every sector of the global
-    economy. However, storing, separating, and transporting gas requires
-    energy intensive compression - accounting for nearly 10% of global energy
-    draw.  Compression requirements significantly impact process economics and
-    the ability to efficiently create life-sustaining gases and to effectively
-    capture life-threatening ones.
+  - title: The challenge.
+    description: |
+      Gases are a 500-billion-dollar input to nearly every sector of the global
+      economy. However, storing, separating, and transporting gas requires
+      energy intensive compression - accounting for nearly 10% of global energy
+      draw.  Compression requirements significantly impact process economics and
+      the ability to efficiently create life-sustaining gases and to effectively
+      capture life-threatening ones.
 
-solution:
-
-  title: The solution.
-  image: blueprint.jpg
-  description: |
-    NuMat creates value by fundamentally challenging the need to compress
-    gases. In doing so, we unlock massively valuable design flexibility and
-    cost-advantaged production economics in the healthcare, industrial
-    technology, and energy sectors.
+  - title: The solution.
+    description: |
+      NuMat creates value by fundamentally challenging the need to compress
+      gases. In doing so, we unlock massively valuable design flexibility and
+      cost-advantaged production economics in the healthcare, industrial
+      technology, and energy sectors.

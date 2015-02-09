@@ -1,26 +1,32 @@
-/*global $, document, navigator, skrollr, setTimeout*/
+/*global $, document, window, navigator, skrollr, setTimeout*/
 "use strict";
 
 $(document).ready(function () {
-    var lazy, lazyBackground, pad;
+    var lazy, lazyBackground, pad, $hb, $nb;
 
-    // Move headers on scroll
-    skrollr.init({forceHeight: false});
-
-    // Navbar change between transparent and white after initial image
-    // Skip some pages before registering
-    if ($('.fixed-nav').length) {
-        $(document).off('scroll');
-        $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
-    } else {
-        $(document).on('scroll', function () {
-            if($(document).scrollTop() > 700) {
-                $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
-            } else {
-                $('.navbar').removeClass('navbar-white').addClass('navbar-transparent');
-            }
+    // Move headers on scroll. Disable mobile because adding #skrollr-body messes
+    // with the navbar colorchage logic below
+    if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+        skrollr.init({
+            forceHeight: false
         });
     }
+
+    // Navbar change between transparent and white after initial image (if exists)
+    $hb = $('.header-background');
+    $nb = $('.navbar');
+    if (!$hb.length && $nb.hasClass('navbar-transparent')) {
+        $nb.removeClass('navbar-transparent').addClass('navbar-white');
+    }
+    $(document).on('scroll', function () {
+        if ($hb.length) {
+            if ($(document).scrollTop() > $hb.height() && $nb.hasClass('navbar-transparent')) {
+                $nb.removeClass('navbar-transparent').addClass('navbar-white');
+            } else if ($(document).scrollTop() < $hb.height() && $nb.hasClass('navbar-white')) {
+                $nb.removeClass('navbar-white').addClass('navbar-transparent');
+            }
+        }
+    });
 
     // Lazy load images
     lazy = function () {
@@ -41,16 +47,9 @@ $(document).ready(function () {
         });
     };
 
-    $('.post-img').each(lazy);
+    $('.post-img, .tech-img').each(lazy);
     $('.person').find('img').each(lazy);
     $('.header-background').each(lazyBackground);
-
-    // Changes background scrolling and sizing for mobile devices
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $('.front').css(
-            {'background-attachment': 'scroll', 'background-size': 'auto 100%'}
-        );
-    }
 
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
     $('.entry-media').fitVids();
