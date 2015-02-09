@@ -1,6 +1,7 @@
 @import 'global';
 
-.header {
+.header,
+.subheader {
   background-color: $black;
   display: table;
   position: relative;
@@ -17,7 +18,7 @@
   @extend %lazy;
   @include filter(brightness(50%));
   background-attachment: scroll;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -29,8 +30,13 @@
 }
 
 .header,
-.header-background {
+.header > .header-background {
   height: 720px;
+}
+
+.subheader,
+.subheader > .header-background {
+  height: 540px;
 }
 
 .header-title {
@@ -95,6 +101,11 @@
   }
 }
 
-.description p {
-  padding-top: 50px;
+.header-title > p > a:hover {
+  color: $white;
+}
+
+.description {
+  padding: 50px 0;
+  text-align: center;
 }

@@ -1,3 +1,10 @@
-.tech-img {
-  margin: 20px auto;
+.tech-content {
+  display: table;
+  height: 500px;
+  text-align: justify;
+}
+
+.tech-content p {
+  display: table-cell;
+  vertical-align: middle;
 }

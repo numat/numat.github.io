@@ -2,6 +2,7 @@ content:
 
     - title: A future without compression.
       background: refinery.jpg
+      image: green_earth.jpg
       description: |
           Gases and the energy-intensive systems that create, deliver, and
           capture them are used in nearly every sector of the global economy.
@@ -12,6 +13,7 @@ content:
 
     - title: An atomically engineered solution.
       background: multiple_materials.jpg
+      image: nu-100.png
       description: |
           A universal property of gases is that they highly concentrate on
           surfaces. We leverage this property to create materials with vast
@@ -24,6 +26,7 @@ content:
 
     - title: Materials science meets big data.
       background: computing.jpg
+      image: block_mof.png
       description: |
           We design atomically engineered materials through the application of
           modern computing infrastructure to proprietary material discovery

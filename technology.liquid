@@ -4,14 +4,22 @@ layout: default
 permalink: /technology/
 ---
 {% for item in site.data.technology.content %}
+
+{% if forloop.first %}
 <div class="header">
+{% else %}
+<div class="subheader">
+{% endif %}
+
   <div class="header-background" data-src="/img/{{ item.background }}"></div>
   <div class="vertical-center-table">
+
     {% if forloop.first %}
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
     {% else %}
     <div class="header-title">
     {% endif %}
+
       <h1>{{ item.title }}</h1>
     </div>
   </div>
@@ -19,7 +27,10 @@ permalink: /technology/
 
 <div class="container">
   <div class="row description">
-    <div class="col-xs-12">
+    <div class="col-sm-7 {% cycle 'col-sm-push-5', nil %}">
+      <img src="/img/technology/{{ item.image }}" alt="{{ item.alt }}">
+    </div>
+    <div class="col-sm-5 {% cycle 'col-sm-pull-7', nil %} tech-content">
       <p>{{ item.description }}</p>
     </div>
   </div>
