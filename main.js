@@ -2,7 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var lazy, lazyBackground, pad, $hb, $nb;
+    var lazy, lazyBackground, pad, $hb, $nb, masonryOpts;
 
     // Move headers on scroll. Disable mobile because adding #skrollr-body messes
     // with the navbar colorchage logic below
@@ -56,7 +56,7 @@ $(document).ready(function () {
     $('.entry-media').fitVids();
 
     // Cascading news articles
-    $('.masonry').masonry({
+    masonryOpts = {
         itemSelector: '.post',
         isFitWidth: true,
         isAnimated: true,
@@ -65,6 +65,9 @@ $(document).ready(function () {
             easing: 'linear',
             queue: false
         }
+    };
+    $('.masonry').masonry(masonryOpts).imagesLoaded(function () {
+        $('.masonry').masonry(masonryOpts);
     });
 
     // Handles interactivity with people page

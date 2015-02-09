@@ -42,11 +42,11 @@
 }
 
 .nav > li > a {
+  font-size: 20px;
   line-height: 30px;
   text-decoration: none;
 
   @media (min-width: 992px) {
-    font-size: 20px;
     padding: 20px;
   }
 }
