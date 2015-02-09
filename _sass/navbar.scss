@@ -1,13 +1,40 @@
 @import 'global';
 
 .navbar {
-  background: $white;
   border: 0;
-  border-bottom: 1px solid $black;
+}
+
+.navbar-transparent {
+  background: none;
+  box-shadow: none;
+  transition: background .5s ease;
+}
+
+.navbar-transparent .logo {
+  @include filter(brightness(1000%));
+};
+
+.navbar-transparent a {
+  color: $white !important;
+  transition: color .5s ease;
+}
+
+.navbar-white {
+  background: $white;
+  box-shadow: rgba($black, .2) 0 0 2px 1px;
+  transition: background .5s ease;
+}
+
+.navbar-white .logo {
+  @include filter(none);
+};
+
+.navbar-white a {
+  color: $black !important;
+  transition: color .5s ease;
 }
 
 .nav > li > a {
-  color: $black;
   font-size: 15px;
   line-height: 30px;
   padding: 10px;
@@ -28,22 +55,6 @@
 .navbar-toggle:hover,
 .navbar-toggle:focus {
   background-color: $white;
-}
-
-.headroom {
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  transition: all .5s ease-in-out;
-}
-
-.headroom--unpinned {
-  top: -100px;
-}
-
-.headroom--pinned {
-  top: 0;
 }
 
 .logo {

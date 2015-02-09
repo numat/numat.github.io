@@ -1,15 +1,20 @@
-/*global $, location, document, window, screen, navigator, Headroom, skrollr, setTimeout*/
+/*global $, document, navigator, skrollr, setTimeout*/
 "use strict";
 
 $(document).ready(function () {
-    var headroom, pad, lazy, lazyBackground;
-
-    // Show and hide the navbar on scroll
-    headroom = new Headroom(document.querySelector('.navbar-fixed-top'));
-    headroom.init();
+    var lazy, lazyBackground, pad;
 
     // Move headers on scroll
     skrollr.init({forceHeight: false});
+
+    // Navbar change between transparent and white after initial image
+    $(document).on('scroll', function () {
+        if($(document).scrollTop() > 700) {
+            $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
+        } else {
+            $('.navbar').removeClass('navbar-white').addClass('navbar-transparent');
+        }
+    });
 
     // Lazy load images
     lazy = function () {
