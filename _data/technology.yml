@@ -1,39 +1,40 @@
-content:
+- title: Enabling efficient separations.
+  background: refinery.jpg
+  image: green_earth.jpg
+  alt: We reduce the energy requirements of commercial and industrial processes.
+  description: |
+    Gases and the energy-intensive systems that create, deliver, and
+    capture them are used in nearly every sector of the global economy.
+    We design and build systems that displace the need to highly compress
+    gases. In doing so, we enable previously unachievable form factors
+    and cost-advantaged economics in the energy, healthcare, and
+    technology sectors.
 
-    - title: A future without compression.
-      background: refinery.jpg
-      image: green_earth.jpg
-      description: |
-          Gases and the energy-intensive systems that create, deliver, and
-          capture them are used in nearly every sector of the global economy.
-          We design and build systems that displace the need to highly compress
-          gases. In doing so, we enable previously unachievable form factors
-          and cost-advantaged economics in the energy, healthcare, and
-          technology sectors.
+- title: An atomically engineered solution.
+  background: multiple_materials.jpg
+  image: nu-100.png
+  alt: Our materials contain trillions of very small pores.
+  description: |
+    A universal property of gases is that they highly concentrate on
+    surfaces. We leverage this property to create materials with vast
+    internal surface areas. One of our materials is the world record holder
+    with over 7,000 square meters of surface area per gram of material –
+    the equivalent of 1.5 football fields when unfolded. Gases stick to the
+    surfaces of our materials, creating a phenomenon where we soak up gases
+    similar to how a bath sponge soaks up water - displacing the need for
+    energy-intensive compression.
 
-    - title: An atomically engineered solution.
-      background: multiple_materials.jpg
-      image: nu-100.png
-      description: |
-          A universal property of gases is that they highly concentrate on
-          surfaces. We leverage this property to create materials with vast
-          internal surface areas. One of our materials is the world record holder
-          with over 7,000 square meters of surface area per gram of material –
-          the equivalent of 1.5 football fields when unfolded. Gases stick to the
-          surfaces of our materials, creating a phenomenon where we soak up gases
-          similar to how a bath sponge soaks up water - displacing the need for
-          energy-intensive compression.
-
-    - title: Materials science meets big data.
-      background: computing.jpg
-      image: block_mof.png
-      description: |
-          We design atomically engineered materials through the application of
-          modern computing infrastructure to proprietary material discovery
-          algorithms. Using our world-class discovery platform, we create
-          millions of hypothetical structures, store these structures in
-          databases, and then use high-performance cloud computing to rapidly
-          simulate their properties. This capital-light approach allows us to
-          dramatically reduce development cycles, rapidly generate IP, and
-          support valuable application platforms where solutions are
-          tailor-designed.
+- title: Materials science meets big data.
+  background: computing.jpg
+  image: block_mof.png
+  alt: We mix and match components to design the ideal material for every application.
+  description: |
+    We design atomically engineered materials through the application of
+    modern computing infrastructure to proprietary material discovery
+    algorithms. Using our world-class discovery platform, we create
+    millions of hypothetical structures, store these structures in
+    databases, and then use high-performance cloud computing to rapidly
+    simulate their properties. This capital-light approach allows us to
+    dramatically reduce development cycles, rapidly generate IP, and
+    support valuable application platforms where solutions are
+    tailor-designed.
