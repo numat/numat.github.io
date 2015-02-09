@@ -8,13 +8,19 @@ $(document).ready(function () {
     skrollr.init({forceHeight: false});
 
     // Navbar change between transparent and white after initial image
-    $(document).on('scroll', function () {
-        if($(document).scrollTop() > 700) {
-            $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
-        } else {
-            $('.navbar').removeClass('navbar-white').addClass('navbar-transparent');
-        }
-    });
+    // Skip some pages before registering
+    if ($('.fixed-nav').length) {
+        $(document).off('scroll');
+        $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
+    } else {
+        $(document).on('scroll', function () {
+            if($(document).scrollTop() > 700) {
+                $('.navbar').removeClass('navbar-transparent').addClass('navbar-white');
+            } else {
+                $('.navbar').removeClass('navbar-white').addClass('navbar-transparent');
+            }
+        });
+    }
 
     // Lazy load images
     lazy = function () {

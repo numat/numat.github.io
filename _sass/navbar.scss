@@ -12,10 +12,11 @@
 
 .navbar-transparent .logo {
   @include filter(brightness(1000%));
-};
+}
 
-.navbar-transparent a {
-  color: $white !important;
+.navbar-transparent .navbar-nav > li > a,
+.navbar-transparent .navbar-nav > li > a:hover {
+  color: $white;
   transition: color .5s ease;
 }
 
@@ -29,8 +30,9 @@
   @include filter(none);
 };
 
-.navbar-white a {
-  color: $black !important;
+.navbar-white .navbar-nav > li > a,
+.navbar-white .navbar-nav > li > a:hover {
+  color: $black;
   transition: color .5s ease;
 }
 
