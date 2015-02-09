@@ -19,9 +19,9 @@ groups:
         email: ben@numat-tech.com
         description: |
           Ben is the CEO of NuMat and a member of the board of
-          directors.  In this role, he is responsible for managing the rapid
+          directors. In this role, he is responsible for managing the rapid
           scale-up of the Company’s application platform and all other aspects
-          of the business.  An engineer by training, he also received graduate
+          of the business. An engineer by training, he also received graduate
           degrees in law and business at Northwestern University. Prior to
           NuMat, Ben was an operations professional at a global private equity
           and venture capital firm with over $30 B in invested capital. In this
@@ -36,7 +36,7 @@ groups:
         email: omar@numat-tech.com
         description: |
           Omar is the CSO of NuMat and a member of the board of
-          directors.  In this role, he oversees material development strategies
+          directors. In this role, he oversees material development strategies
           and key technical initiatives. Omar is a thought leader in the field
           of ultra-high performing porous materials for gas storage,
           separation, catalysis and sensing. He has over 130 peer-reviewed
@@ -86,7 +86,7 @@ groups:
         description: |
           At NuMat Michael supports the identification of new
           market opportunities and the development and execution of
-          go-to-market strategies.  Prior to this, he was a management
+          go-to-market strategies. Prior to this, he was a management
           consultant at Booz & Company, a premier consulting firm. In this
           role, he worked with Fortune 500 clients in leading key innovation,
           product, and operational change initiatives. He previously worked as
@@ -112,10 +112,11 @@ groups:
         description: |
           John leads system design and separation technology
           development at NuMat. In addition to this he supports key production
-          and scale-up activities.  Prior to NuMat, John was a chemical
-          engineer and Chief Technical Advisor at UOP LLC (a Honeywell Company)
+          and scale-up activities. Prior to NuMat, John was a chemical
+          engineer and a lead technical advisor at [UOP (a Honeywell Company)](
+          http://www.uop.com/) (NYSE: [HON](http://finance.yahoo.com/q?s=HON))
           providing on-site leadership in process development and optimization
-          from pilot to demonstration-scale operations.  He also led various
+          from pilot to demonstration-scale operations. He also led various
           material development initiatives in pilot to commercial scale testing
           of catalyst and novel separation materials.
 
@@ -156,55 +157,66 @@ groups:
 
       - name: William Kroll
         description: |
-          Bill is the Executive Chairman, and former CEO of
-          Matheson TriGas, a global leader in the gas industry. During his
-          executive tenure at Matheson, Bill oversaw global businesses for
-          industrial, medical, specialty and electronic gases, gas handling
-          equipment, high performance purification systems, and engineering and
-          gas management services. Prior to Matheson, he served as Executive
-          Vice President of Business Development at Emcore, where he was
-          instrumental in taking that company public. Bill also serves as a
-          lead Director at Taiyo Nippon Sanso Corporation Group, the largest
+          Bill is the Executive Chairman, and former CEO of [Matheson TriGas](
+          http://www.mathesongas.com/), a global leader in the gas industry.
+          During his executive tenure at Matheson, Bill oversaw global
+          businesses for industrial, medical, specialty and electronic gases,
+          gas handling equipment, high performance purification systems, and
+          engineering and gas management services. Prior to Matheson, he served
+          as Executive Vice President of Business Development at
+          [Emcore](http://www.emcore.com/), where he was instrumental in taking
+          that company public. Bill also serves as a lead director at [Taiyo
+          Nippon Sanso Corporation Group](https://www.tn-sanso.co.jp/en/) (TYO:
+          [4091](https://www.google.com/finance?cid=672916)), the largest
           Japanese supplier of industrial gases and one of the five largest
           suppliers of industrial, specialty, and electronic gases in the
           world.
 
       - name: Jay Collins
         description: |
-          Jay served as the CEO and President of Oceaneering
-          International (NYSE: Oll), a global oilfield provider of robotics,
-          engineered services and products primarily to the offshore and gas
-          industry, and continues to serve as a director. In addition to this,
-          Jay is a director of Murphy Oil Corporation (NYSE: MUR), Nautronix
-          Group, Pason Systems (TSE: PSI), the American Productivity & Quality
-          Center, Petroleum Equipment Suppliers Association. He also serves on
-          the Rice University Board of Trustees and as Chairman of the Council
-          of Overseers of the Jones Graduate School of Business.
+          Jay served as the CEO and President of [Oceaneering
+          International](http://www.oceaneering.com/) (NYSE:
+          [OII](http://finance.yahoo.com/q?s=OII)), a global oilfield provider
+          of robotics, engineered services and products primarily to the
+          offshore and gas industry, and continues to serve as a director. In
+          addition to this, Jay is a director of [Murphy Oil Corporation](
+          http://www.murphyoilcorp.com/) (NYSE:
+          [MUR](http://finance.yahoo.com/q?s=MUR)), [Nautronix Group](
+          http://www.nautronix.com/), [Pason Systems](http://www.pasonusa.com/)
+          (TSE: [PSI](http://finance.yahoo.com/q?d=t&s=PSI.TO)),
+          the [American Productivity and Quality Center](http://www.apqc.org/), and
+          [Petroleum Equipment Suppliers Association](http://pesa.org/). He
+          also serves on the Rice University board of trustees, and as chairman
+          of the council of overseers of the Jones graduate school of business.
 
       - name: Luka Erceg
         description: |
-          Luka was founder, President and CEO of Simbol Materials
-          where he led the company through $75+ million in capital raised, an
-          international marketing agreement, permitting of two commercial
-          chemical plants in California, and other key activities. He brings
-          14+ years of transaction advisory experience predominantly in the
-          energy and energy technology sectors. Prior to founding Simbol
-          Materials, Luka was engaged in private transactions related to oil
-          and gas field telemetry, petroleum marketing and coal gasification.
-          Earlier in his career, he was Director of Strategic Development for
-          CenterPoint Energy (NYSE:CNP) where he completed acquisitions of an
-          oil and gas field telemetry business, intellectual property
-          licensing, and pipeline and gas gathering system transactions.
+          Luka was founder, President, and CEO of [Simbol
+          Materials](http://www.simbolmaterials.com/), where he led the company
+          through $75+ million in capital raised, an international marketing
+          agreement, permitting of two commercial chemical plants in
+          California, and other key activities. He brings 14+ years of
+          transaction advisory experience predominantly in the energy and
+          energy technology sectors. Prior to founding Simbol Materials, Luka
+          was engaged in private transactions related to oil and gas field
+          telemetry, petroleum marketing and coal gasification.  Earlier in his
+          career, he was Director of Strategic Development for [CenterPoint
+          Energy](http://www.centerpointenergy.com/home)
+          (NYSE: [CNP](http://finance.yahoo.com/q?s=CNP)) where he completed
+          acquisitions of an oil and gas field telemetry business, intellectual
+          property licensing, and pipeline and gas gathering system
+          transactions.
 
       - name: Jack Gill
         description: |
           At 33, Jack founded his first business, which pioneered
           micro-processor-based scientific instruments and computers for
           chromatography laboratories. In 1972, Jack merged the company into
-          Spectra Physics, a manufacturer of commercial, scientific and
-          industrial lasers. Jack stayed on with Spectra for nine years as an
-          Executive Vice President, managing a five-division group of laser and
-          instrument companies. In 1981, Jack founded Vanguard Ventures, a
+          [Spectra Physics](http://www.spectra-physics.com/), a manufacturer of
+          commercial, scientific and industrial lasers. Jack stayed on with
+          Spectra for nine years as an Executive Vice President, managing a
+          five-division group of laser and instrument companies. In 1981, Jack
+          founded [Vanguard Ventures](http://www.vanguardventures.com/), a
           high-tech venture capital firm in Palo Alto, California. Jack worked
           as a managing general partner of Vanguard Ventures for 20 years.
           Vanguard’s first five funds, totaling $155 million in capital,
@@ -226,7 +238,7 @@ groups:
           leading global technology licensing organizations as well as
           consulting engagements for industry, academia, and governments
           spanning the energy, chemicals, and materials industries. As head of
-          the ventures group at a major corporation he launched a venture
+          the ventures group at a major corporation, he launched a venture
           company in hydrogen generation and launched biofuels initiatives at
           two corporations. He has led development of multi-billion-dollar
           projects, provided expert opinions in intellectual property issues,
@@ -236,21 +248,25 @@ groups:
       - name: Christopher Wilmer
         position: Computational, Co-founder
         description: |
-          Chris is currently an Assistant Professor in the
-          Department of Chemical & Petroleum Engineering at the University of
-          Pittsburgh, having earned his Ph.D. in Chemical and Biological
-          Engineering from Northwestern University. An expert in advanced
-          computational modeling, Chris was named to the “30 under 30 in
-          Energy” list at Forbes Magazine.  He was additionally honored as a
-          “top solver” by InnoCentive, being amongst the top 16 individuals out
-          of over 200,000 globally in the submission of innovative solutions to
+          Chris is currently an [assistant professor](http://wilmerlab.com/) in
+          the Department of Chemical & Petroleum Engineering at the University of
+          Pittsburgh, having earned his Ph.D. in
+          Chemical and Biological Engineering from Northwestern University. An
+          expert in advanced computational modeling, Chris was named to the
+          ["30 under 30 in Energy" list at Forbes
+          Magazine](http://www.forbes.com/pictures/mef45jdde/chris-wilmer-29/).
+          He was additionally honored as a [“top solver” by
+          InnoCentive](http://www.innocentive.com/blog/2010/10/28/im-a-solver-chris-wilmer/),
+          being amongst the top 16 individuals out of over 200,000 globally in
+          the submission of innovative solutions to
           real-world challenges.
 
       - name: Randall Snurr
         position: Computational
         description: |
-          Randy Snurr is a Professor of Chemical and Biological
-          Engineering at Northwestern University. His research interests
+          Randy Snurr is a [professor](http://www.iec.northwestern.edu/) of
+          Chemical and Biological Engineering at Northwestern
+          University. His research interests
           include development of new nanoporous materials for energy and
           environmental applications, molecular simulation, adsorption
           separations, diffusion in nanoporous materials, and catalysis.
@@ -264,16 +280,17 @@ groups:
       - name: Joseph Hupp
         position: Chemistry
         description: |
-          Joe is a Professor of Chemistry at Northwestern
-          University and also holds an appointment as a Senior Science Fellow
-          at Argonne National Laboratory in the Division of Materials Science
-          and in the Division of Chemical Sciences and Engineering. His
-          research centers on energy-relevant materials chemistry, including
-          chemical separations, chemical catalysis, and high-capacity storage
-          and release of molecular hydrogen, much of it in collaboration with
-          Professor Randall Snurr and his research team.  Joe serves as an
-          Associate Editor for the Journal of the American Chemical Society,
-          and has received multiple awards for his work. He has mentored 50
-          students to Ph.D. completion, advised roughly 70 postdoctoral
-          research fellows, and currently runs a lab of over two dozen
+          Joe is a [professor](http://chemgroups.northwestern.edu/hupp/) of Chemistry
+          at Northwestern University, and also holds
+          an appointment as a Senior Science Fellow at Argonne National
+          Laboratory in the Division of Materials Science and in the Division
+          of Chemical Sciences and Engineering. His research centers on
+          energy-relevant materials chemistry, including chemical separations,
+          chemical catalysis, and high-capacity storage and release of
+          molecular hydrogen, much of it in collaboration with Professor
+          Randall Snurr and his research team. Joe serves as an Associate
+          Editor for the Journal of the American Chemical Society, and has
+          received multiple awards for his work. He has mentored 50 students to
+          Ph.D. completion, advised roughly 70 postdoctoral research fellows,
+          and currently runs a lab of over two dozen
           researchers.
