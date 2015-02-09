@@ -22,6 +22,16 @@ $light-purple: #524cae;
   background: rgba($color, $opacity);
 }
 
+::selection {
+  background: $light-purple;
+  color: $white;
+}
+
+::-moz-selection {
+  background: $light-purple;
+  color: $white;
+}
+
 body,
 html {
   color: $black;
