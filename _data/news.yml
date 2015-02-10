@@ -28,18 +28,19 @@
       alt: NuMat New Office
   description: NuMat is moving from the garden view to the top floor, expanding
       to a new 6,000 sq. ft. office in the Illinois Science and Technology Park.
-      The new space adds a second lab, a dedicated machine shop, and two
-      conference rooms to the office.
+      The new space adds a state of the art analytical lab, an expanded lab for
+      material development, a dedicated machine shop, and dedicated space for
+      computational modeling initiatives.
 
-- title: NuMat awarded NSF SBIR Grant
+- title: NuMat awarded Phase II Grant
   date: September 2014
   images:
     - file: nsf_logo.png
       height: 360
       alt: NSF Logo
       link: http://www.nsf.gov/
-  description: The National Science Foundation awarded NuMat a grant for high
-      performance MOF-based storage and delivery applications.
+  description: The National Science Foundation awarded NuMat a Phase II grant
+      for high-performance MOF-based gas delivery systems.
 
 - title: NuMat Presents at NIST Workshop
   date: July 2014
