@@ -2,7 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var lazy, lazyBackground, pad, $hb, $nb, masonryOpts;
+    var lazy, lazyBackground, pad, $hb, $nb, masonryOpts, detectIE;
 
     // Move headers on scroll. Disable mobile because adding #skrollr-body messes
     // with the navbar colorchage logic below
@@ -12,18 +12,39 @@ $(document).ready(function () {
         });
     }
 
+    // From http://stackoverflow.com/questions/19999388/jquery-check-if-user-is-using-ie
+    detectIE = function () {
+        var ua, rv, msie, trident, edge;
+        ua = window.navigator.userAgent;
+        msie = ua.indexOf('MSIE ');
+        if (msie > 0) {
+            return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        }
+        trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+            rv = ua.indexOf('rv:');
+            return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        }
+        edge = ua.indexOf('Edge/');
+        if (edge > 0) {
+           return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        }
+        return false;
+    };
+
     // Open all non-local links in new tab
     // This allows us to use markdown syntax without worrying about target="_blank"
     $('a[href^=http]').attr('target', '_blank');
 
     // Navbar change between transparent and white after initial image (if exists)
+    // Disable for IE, as it doesn't support image filters
     $hb = $('.header-background');
     $nb = $('.navbar');
-    if (!$hb.length && $nb.hasClass('navbar-transparent')) {
+    if ((!$hb.length || detectIE()) && $nb.hasClass('navbar-transparent')) {
         $nb.removeClass('navbar-transparent').addClass('navbar-white');
     }
     $(document).on('scroll', function () {
-        if ($hb.length) {
+        if ($hb.length && !detectIE()) {
             if ($(document).scrollTop() > $hb.height() && $nb.hasClass('navbar-transparent')) {
                 $nb.removeClass('navbar-transparent').addClass('navbar-white');
             } else if ($(document).scrollTop() < $hb.height() && $nb.hasClass('navbar-white')) {
