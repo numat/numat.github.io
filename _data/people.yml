@@ -4,8 +4,8 @@ header:
   background: whiteboard.jpg
   description: |
     We are a team of inventors with expertise in computational
-    modeling, material design and synthesis, material scale-up and adsorption
-    system design – all focused on designing products and systems that
+    modeling, material design, synthesis, scale-up, and adsorption
+    systems – all focused on designing products and systems that
     critically depend on material performance.
 
 groups:
@@ -20,15 +20,15 @@ groups:
         description: |
           Ben is the CEO of NuMat and a member of the board of
           directors. In this role, he is responsible for managing the rapid
-          scale-up of the Company’s application platform and all other aspects
+          scale-up of NuMat’s application platform and all other aspects
           of the business. An engineer by training, he also received graduate
           degrees in law and business at Northwestern University. Prior to
           NuMat, Ben was an operations professional at a global private equity
           and venture capital firm with over $30 B in invested capital. In this
-          capacity, he led board-level strategy, operations and human capital
-          initiatives at material-enabled technology companies to drive
+          capacity, he led board-level strategy, operations, and human capital
+          initiatives at material technology companies to drive
           enterprise growth. He has also worked as a management consultant at a
-          top-tier firm and as an engineer in the aerodefense industry.
+          top-tier firm and as an engineer in the aerospace defense industry.
 
       - name: Omar Farha
         position: Chief Science Officer, Co-founder
@@ -38,8 +38,8 @@ groups:
           Omar is the CSO of NuMat and a member of the board of
           directors. In this role, he oversees material development strategies
           and key technical initiatives. Omar is a thought leader in the field
-          of ultra-high performing porous materials for gas storage,
-          separation, catalysis and sensing. He has over 130 peer-reviewed
+          of ultra-high-performing porous materials for gas storage,
+          separation, catalysis, and sensing. He has over 130 peer-reviewed
           publications and was recognized as a “top 1%” most cited chemist in
           the world by Thomas Reuters. His research accomplishments and
           inventions have been highlighted by numerous organizations including
@@ -54,24 +54,23 @@ groups:
         email: pat@numat-tech.com
         github: patrickfuller
         description: |
-          Patrick leads product design and software development
-          efforts, ensuring the rapid development of material-enabled systems.
-          He also is responsible for key intellectual property and strategic
-          partner technical initiatives. A chemical engineer by training,
-          Patrick has received multiple design awards for the development of
-          novel gas purification systems. He is also an expert in computational
-          modeling, high performance computing, and specializes in rapidly
-          designing high performing materials. Pat has created software
-          packages used by Fortune 500 companies and top-tier research
-          institutions, including high-throughput monte-carlo simulators and
-          user interfaces for scientific applications.
+          Patrick leads process control, computational modeling, and product
+          design at NuMat. He also is responsible for key intellectual property
+          and strategic partner technical initiatives, and has several patents
+          and publications to his name. With degrees in both chemical
+          engineering and finance, Patrick brings a unique combination of
+          skills to team. He has received design awards for the development of
+          novel gas purification systems, and is active in business
+          development. He has developed expertise in computer systems through a
+          lifelong passion for automation, and has created software used by
+          multiple Fortune 500 companies and research institutions.
 
       - name: Mitch Weston
         position: Chemistry
         linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
         email: mitch@numat-tech.com
         description: |
-          Mitch is an expert in the rational design, synthesis and
+          Mitch is an expert in the rational design, synthesis, and
           characterization of porous materials. At NuMat, he oversees the
           design and synthesis of novel material structures and their
           integration into adsorption systems. As a synthetic chemist, his
@@ -84,73 +83,71 @@ groups:
         linkedin: http://www.linkedin.com/pub/michael-wolfenson/39/462/824
         email: wolf@numat-tech.com
         description: |
-          At NuMat Michael supports the identification of new
-          market opportunities and the development and execution of
-          go-to-market strategies. Prior to this, he was a management
-          consultant at Booz & Company, a premier consulting firm. In this
-          role, he worked with Fortune 500 clients in leading key innovation,
-          product, and operational change initiatives. He previously worked as
-          an engineer in the transportation industry.
+          At NuMat, Michael supports the identification of new market
+          opportunities and the execution of go-to-market strategies.
+          Previously, he was a management consultant at the premier consulting
+          firm Booz & Company. In this role, he worked with Fortune 500 clients
+          in leading key innovation, product, and operational change
+          initiatives. He previously worked as an engineer in the
+          transportation industry.
 
       - name: Paul Siu
         position: Chemistry
         linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
         email: paul@numat-tech.com
         description: |
-          Paul is an expert in the design of ultra-high performing
-          porous materials. He brings years of experience in diverse synthetic
-          chemistry in various areas of material chemistry, including
-          flame-retardants and plastics. At NuMat, he oversees the design and
-          synthesis of novel materials. Prior to this, he was a chemist in the
-          pharmaceutical industry focused on drug discovery and also worked as
-          a chemist a global polymer company focused on catalyst discovery.
-          Paul also served as member of the Canadian National Reserve.
+          Paul is an expert in the design of ultra-high-performing porous
+          materials. He brings years of synthetic chemistry experience in
+          various applications, including flame-retardants and plastics. At
+          NuMat, he oversees the design and synthesis of novel materials. Prior
+          to this, he was a chemist in the pharmaceutical industry focused on
+          drug discovery, and also worked as a chemist in a global polymer
+          company focused on catalyst discovery.  Paul also served as member of
+          the Canadian National Reserve.
 
       - name: John Siegfried
         position: Engineering
         email: john@numat-tech.com
         description: |
-          John leads system design and separation technology
-          development at NuMat. In addition to this he supports key production
+          John leads process engineering and separation technology
+          development at NuMat. In addition to this, he supports key production
           and scale-up activities. Prior to NuMat, John was a chemical
           engineer and a lead technical advisor at [UOP (a Honeywell Company)](
-          http://www.uop.com/) (NYSE: [HON](http://finance.yahoo.com/q?s=HON))
+          http://www.uop.com/) (NYSE: [HON](http://finance.yahoo.com/q?s=HON)),
           providing on-site leadership in process development and optimization
-          from pilot to demonstration-scale operations. He also led various
-          material development initiatives in pilot to commercial scale testing
-          of catalyst and novel separation materials.
+          - from pilot to industrial-scale operations. He also led various
+          material development initiatives for catalysts and sorbents.
 
       - name: William Hoover
         position: Chemistry
         email: bill@numat-tech.com
         description: |
-          Bill supports the synthesis and scale-up of novel porous
-          materials at NuMat. He also focuses on new production capabilities,
-          developing innovative methods to scale and automate porous sorbent
-          synthesis. Prior to this, he worked at the FDA developing analytical
+          Bill supports the synthesis and scale-up of novel porous materials at
+          NuMat. He also focuses on new production capabilities, developing
+          innovative methods to scale and automate porous sorbent synthesis.
+          Prior to this, he worked at the FDA, where he developed analytical
           procedures for the rapid detection of drug contamination.
 
       - name: Rachelle Richardson
         position: Chemistry
         email: rachelle@numat-tech.com
         description: |
-          Rachelle supports the design and synthesis of novel
-          porous materials at NuMat. Prior to NuMat, she worked at the
-          Université Joseph Fourier in Grenoble, France, researching a
-          derivative of a plant starch for use as a potential anti-malarial
-          drug. Prior to this, she worked as a research assistant at Xavier
-          University researching anti-cancer nanotherapeutic drugs.
+          Rachelle supports the design and synthesis of novel porous materials
+          at NuMat. Previously, she worked at the Université Joseph Fourier in
+          Grenoble, France, researching a derivative of a plant starch for use
+          as a potential anti-malarial drug. She also worked as a research
+          assistant at Xavier University, where she researched anti-cancer
+          nano-therapeutic drugs.
 
       - name: David Cho
         position: Chemistry
         email: david@numat-tech.com
         description: |
-          David supports the synthetic effort of novel porous
-          materials at NuMat. Prior to joining the team, David carried out
-          undergraduate research, where he developed and investigated nucleic
-          acid-metal organic framework nanoparticle conjugates as well as
-          carried out catalytic reactions on surfaces utilizing lithography
-          tools.
+          David supports the synthesis of novel porous materials at NuMat.
+          Prior to joining the team, David carried out undergraduate research,
+          where he developed and investigated nucleic-acid
+          metal-organic-framework nanoparticle conjugates, as well as
+          characterization of surface catalysis utilizing lithography tools.
 
   - name: Board
     members:
@@ -160,9 +157,9 @@ groups:
           Bill is the Executive Chairman, and former CEO of [Matheson TriGas](
           http://www.mathesongas.com/), a global leader in the gas industry.
           During his executive tenure at Matheson, Bill oversaw global
-          businesses for industrial, medical, specialty and electronic gases,
-          gas handling equipment, high performance purification systems, and
-          engineering and gas management services. Prior to Matheson, he served
+          businesses for industrial, medical, specialty, and electronic gases,
+          as well as gas handling equipment, high performance purification systems,
+          engineering, and gas management services. Prior to Matheson, he served
           as Executive Vice President of Business Development at
           [Emcore](http://www.emcore.com/), where he was instrumental in taking
           that company public. Bill also serves as a lead director at [Taiyo
@@ -198,7 +195,7 @@ groups:
           transaction advisory experience predominantly in the energy and
           energy technology sectors. Prior to founding Simbol Materials, Luka
           was engaged in private transactions related to oil and gas field
-          telemetry, petroleum marketing and coal gasification.  Earlier in his
+          telemetry, petroleum marketing and coal gasification. Earlier in his
           career, he was Director of Strategic Development for [CenterPoint
           Energy](http://www.centerpointenergy.com/home)
           (NYSE: [CNP](http://finance.yahoo.com/q?s=CNP)) where he completed
@@ -209,7 +206,7 @@ groups:
       - name: Jack Gill
         description: |
           At 33, Jack founded his first business, which pioneered
-          micro-processor-based scientific instruments and computers for
+          microprocessor-based scientific instruments and computers for
           chromatography laboratories. In 1972, Jack merged the company into
           [Spectra Physics](http://www.spectra-physics.com/), a manufacturer of
           commercial, scientific and industrial lasers. Jack stayed on with
@@ -221,7 +218,7 @@ groups:
           Vanguard’s first five funds, totaling $155 million in capital,
           returned over $1 billion to investors, ranking it among the top VC
           returns. Since 2000, Jack has been teaching Entrepreneur Courses at
-          Harvard, MIT, Rice, UC Davis, Indiana University and University
+          Harvard, MIT, Rice, UC Davis, Indiana University, and University
           College London.
 
   - name: Advisors
@@ -234,7 +231,7 @@ groups:
           Penning creates and builds science-based businesses. He guides
           companies in business strategy, organizational development, and work
           processes. His experience includes senior executive positions at two
-          leading global technology licensing organizations as well as
+          leading global technology licensing organizations, as well as
           consulting engagements for industry, academia, and governments
           spanning the energy, chemicals, and materials industries. As head of
           the ventures group at a major corporation, he launched a venture
@@ -269,8 +266,8 @@ groups:
           include development of new nanoporous materials for energy and
           environmental applications, molecular simulation, adsorption
           separations, diffusion in nanoporous materials, and catalysis.
-          Professor Snurr is a Senior Editor of the Journal of Physical
-          Chemistry and has served on the editorial boards of Adsorption,
+          Professor Snurr is a senior editor of the Journal of Physical
+          Chemistry, and has served on the editorial boards of Adsorption,
           Adsorption Science and Technology, Chemistry of Materials, Current
           Nanoscience, Journal of Molecular Catalysis A, and Catalysis
           Communications. His work has been recognized with multiple awards,
@@ -279,17 +276,16 @@ groups:
       - name: Joseph Hupp
         position: Chemistry
         description: |
-          Joe is a [professor](http://chemgroups.northwestern.edu/hupp/) of Chemistry
-          at Northwestern University, and also holds
-          an appointment as a Senior Science Fellow at Argonne National
-          Laboratory in the Division of Materials Science and in the Division
-          of Chemical Sciences and Engineering. His research centers on
-          energy-relevant materials chemistry, including chemical separations,
-          chemical catalysis, and high-capacity storage and release of
-          molecular hydrogen, much of it in collaboration with Professor
-          Randall Snurr and his research team. Joe serves as an Associate
-          Editor for the Journal of the American Chemical Society, and has
-          received multiple awards for his work. He has mentored 50 students to
-          Ph.D. completion, advised roughly 70 postdoctoral research fellows,
-          and currently runs a lab of over two dozen
-          researchers.
+          Joe is a [professor](http://chemgroups.northwestern.edu/hupp/) of
+          Chemistry at Northwestern University, and also holds an appointment
+          as a Senior Science Fellow at Argonne National Laboratory in the
+          Division of Materials Science and in the Division of Chemical
+          Sciences and Engineering. His research centers on energy-relevant
+          materials chemistry, including chemical separations, chemical
+          catalysis, and high-capacity storage and release of molecular
+          hydrogen, much of it in collaboration with Professor Randall Snurr
+          and his research team. Joe serves as an Associate Editor for the
+          Journal of the American Chemical Society, and has received multiple
+          awards for his work. He has mentored 50 students to Ph.D. completion,
+          advised roughly 70 postdoctoral research fellows, and currently runs
+          a lab of over two dozen researchers.
