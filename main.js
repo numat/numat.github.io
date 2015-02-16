@@ -27,7 +27,7 @@ $(document).ready(function () {
         }
         edge = ua.indexOf('Edge/');
         if (edge > 0) {
-           return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
         }
         return false;
     };
@@ -75,6 +75,7 @@ $(document).ready(function () {
 
     $('.post-img, .tech-img').each(lazy);
     $('.person').find('img').each(lazy);
+    $('.person-detail').find('img').each(lazy);
     $('.header-background').each(lazyBackground);
 
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
@@ -97,16 +98,10 @@ $(document).ready(function () {
 
     // Handles interactivity with people page
     $('.person').click(function () {
-        var speed, id, selected, $img, self = this;
+        var speed, id, selected, self = this;
         speed = 250;
         id = $(this).attr('id');
         selected = $(this).data('selected');
-
-        // Lazy load images on click
-        $img = $('#' + id + '-detail img');
-        if ($img.attr('src').substring(0, 4) === 'data') {
-            $img.each(lazy);
-        }
 
         // Slide divs, change colors, and keep track with a "selected" data property
         $('.person').data('selected', false);
