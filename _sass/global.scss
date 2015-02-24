@@ -9,6 +9,18 @@ $white: #fff;
 $purple: #383294;
 $light-purple: #524cae;
 
+@mixin retina($ratio: 1.5) {
+  $dpi: $ratio * 96;
+  $opera-ratio: $ratio * 100;
+
+  @media only screen and (-webkit-min-device-pixel-ratio: #{$ratio}),
+         only screen and (-o-min-device-pixel-ratio: '#{$opera-ratio}/100'),
+         only screen and (min-resolution: #{$dpi}dpi),
+         only screen and (min-resolution: #{$ratio}dppx) {
+    @content;
+  }
+}
+
 @mixin filter($filter) {
   -webkit-filter: $filter;
   -moz-filter: $filter;
@@ -78,13 +90,17 @@ p,
 li {
   font-family: $font-stack;
   font-size: 12px;
-  font-weight: $thin;
+  font-weight: $normal;
   text-align: justify;
   @media (min-width: 480px) {
     font-size: 14px;
   }
   @media (min-width: 992px) {
-      font-size: 18px;
+    font-size: 18px;
+  }
+
+  @include retina {
+    font-weight: $thin;
   }
 }
 
