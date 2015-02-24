@@ -14,8 +14,9 @@
 .tech-img {
   @extend %lazy;
   height: auto;
+  max-width: 500px;
   width: 250px;
   @media (min-width: 768px) {
-    width: 500px;
+    width: 100%;
   }
 }
