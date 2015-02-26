@@ -14,4 +14,4 @@ permalink: /internal/
    features for generating and charging structures.
  * [activation](/activation) - A web service for controlling multiple vessel
    temperatures simultaneously.
- * [camera](/camera) - A lab camera that will stream its video when plugged in.
+ * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
