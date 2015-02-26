@@ -149,6 +149,20 @@ groups:
           metal-organic-framework nanoparticle conjugates, as well as
           characterization of surface catalysis utilizing lithography tools.
 
+      - name: William Morris
+        position: Chemistry
+        email: william@numat-tech.com
+        description: |
+            William dedicates his time at NuMat to the synthesis of novel
+            porous frameworks for variety of gas adsorption applications. He
+            brings multiple years of experience to NuMat from his Ph.D. work in
+            the laboratory of Professor Omar Yaghi. During his Ph.D., he worked on
+            the synthesis, characterization, and postmodification of
+            metal-organic frameworks and zeolitic imidazolate frameworks.
+            Following his Ph.D., he spent two years at Northwestern, where he
+            developed skills in lithography, nanoparticle synthesis, and
+            DNA-mediated assembly.
+
   - name: Board
     members:
 
