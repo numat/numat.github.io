@@ -33,7 +33,7 @@ permalink: /technology/
            data-src="/img/technology/{{ item.image }}">
     </div>
     <div class="col-sm-5 {% cycle 'col-sm-pull-7', nil %} tech-content">
-      <p>{{ item.description }}</p>
+      <p>{{ item.description | markdownify }}</p>
     </div>
   </div>
 </div>
