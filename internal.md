@@ -15,3 +15,5 @@ permalink: /internal/
  * [activation](/activation) - A web service for controlling multiple vessel
    temperatures simultaneously.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
+ * [bath](/bath) - Web interface for VWR circulating bath.
+ * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
