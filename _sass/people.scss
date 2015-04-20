@@ -12,8 +12,8 @@
 }
 
 .person-detail {
+  border: 1px solid transparent;  // From http://stackoverflow.com/questions/1335461/jquery-slide-is-jumpy
   display: none;
-
   margin-bottom: 20px;
 
   div {
