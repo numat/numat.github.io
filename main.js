@@ -2,7 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var lazy, lazyBackground, pad, $hb, $nb, masonryOpts, detectIE;
+    var lazy, lazyBackground, pad, $hb, $nb, $masonry, detectIE;
 
     // Move headers on scroll. Disable mobile because adding #skrollr-body messes
     // with the navbar colorchage logic below
@@ -82,19 +82,19 @@ $(document).ready(function () {
     $('.entry-media').fitVids();
 
     // Cascading news articles
-    masonryOpts = {
-        itemSelector: '.post',
-        isFitWidth: true,
-        isAnimated: true,
-        animationOptions: {
-            duration: 2000,
-            easing: 'linear',
-            queue: false
-        }
-    };
-    $('.masonry').masonry(masonryOpts).imagesLoaded(function () {
-        $('.masonry').masonry(masonryOpts);
-    });
+    $masonry = $('.masonry');
+    if ($masonry.length) {
+        $masonry.masonry({
+            itemSelector: '.post',
+            isFitWidth: true,
+            isAnimated: true,
+            animationOptions: {
+                duration: 2000,
+                easing: 'linear',
+                queue: false
+            }
+        });
+    }
 
     // Handles interactivity with people page
     $('.person').click(function () {
