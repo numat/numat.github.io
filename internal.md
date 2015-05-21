@@ -15,6 +15,7 @@ permalink: /internal/
  * [activation](/activation) - A web service for controlling multiple vessel
    temperatures simultaneously.
  * [psa activation](/psa-activation) - A copy of activation for controlling sieve bed temperatures.
+ * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
  * [bath](/bath) - Web interface for VWR circulating bath.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
