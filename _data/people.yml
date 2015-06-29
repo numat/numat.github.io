@@ -139,16 +139,6 @@ groups:
           assistant at Xavier University, where she researched anti-cancer
           nano-therapeutic drugs.
 
-      - name: David Cho
-        position: Chemistry
-        email: david@numat-tech.com
-        description: |
-          David supports the synthesis of novel porous materials at NuMat.
-          Prior to joining the team, David carried out undergraduate research,
-          where he developed and investigated nucleic-acid
-          metal-organic-framework nanoparticle conjugates, as well as
-          characterization of surface catalysis utilizing lithography tools.
-
       - name: William Morris
         position: Chemistry
         email: william@numat-tech.com
