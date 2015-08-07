@@ -153,6 +153,16 @@ groups:
             developed skills in lithography, nanoparticle synthesis, and
             DNA-mediated assembly.
 
+      - name: Stephanie Rodriguez
+        position: Chemistry
+        email: stephanie@numat-tech.com
+        description: |
+            Stephanie supports the synthesis and characterization of novel porous
+            materials at NuMat. Prior to joining the team, Stephanie carried out
+            undergraduate research, where she compared metabolic enzymes from
+            organisms undergoing harsh conditions such as starvation. She also
+            discussed important topics in chemistry on a journaling web-log.
+
   - name: Board
     members:
 
