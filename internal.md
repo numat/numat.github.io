@@ -12,10 +12,10 @@ permalink: /internal/
    interface.
  * [crystal](/crystal) - An online MOF viewer and editor with specialized
    features for generating and charging structures.
- * [activation](/activation) - A web service for controlling multiple vessel
-   temperatures simultaneously.
- * [psa activation](/psa-activation) - A copy of activation for controlling sieve bed temperatures.
+ * [temperatures](/temperatures) - A web service for controlling multiple vessel temperatures simultaneously.
+ * [temperatures-2](/temperatures-2) - A copy of *temperatures*.
+ * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
+ * [activation](/activation) - Activates cylinders by controlling on the temperature distribution.
  * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
- * [bath](/bath) - Web interface for VWR circulating bath.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
