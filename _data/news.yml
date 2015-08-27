@@ -5,8 +5,9 @@
       height: 360
       alt: DOD Logo
       link: http://www.defense.gov/
-  description: NuMat is pleased to announce a new contract to support the
-      development and scale-up of next generation filtration and catalysis materials.
+  description: |
+      NuMat is pleased to announce a new contract to support the
+      production of next-generation filtration and catalysis materials.
 
 - title: NuMat awarded contract from the U.S. Army
   date: August 2015
@@ -15,9 +16,10 @@
       height: 131
       alt: US Army Logo
       link: http://www.army.mil/
-  description: NuMat is pleased to announce a new partnership with the U.S. Army
-      as a technology provider of choice. We look forward to supporting the development
-      and scale-up of next generation solutions for the defense sector.
+  description: |
+      NuMat is partnering with the U.S. Army as a technology provider of
+      choice. We look forward to supporting the development of next-generation
+      solutions for the defense sector.
 
 - title: Bill Noglows, Executive Chairman, Cabot Microelelectronics, joins advisory board
   date: August 2015
@@ -25,10 +27,11 @@
     - file: bill_noglows_news.jpg
       height: 270
       alt: Bill Noglows
-  description: NuMat is pleased to announce the appointment of Bill Noglows to its
-      Advisory Board. Mr. Noglows is the Executive Chairman of Cabot Microelectronics,
-      a publicly-traded, market leading material technology provider to the semiconductor
-      industry.
+  description: |
+      NuMat would like to welcome Bill Noglows to its advisory board.
+      Mr. Noglows is the Executive Chairman of Cabot Microelectronics
+      (NYSE: [CCMP](http://finance.yahoo.com/q?s=CCMP)), a market-leading material
+      technology provider to the semiconductor industry.
 
 - title: Patagonia recognizes NuMat as the “Future of Energy”
   date: June 2015
