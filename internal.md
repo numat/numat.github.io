@@ -16,6 +16,7 @@ permalink: /internal/
  * [temperatures-2](/temperatures-2) - A copy of *temperatures*.
  * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
  * [activation](/activation) - Activates cylinders by controlling on the temperature distribution.
+ * [pressures](/pressures) - Reads and logs pressures for cylinder leak testing.
  * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
