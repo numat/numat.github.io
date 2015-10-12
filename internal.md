@@ -1,11 +1,10 @@
 ---
 title: Internal | NuMat
 layout: header
+header: Internal
 background: switchboard_operators.jpg
 permalink: /internal/
 ---
-
-#Internal
 
  * [spotify](/spotify) - Play music in the office.
  * [notebook](/notebook) - A shared IPython notebook with a supercomputing
