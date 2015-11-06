@@ -16,7 +16,8 @@ permalink: /internal/
  * [temperatures-3](/temperatures-3) - A copy of *temperatures*.
  * [temperatures-4](/temperatures-4) - A copy of *temperatures*.
  * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
- * [activation](/activation) - Activates cylinders by controlling on the temperature distribution.
+ * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
+ * [pressure-vent](/pressure-vent) - Activates cylinders by inert gas cycling and heating.
  * [decomposition](/decomposition) - Monitors pressures and temperatures for long-term studies.
  * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
