@@ -1,13 +1,14 @@
-- title: Glenn Tom, co-founder of ATMI, joins NuMat as Product Leader and Technical Fellow
-  date: October 2015
+- title: John Jeanneret joins NuMat as Business Development Leader
+  date: November 2015
   images:
-    - file: glenn_tom_news.jpg
+    - file: john_jeanneret_news.jpg
       height: 270
-      alt: Glenn Tom
+      alt: John Jeanneret
   description: |
-      NuMat would like to welcome Glenn Tom to the team. Glenn co-founded ATMI,
-      where he previously served as its Chief Scientist, Vice President of Research
-      and Development, and Technical Fellow.
+      NuMat welcomes John Jeanneret to the team! Before NuMat, John was the
+      Business Director at UOP, where he was responsible for managing a
+      portfolio of 400 joint-development, manufacturing, and key venture
+      relationships.
 
 - title: NuMat awarded contract from Department of Defense
   date: August 2015
@@ -19,6 +20,17 @@
   description: |
       NuMat is pleased to announce a new contract to support the
       production of next-generation filtration and catalysis materials.
+
+- title: Glenn Tom, co-founder of ATMI, joins NuMat as Product Leader and Technical Fellow
+  date: October 2015
+  images:
+    - file: glenn_tom_news.jpg
+      height: 270
+      alt: Glenn Tom
+  description: |
+      NuMat would like to welcome Glenn Tom to the team. Glenn co-founded ATMI,
+      where he previously served as its Chief Scientist, Vice President of Research
+      and Development, and Technical Fellow.
 
 - title: NuMat awarded contract from the U.S. Army
   date: August 2015
