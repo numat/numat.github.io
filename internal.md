@@ -15,6 +15,7 @@ permalink: /internal/
  * [temperatures-2](/temperatures-2) - A copy of *temperatures*.
  * [temperatures-3](/temperatures-3) - A copy of *temperatures*.
  * [temperatures-4](/temperatures-4) - A copy of *temperatures*.
+ * [temperatures-5](/temperatures-5) - A copy of *temperatures*.
  * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
  * [pressure-vent](/pressure-vent) - Activates cylinders by inert gas cycling and heating.
