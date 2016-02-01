@@ -199,6 +199,20 @@ groups:
             undergoing harsh conditions such as starvation. She also discussed
             important topics in chemistry on a journaling web-log.
 
+      - name: Christopher Murdock
+        position: Chemistry
+        email: christopher@numat-tech.com
+        description: |
+            Chris brings several years of synthetic experience to NuMat from
+            his Ph.D. work at the University of Tennessee. Utilizing a variety
+            of organic and inorganic synthesis techniques, Chris discovered and
+            produced new metal-organic frameworks. He then spent time at
+            Georgia Tech applying his synthetic knowledge to modify
+            metal-organic frameworks for adsorption applications. In this role,
+            Chris was heavily involved in material integration into adsorption
+            systems. At NuMat, Chris is dedicated to the identification and
+            synthesis of novel porous frameworks.
+
   - name: Board
     members:
 
