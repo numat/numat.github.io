@@ -20,6 +20,7 @@ permalink: /internal/
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
  * [pressure-vent](/pressure-vent) - Activates cylinders by inert gas cycling and heating.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
+ * [pressures-2](/pressures-2) - Reads an array of pressures. A copy of *pressures*.
  * [decomposition](/decomposition) - Monitors pressures and temperatures for long-term studies.
  * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
