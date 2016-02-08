@@ -6,6 +6,6 @@ header: NuMat is growing. Grow with us.
 permalink: /jobs/
 ---
 
-###[Senior Chemist](/jobs/senior-chemist/)
+[Senior Chemist](/jobs/senior-chemist/)
 
-###[Chemist](/jobs/chemist/)
+[Chemist](/jobs/chemist/)
