@@ -5,7 +5,7 @@ layout: job
 permalink: /jobs/senior-chemist/
 ---
 
-##Job Description
+## Job Description
 
 As a senior chemist, you will drive material and product development. Your ideas
 and contributions will lead the direction of NuMat, permanently impacting the
@@ -13,7 +13,7 @@ future of the entire company. You will collaborate across functional and
 organizational lines, and will be working with all levels of individuals and
 cultures as a leader, mentor, and follower.
 
-##Roles and Responsibilities
+## Roles and Responsibilities
 
 * Material development - Lead the design and synthesis of novel MOFs for target
   applications of interest while being mindful of scalability.
@@ -34,7 +34,7 @@ cultures as a leader, mentor, and follower.
   patents.
 * Support grant writing and management.
 
-##Objectives and Milestones
+## Objectives and Milestones
 
 * Within 3 months:
   - You have an understanding of NuMat's technology and markets.
@@ -47,7 +47,7 @@ cultures as a leader, mentor, and follower.
   - You can creatively apply know-how in identifying new applications and
     material solutions.
 
-##About You
+## About You
 
 * You have a Ph.D. in chemistry or materials science.
 * You have strong coordination chemistry _or_ organometallic experience.
