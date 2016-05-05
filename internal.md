@@ -16,9 +16,9 @@ permalink: /internal/
  * [temperatures-3](/temperatures-3) - A copy of *temperatures*.
  * [temperatures-4](/temperatures-4) - A copy of *temperatures*.
  * [temperatures-5](/temperatures-5) - A copy of *temperatures*.
+ * [temperatures-6](/temperatures-6) - A copy of *temperatures*.
  * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
- * [pressure-vent](/pressure-vent) - Activates cylinders by inert gas cycling and heating.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
  * [pressures-2](/pressures-2) - Reads an array of pressures. A copy of *pressures*.
  * [decomposition](/decomposition) - Monitors pressures and temperatures for long-term studies.
