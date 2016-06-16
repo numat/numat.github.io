@@ -19,6 +19,7 @@ permalink: /internal/
  * [temperatures-6](/temperatures-6) - A copy of *temperatures*.
  * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
+ * [baking](/baking) - Controls two vacuum ovens for batch activation.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
  * [pressures-2](/pressures-2) - Reads an array of pressures. A copy of *pressures*.
  * [decomposition](/decomposition) - Monitors pressures and temperatures for long-term studies.
