@@ -133,19 +133,6 @@ groups:
           gas storage, heterogeneous catalysis, and chemical separation
           applications.
 
-      - name: Michael Wolfenson
-        position: Strategy
-        linkedin: http://www.linkedin.com/pub/michael-wolfenson/39/462/824
-        email: wolf@numat-tech.com
-        description: |
-          At NuMat, Michael supports the identification of new market
-          opportunities and the execution of go-to-market strategies.
-          Previously, he was a management consultant at the premier consulting
-          firm Booz & Company. In this role, he worked with Fortune 500 clients
-          in leading key innovation, product, and operational change
-          initiatives. He previously worked as an engineer in the
-          transportation industry.
-
       - name: Paul Siu
         position: Chemistry
         linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
@@ -231,6 +218,18 @@ groups:
             Chris was heavily involved in material integration into adsorption
             systems. At NuMat, Chris is dedicated to the identification and
             synthesis of novel porous frameworks.
+
+      - name: Michael Allan
+        position: Strategy
+        email: michael@numat-tech.com
+        description: |
+            Michael Allan supports marketing and go-to-market strategy at NuMat.
+            He previously worked as a strategy consultant at Bain & Company, where
+            he advised Global 500 companies in North America and Asia in the
+            energy, tech, and airline industries. He completed his MBA at the
+            Kellogg School of Management in 2016. While at Kellogg, Michael was
+            an MBA Associate at MATH Venture Partners, where he supported deal
+            evaluation and portfolio projects for early-stage investments.
 
   - name: Board
     members:
