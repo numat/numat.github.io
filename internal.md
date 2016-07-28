@@ -26,3 +26,4 @@ permalink: /internal/
  * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
+ * [production](/production) - View and edit the production batch record.
