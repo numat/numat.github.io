@@ -27,3 +27,5 @@ permalink: /internal/
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
  * [production](/production) - View and edit the production batch record.
+ * [safety](/safety) - Anonymously report safety concerns.
+ * [hr](/hr) - Anonymously report human resources concerns unrelated to safety.
