@@ -1,3 +1,16 @@
+- title: NuMat Selected for Energy Frontier Research Center
+  images:
+    - file: doe_efrc.png
+      height: 91
+      alt: DOE EFRC
+      link: http://www1.chem.umn.edu/icdc/
+  date: June 2016
+  description: |
+      NuMat has been selected along with Dow Chemical in a US DoE Energy
+      Frontier Research Center. We look forward to working with our partners in
+      commercializing next-generation catalyst technology for natural gas
+      conversion from alkanes to alcohols.
+
 - title: Four Startups Cleaning up the Department of Defense
   images:
     - file: dod_soldier.png
