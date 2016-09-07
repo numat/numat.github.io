@@ -1,3 +1,17 @@
+- title: NuMat to Present at MOF 2016
+  images:
+    - file: mof_2016.jpg
+      height: 88
+      alt: MOF 2016 Logo
+      link: http://www.mrs.org/mof-2016/
+  date: September 2016
+  description: |
+      On Wednesday and Thursday September 14-15, we are excited to present at
+      MOF 2016 in Long Beach, CA. Cofounder Omar Farha and Chemist Will Morris
+      will give a presentation titled "MOFs for Commercial Applications", and
+      CEO Ben Hernandez will discuss "Capabilities Driven Approach to MOF
+      Commercialization."
+
 - title: NuMat Technologies Earns ISO 9001 Certification
   images:
     - file: tuv_rheinland.png
@@ -10,6 +24,30 @@
       TÜV Rheinland of North America. The rigorous quality management system
       adopted by NuMat covers the production of MOFs and their
       integration into industrial, medical, and consumer products.
+
+- title: Four Startups Cleaning up the Department of Defense
+  images:
+    - file: dod_soldier.png
+      height: 198
+      alt: DOD Startups
+      link: http://cleanenergytrust.org/soldiers-and-solar/
+  date: July 2016
+  description: |
+      NuMat featured in article on how the Department of Defense is bringing in
+      innovation and entrepreneurship to reduce emissions and improve safety.
+
+- title: NuMat Selected for Energy Frontier Research Center
+  images:
+    - file: doe_efrc.png
+      height: 91
+      alt: DOE EFRC
+      link: http://www1.chem.umn.edu/icdc/
+  date: June 2016
+  description: |
+      NuMat has been selected along with Dow Chemical in a US DoE Energy
+      Frontier Research Center. We look forward to working with our partners in
+      commercializing next-generation catalyst technology for natural gas
+      conversion from alkanes to alcohols.
 
 - title: Jeff Klunzinger, Managing Director of the OS Fund, joins NuMat’s board
   images:
