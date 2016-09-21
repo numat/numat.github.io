@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     // Navbar change between transparent and white after initial image (if exists)
     // Disable for IE, as it doesn't support image filters
-    $hb = $('.header-background');
+    $hb = $('.header-background, .background-video');
     $nb = $('.navbar');
     if ((!$hb.length || detectIE()) && $nb.hasClass('navbar-transparent')) {
         $nb.removeClass('navbar-transparent').addClass('navbar-white');

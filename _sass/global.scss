@@ -29,6 +29,14 @@ $light-purple: #524cae;
   filter: $filter;
 }
 
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+
 @mixin transparent-background($color, $opacity: .8) {
   background: $color;
   background: rgba($color, $opacity);

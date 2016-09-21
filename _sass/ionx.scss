@@ -1,0 +1,23 @@
+.background-video {
+  @include transform(translateX(-50%) translateY(-50%));
+  background: url('/img/ionx/thumbnail.png') no-repeat;
+  background-size: cover;
+  height: auto;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  z-index: -100;
+}
+
+.ionx-features {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.ionx-learn-more {
+  margin-top: 20px;
+  text-align: center;
+}
