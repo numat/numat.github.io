@@ -16,9 +16,14 @@
   z-index: -1;
 }
 
+.ionx-features-container {
+  text-align: center;
+}
+
 .ionx-features {
-  margin-left: 35%;
+  display: inline-block;
   margin-top: 20px;
+  text-align: left;
 }
 
 .ionx-learn-more {
