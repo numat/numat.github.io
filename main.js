@@ -1,8 +1,9 @@
+/* jshint globalstrict: true, undef: true, unused: true */
 /*global $, document, window, navigator, skrollr, setTimeout*/
-"use strict";
+'use strict';
 
 $(document).ready(function () {
-    var lazy, lazyBackground, pad, $hb, $nb, $masonry, detectIE;
+    var lazy, lazyBackground, emailRegex, $hb, $nb, $masonry, detectIE;
 
     // Move headers on scroll. Disable mobile because adding #skrollr-body messes
     // with the navbar colorchage logic below
@@ -116,5 +117,36 @@ $(document).ready(function () {
             setTimeout(function () { $('#' + id + '-detail').slideDown(speed); }, speed);
         }
         $(this).data('selected', !selected);
+    });
+
+    // Handles email requests from the ION-X page
+    $('.ionx-learn-more-button').click(function () {
+        $.ajax({
+            type: 'POST',
+            url: 'http://internal.numat-tech.com:52300/',
+            data: $('.ionx-learn-more-input').val(),
+            success: function () {
+                $('.ionx-learn-more-input, .ionx-learn-more-button, .ionx-learn-more-failure').hide();
+                $('.ionx-learn-more-success').show();
+            },
+            error: function () {
+                $('.ionx-learn-more-input, .ionx-learn-more-button, .ionx-learn-more-success').hide();
+                $('.ionx-learn-more-failure').show();
+            }
+        });
+        $('.ionx-learn-more-input, .ionx-learn-more-button').prop('disabled', true);
+        $('.ionx-learn-more-success, .ionx-learn-more-failure').hide();
+    });
+    emailRegex = /\S+@\S+\.\S+/;
+    $('.ionx-learn-more-input').keyup(function (e) {
+        $('.ionx-learn-more-button').prop('disabled', !(emailRegex.test($(this).val())));
+        if (e && e.keyCode === 13) {
+            $('.ionx-learn-more-button').click();
+        }
+    });
+    $('.ionx-learn-more-reset').click(function () {
+        $('.ionx-learn-more-success, .ionx-learn-more-failure').hide();
+        $('.ionx-learn-more-input').prop('disabled', false).val('').show();
+        $('.ionx-learn-more-button').show();
     });
 });

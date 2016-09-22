@@ -1,3 +1,6 @@
+$disabled: rgba(128, 128, 128, .5);
+$ionx-purple: #6f4a9e;
+
 .background-video-container {
   height: 100%;
   overflow: hidden;
@@ -16,6 +19,68 @@
   z-index: -1;
 }
 
+.ionx-learn-more-container {
+  display: inline-block;
+  margin-top: 5%;
+  text-align: center;
+  width: 400px;
+}
+
+.ionx-learn-more-button,
+.ionx-learn-more-input {
+  border: 2px solid $white;
+  height: 50px;
+}
+
+.ionx-learn-more-input {
+  border-radius: 4px 0 0 4px;
+  border-right: 0;
+  font-size: 20px;
+
+  &:active,
+  &:focus,
+  &:hover {
+    border: 2px solid $white;
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+  }
+}
+
+.ionx-learn-more-button {
+  background: $ionx-purple;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+
+  &:disabled,
+  &[disabled]:hover {
+    background: $disabled;
+    border: 2px solid $white;
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+  }
+
+  &:hover {
+    border: 2px solid $white;
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.ionx-learn-more-success,
+.ionx-learn-more-failure {
+  border: 2px solid $white;
+  display: none;
+  font-size: 14px !important;
+  margin: 0 !important;
+  text-align: center;
+  text-shadow: none;
+  width: 400px;
+}
+
+.ionx-learn-more-reset:hover {
+  color: $ionx-purple !important;
+}
+
 .ionx-features-container {
   text-align: center;
 }
@@ -24,9 +89,4 @@
   display: inline-block;
   margin-top: 20px;
   text-align: left;
-}
-
-.ionx-learn-more {
-  margin-top: 20px;
-  text-align: center;
 }
