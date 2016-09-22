@@ -1,6 +1,10 @@
 $disabled: rgba(128, 128, 128, .5);
 $ionx-purple: #6f4a9e;
 
+.ionx-header {
+  z-index: -3;
+}
+
 .ionx-header,
 .ionx-header-description {
   min-width: 460px;
