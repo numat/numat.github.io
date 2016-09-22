@@ -1,22 +1,39 @@
 $disabled: rgba(128, 128, 128, .5);
 $ionx-purple: #6f4a9e;
 
+.ionx-header,
+.ionx-header-description {
+  min-width: 460px;
+}
+
 .background-video-container {
+  background: url('/img/ionx/thumbnail.png') no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 100%;
   overflow: hidden;
   position: absolute;
   width: 100%;
+  z-index: -2;
 }
 
 .background-video {
   @include transform(translateX(-50%) translateY(-50%));
-  background: url('/img/ionx/thumbnail.png') no-repeat cover;
   left: 50%;
   min-height: 100%;
   min-width: 100%;
   position: absolute;
   top: 50%;
   z-index: -1;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .background-video {
+    display: none;
+  }
 }
 
 .ionx-learn-more-container {
