@@ -40,13 +40,14 @@
 }
 
 .nav > li > a {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-decoration: none;
 
   @media (min-width: 992px) {
-    padding: 20px;
+    font-size: 20px;
+    padding: 20px 15px;
   }
 }
 
@@ -68,7 +69,13 @@
   height: 30px;
   margin-top: 10px;
   width: auto;
+
   @media (min-width: 992px) {
+    margin-top: 20px;
+  }
+
+  @media (min-width: 1200px) {
     height: 50px;
+    margin-top: 10px;
   }
 }

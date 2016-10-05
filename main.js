@@ -75,8 +75,8 @@ $(document).ready(function () {
     };
 
     $('.post-img, .tech-img').each(lazy);
-    $('.person').find('img').each(lazy);
-    $('.person-detail').find('img').each(lazy);
+    $('.person, .partner').find('img').each(lazy);
+    $('.person-detail, .partner-detail').find('img').each(lazy);
     $('.header-background').each(lazyBackground);
 
     // An obsessive-compulsive edit to get the youtube videos to scale nicely
@@ -99,7 +99,7 @@ $(document).ready(function () {
 
     // Handles interactivity with people page
     $('.person').click(function () {
-        var speed, id, selected, self = this;
+        var speed, id, selected;
         speed = 250;
         id = $(this).attr('id');
         selected = $(this).data('selected');
@@ -111,9 +111,31 @@ $(document).ready(function () {
         if (selected) {
             $('.person').find('img').fadeTo(speed, 1);
         } else {
-            $(self).find('img').removeClass('grayscale');
-            $(self).find('img').fadeTo(speed, 1);
+            $(this).find('img').removeClass('grayscale');
+            $(this).find('img').fadeTo(speed, 1);
             $('.person:not(#' + id + ')').find('img').fadeTo(speed, 0.75);
+            setTimeout(function () { $('#' + id + '-detail').slideDown(speed); }, speed);
+        }
+        $(this).data('selected', !selected);
+    });
+
+    // Handles interactivity with partners page
+    $('.partner').click(function () {
+        var speed, id, selected;
+        speed = 250;
+        id = $(this).attr('id');
+        selected = $(this).data('selected');
+
+        // Slide divs, change colors, and keep track with a "selected" data property
+        $('.partner').data('selected', false);
+        $('.partner').find('img').addClass('grayscale');
+        $('.partner-detail').slideUp(speed);
+        if (selected) {
+            $('.partner').find('img').fadeTo(speed, 1);
+        } else {
+            $(this).find('img').removeClass('grayscale');
+            $(this).find('img').fadeTo(speed, 1);
+            $('.partner:not(#' + id + ')').find('img').fadeTo(speed, 0.75);
             setTimeout(function () { $('#' + id + '-detail').slideDown(speed); }, speed);
         }
         $(this).data('selected', !selected);
