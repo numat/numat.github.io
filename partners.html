@@ -15,13 +15,17 @@ permalink: /partners/
 
 <div class="container">
 
-  <div class="row header-description">
+  <div class="row partner-description">
     <div class="col-xs-12">
-      <p>{{ site.data.partners.header.description }}</p>
+      <h2>{{ site.data.partners.description.title }}</h2>
+      <p>{{ site.data.partners.description.content }}</p>
     </div>
   </div>
 
   <div class="row partners">
+    <div class="col-xs-12 partner-title">
+      <h2>{{ site.data.partners.title }}</h2>
+    </div>
     {% assign currentOffset = -4 %}
     {% for member in site.data.partners.members %}
     <div class="col-xs-3 partner" id="{{member.name | downcase | replace:' ','-'}}">

@@ -2,40 +2,35 @@ header:
 
   title: Partnerships driving industry innovation.
   background: spherical_tank.jpg
-  description: |
+
+description:
+  title: Our Partnership Model
+  content: |
       NuMat provides a <i>total solutions</i> platform for integration of
       specialty adsorbents into commercial products. We collaborate with a
       wide range of partners across the full path to market.
 
+title: Selected Partnerships
 members:
 
   - name: The Linde Group
     image: linde.png
     description: |
-      In 2016, NuMat and Linde agreed to a global technology partnership
-      focused on the use of Metal-Organic Frameworks in the development of
-      next-generation separation and storage technologies.
+      Tech development partnership focused on next-generation gas storage and
+      separation technologies.
   - name: Department of Defense
     image: dod.png
     description: |
-      NuMat has been awarded a multiphase development contract focused on the
-      production of next-generation filtration and catalysis materials.
+      Development of innovative filtration and catalysis materials for defense.
   - name: Department of Energy
     image: doe.png
     description: |
-      NuMat is one of two industry partners selected for Inorganometallic
-      Catalyst Design Center, which is a DoE Energy Frontier Research Center.
-      ICDC is devoted to computationally guided discovery of a new class of
-      energy-science-relevant catalytic materials and the underlying
-      structure-function relationships that will guide further catalyst
-      discovery.
+      Computationally guided discovery of catalytic materials for energy
+      storage and production.
   - name: Northwestern University
     image: northwestern.png
     description: |
-      NuMat was originally founded at Northwestern, and retains a close
-      relationship to the university. Partnership includes both joint
-      development of new materials and licensing of Northwestern intellectual
-      property.
+      Joint development and commercialization of specialty materials.
 
 footer: |
   For partnership inquiries, please contact us at <a href="mailto:info@numat-tech.com">info@numat-tech.com</a>.

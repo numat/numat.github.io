@@ -9,9 +9,14 @@
   }
 }
 
+.partner-description,
 .partners,
 .partners-footer {
-  margin-top: 50px;
+  margin-top: 25px;
+}
+
+.partner-title {
+  padding: 0;
 }
 
 .partner-detail {
@@ -39,6 +44,7 @@
   padding: 5px;
 
   figure {
+    border: 1px solid $black;
     position: relative;
   }
 
@@ -58,8 +64,14 @@
     }
   }
 
-  &:hover figcaption {
-    @include transparent-background($purple);
+  &:hover {
+    figure {
+      border: 1px solid $purple;
+    }
+
+    figcaption {
+      @include transparent-background($purple);
+    }
   }
 }
 
