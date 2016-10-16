@@ -21,6 +21,14 @@ permalink: /partners/
       <p>{{ site.data.partners.description.content }}</p>
     </div>
   </div>
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <img class="partner-flow"
+           height="{{ site.data.partners.description.height }}"
+           src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           data-src="/img/partners/{{ site.data.partners.description.image }}" />
+    </div>
+  </div>
 
   <div class="row partners">
     <div class="col-xs-12 partner-title">
@@ -33,7 +41,7 @@ permalink: /partners/
         <img class="grayscale" alt="{{ member.name }}"
              src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
              data-src="/img/partners/{{ member.image }}" />
-        <figcaption>{{ member.name }}</figcaption>
+        <figcaption>{{ member.category }}</figcaption>
       </figure>
     </div>
     {% capture mod %}{{ forloop.index | modulo:4 }}{% endcapture %}
