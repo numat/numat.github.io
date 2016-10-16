@@ -38,7 +38,7 @@ class Server(BaseHTTPRequestHandler):
         s = smtplib.SMTP('smtp.gmail.com:587')
         s.starttls()
         s.login(from_address, password)
-        email = MIMEText("Received a request for ION-X information from '{}'."
+        email = MIMEText("Received a request for ION-X information from:\n{}"
                          .format(new_address))
         email['To'] = to_address
         email['From'] = from_address
