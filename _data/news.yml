@@ -1,4 +1,37 @@
-- title: NuMat sponsors IIT Conference in Taiwan
+- title: NuMat Recognized as One of "10 Start-ups to Watch"
+  images:
+    - file: ce_news.jpg
+      height: 228
+      alt: Start-ups to Watch
+      link: http://cen.acs.org/articles/94/i43/10-Start-Ups-Watch.html
+  date: November 2016
+  description: |
+      NuMat featured in Chemistry & Engineering News as a top ten scientific start-up.
+
+- title: NuMat's Product Launch Highlighted in Chemistry World
+  images:
+    - file: chemistry_world.jpg
+      height: 225
+      alt: Chemistry World
+      link: https://www.chemistryworld.com/news/mofs-offer-safer-toxic-gas-storage-/1017610.article
+  date: October 2016
+  description: |
+      Feature on NuMat's innovative sub-atmospheric storage system for hazardous
+      gases.
+
+- title: NuMat CSO Featured in Chemistry World Article "The Patriotic Chemist"
+  images:
+    - file: patriotic_omar.jpg
+      height: 240
+      alt: "The Patriotic Chemist"
+      link: https://www.chemistryworld.com/news/the-patriotic-chemist/1017604.article
+  date: October 2016
+  description: |
+      Northwestern University’s Omar Farha is featured in a Chemistry World
+      article on MOFs and keeping America’s scientific community
+      inclusive.
+
+- title: NuMat Sponsors IIT Conference in Taiwan
   images:
     - file: iit.png
       height: 281
@@ -8,7 +41,7 @@
   description: |
       Chief Science Officer Dr. Omar Farha presents on ion implant innovations.
 
-- title: NuMat and Linde Announce Global Technology Development Partnership
+- title: NuMat and Linde Announce Global Technology Partnership
   images:
     - file: linde.png
       height: 123
