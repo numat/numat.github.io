@@ -6,9 +6,10 @@
       link: http://cen.acs.org/articles/94/i43/10-Start-Ups-Watch.html
   date: November 2016
   description: |
-      NuMat featured in Chemistry & Engineering News as a top ten scientific start-up.
+      NuMat featured in Chemical & Engineering News as a top ten scientific
+      start-up company.
 
-- title: NuMat's Product Launch Highlighted in Chemistry World
+- title: NuMat’s Product Launch Highlighted in Chemistry World
   images:
     - file: chemistry_world.jpg
       height: 225
@@ -16,14 +17,14 @@
       link: https://www.chemistryworld.com/news/mofs-offer-safer-toxic-gas-storage-/1017610.article
   date: October 2016
   description: |
-      Feature on NuMat's innovative sub-atmospheric storage system for hazardous
+      Feature on NuMat’s innovative sub-atmospheric storage system for hazardous
       gases.
 
 - title: NuMat CSO Featured in Chemistry World Article "The Patriotic Chemist"
   images:
     - file: patriotic_omar.jpg
       height: 240
-      alt: "The Patriotic Chemist"
+      alt: The Patriotic Chemist
       link: https://www.chemistryworld.com/news/the-patriotic-chemist/1017604.article
   date: October 2016
   description: |
