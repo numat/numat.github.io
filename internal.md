@@ -17,13 +17,12 @@ permalink: /internal/
  * [temperatures-4](/temperatures-4) - A copy of *temperatures*.
  * [temperatures-5](/temperatures-5) - A copy of *temperatures*.
  * [temperatures-6](/temperatures-6) - A copy of *temperatures*.
- * [soxhlet](/soxhlet) - Temperature monitoring and safety shutoff for the Soxhlet extractor.
+ * [temperatures-7](/temperatures-7) - A copy of *temperatures*, running with high-res RTDs.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
  * [baking](/baking) - Controls two vacuum ovens for batch activation.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
  * [pressures-2](/pressures-2) - Reads an array of pressures. A copy of *pressures*.
  * [decomposition](/decomposition) - Monitors pressures and temperatures for long-term studies.
- * [psa](/psa) - Control the PSA system through an IPython notebook.
  * [camera](/camera) - A camera watching the remote-controlled electronic gas lab.
  * [electronic gas](/electronic-gas) - Control electronic gas adsorption test system.
  * [production](/production) - View and edit the production batch record.
