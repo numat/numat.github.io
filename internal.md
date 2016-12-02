@@ -18,6 +18,7 @@ permalink: /internal/
  * [temperatures-5](/temperatures-5) - A copy of *temperatures*.
  * [temperatures-6](/temperatures-6) - A copy of *temperatures*.
  * [temperatures-7](/temperatures-7) - A copy of *temperatures*, running with high-res RTDs.
+ * [temperatures-8](/temperatures-8) - A copy of *temperatures*, running with high-res RTDs.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
  * [baking](/baking) - Controls two vacuum ovens for batch activation.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
