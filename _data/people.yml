@@ -14,7 +14,7 @@ groups:
     members:
 
       - name: Benjamin Hernandez
-        position: CEO, Co-founder
+        position: Chief Executive Officer, Co-founder
         linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
         email: ben@numat-tech.com
         description: |
@@ -47,6 +47,29 @@ groups:
           Science, Nature, Nature Chemistry, Fortune Magazine, and many others.
           In addition to NuMat, Omar is a Research Professor at Northwestern
           University.
+
+      - name: Jose Arno
+        position: Chief Technology Officer
+        email: j.arno@numat-tech.com
+        description: |
+          Jose is an accomplished technology and R&D leader with extensive
+          experience in the gas, electronics material, and defense industries.
+          He has a proven record of inventing, developing, and scaling up a
+          number of commercially successful products related to advanced gas
+          and materials delivery systems, pollution control equipment, and
+          chemical detection instrumentation. Throughout his career, Jose has
+          authored 37 technical publications and holds 40 US patents for
+          diverse applications. At NuMat, he leads the technology organization
+          and provides the strategic vision that drives the technology and
+          product development roadmaps. Prior to NuMat, Jose was the R&D
+          Director at ATMI (later acquired by Entegris, NASDAQ:
+          [ENTG](http://finance.yahoo.com/q?s=ENTG)), Senior RD&E Director at
+          [Smiths Detection](http://www.smithsdetection.com/), and Vice
+          President of Technology at NexPlanar (later acquired by Cabot
+          Microelectronics, NASDAQ:
+          [CCMP](https://finance.yahoo.com/quote/CCMP?p=CCMP)). He received
+          B.S. degrees in both chemistry and physics, and a Ph.D. in physical
+          chemistry from Texas A&M University.
 
       - name: Glenn Tom
         position: Product Leader & Technical Fellow
