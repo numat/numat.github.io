@@ -6,6 +6,5 @@ header: NuMat is growing. Grow with us.
 permalink: /jobs/
 ---
 
-### [Senior Chemist](/jobs/senior-chemist/)
-
-### [Chemist](/jobs/chemist/)
+We love meeting talented people. [Drop us a line](mailto:careers@numat-tech.com)
+and let us know who you are.
