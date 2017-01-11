@@ -6,6 +6,7 @@ background: switchboard_operators.jpg
 permalink: /internal/
 ---
 
+ * [locator](/locator) - Track location of NuMat employees by cell phone wifi.
  * [spotify](/spotify) - Play music in the office.
  * [notebook](/notebook) - A shared IPython notebook with a supercomputing
    interface.
