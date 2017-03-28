@@ -1,8 +1,8 @@
 ---
-title: Chemist | NuMat
+title: Chemistry Internship | NuMat
 job: Chemistry Summer Internship 2017
 layout: job
-permalink: /jobs/chemist/
+permalink: /jobs/internship/chemist/
 ---
 
 ## Job Description
