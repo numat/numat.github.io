@@ -2,7 +2,11 @@
   margin-top: 75px;
 
   h1 {
+    border-bottom: 1px solid $purple;
     font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
 
     @media (min-width: 768px) {
       font-size: 48px;
@@ -28,6 +32,6 @@
 
 .job-header {
   border-bottom: 1px solid $purple;
-  margin-top: 50px;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
