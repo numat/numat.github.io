@@ -170,19 +170,6 @@ groups:
           company focused on catalyst discovery.  Paul also served as member of
           the Canadian Medical Reserve.
 
-      - name: John Siegfried
-        position: Engineering
-        email: john@numat-tech.com
-        description: |
-          John leads process engineering and separation technology
-          development at NuMat. In addition to this, he supports key production
-          and scale-up activities. Prior to NuMat, John was a chemical
-          engineer and a lead technical advisor at [UOP (a Honeywell Company)](
-          http://www.uop.com/) (NYSE: [HON](http://finance.yahoo.com/q?s=HON)),
-          providing on-site leadership in process development and optimization
-          from pilot to industrial-scale operations. He also led various
-          material development initiatives for catalysts and sorbents.
-
       - name: William Hoover
         position: Chemistry
         email: bill@numat-tech.com
