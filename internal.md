@@ -22,6 +22,7 @@ permalink: /internal/
  * [temperatures-9](/temperatures-9) - A copy of *temperatures*.
  * [flowthrough](/flowthrough) - Controller for 6" flowthrough activation test rig.
  * [filter](/filter) - Controller for 12" filter-dryer.
+ * [co](/co) - Controller for the CO breakthrough manifold.
  * [activation](/activation) - Activates an array of cylinders through vacuum and controlled heating.
  * [baking](/baking) - Controls two vacuum ovens for batch activation.
  * [pressures](/pressures) - Reads an array of pressures. Intended for cylinder leak testing.
