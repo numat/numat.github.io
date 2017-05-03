@@ -159,7 +159,7 @@ $(document).ready(function () {
         $('.ionx-learn-more-input, .ionx-learn-more-button').prop('disabled', true);
         $('.ionx-learn-more-success, .ionx-learn-more-failure').hide();
     });
-    emailRegex = /\S+@\S+\.\S+/;
+    emailRegex = /^\S+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     $('.ionx-learn-more-input').keyup(function (e) {
         $('.ionx-learn-more-button').prop('disabled', !(emailRegex.test($(this).val())));
         if (e && e.keyCode === 13) {
