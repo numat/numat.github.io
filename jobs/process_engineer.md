@@ -29,6 +29,8 @@ scientists in a fast-paced environment.
 
 ## About You
 
+ * You have a BS or MS in chemical engineering.
+ * You have at least three years of experience in a related industrial role.
  * You are comfortable with mathematics, particularly reaction kinetics, adsorption, heat and mass transfer, thermodynamics, and numerical solvers.
  * You are comfortable with mechanical design and building your own laboratory equipment.
  * You have knowledge of pressure, temperature, vacuum, and flow equipment.
