@@ -2,6 +2,7 @@
 A basic server to convert email addresses into proper emails without mailto.
 """
 import argparse
+from base64 import b64decode
 from email.mime.text import MIMEText
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
@@ -14,6 +15,11 @@ from threading import Thread
 
 from_address, to_address, password = None, None, None
 check = re.compile('\S+@\S+\.\S+')
+
+_cred = os.path.expanduser('~/.config/email_credentials.txt')
+with open(_cred) as in_file:
+    decoded = b64decode(in_file.read().encode('utf-8')).decode('utf-8')
+    from_address, password = decoded.split(':')
 
 
 class Server(BaseHTTPRequestHandler):
@@ -50,13 +56,9 @@ class Server(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Forwards posted emails to "
                                                  "sales@numat-tech.com.")
-    parser.add_argument('address', help="Server email address. Assumes gmail.")
-    parser.add_argument('password', help="Password for server email address.")
     parser.add_argument('-p', '--port', type=int, default=52300, help="The "
                         "port on which to run the server.")
     args = parser.parse_args()
-    from_address = args.address
-    password = args.password
     to_address = 'sales@numat-tech.com'
     log = os.path.expanduser('~/ionx_server.log')
 
