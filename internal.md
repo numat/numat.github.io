@@ -38,6 +38,7 @@ permalink: /internal/
  * [temperatures](/temperatures) - A web service for controlling multiple vessel temperatures simultaneously.
  * [temperatures-2](/temperatures-2) - A copy of *temperatures*.
  * [temperatures-3](/temperatures-3) - A copy of *temperatures*.
+ * [temperatures-4](/temperatures-4) - A copy of *temperatures*, running with high-res RTDs.
  * [temperatures-5](/temperatures-5) - A copy of *temperatures*.
  * [temperatures-6](/temperatures-6) - A copy of *temperatures*.
  * [temperatures-7](/temperatures-7) - A copy of *temperatures*, running with high-res RTDs.
