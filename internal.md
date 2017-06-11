@@ -22,7 +22,7 @@ permalink: /internal/
 
  * [camera](/camera) - Cameras watching laboratory space.
  * [network](/network) (LAN) - Central interface to the Unifi IT network.
- * [deployment](/deployment) (LAN) - Central interface to Docker containers running internal code.
+ * [docker](/docker) - Central interface to Docker containers running internal code.
 
 ## Controllers
 
