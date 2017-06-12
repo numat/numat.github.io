@@ -31,12 +31,22 @@ class Server(BaseHTTPRequestHandler):
             Thread(target=self.send_email, args=(new_address, )).start()
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
-            self.send_header('Access-Control-Allow-Origin', '*')
+            self.send_header('Access-Control-Allow-Origin',
+                             'http://numat-tech.com')
             self.end_headers()
             self.wfile.write(new_address.encode('utf-8'))
         else:
             logging.exception("Received malformed email: " + new_address)
             self.send_response(500)
+
+    def do_OPTIONS(self):  # noqa
+        self.send_response(200, 'ok')
+        self.send_header('Access-Control-Allow-Origin',
+                         'http://numat-tech.com')
+        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'X-Requested-With')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
 
     def send_email(self, new_address):
         """Sends an email with new user information."""
