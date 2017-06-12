@@ -145,7 +145,7 @@ $(document).ready(function () {
     $('.ionx-learn-more-button').click(function () {
         $.ajax({
             type: 'POST',
-            url: 'http://internal.numat-tech.com:52300/',
+            url: 'https://internal.numat-tech.com/ionx-email',
             data: $('.ionx-learn-more-input').val(),
             success: function () {
                 $('.ionx-learn-more-input, .ionx-learn-more-button, .ionx-learn-more-failure').hide();

@@ -6,7 +6,6 @@ from base64 import b64decode
 from email.mime.text import MIMEText
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
-from logging.handlers import RotatingFileHandler
 import os
 import re
 import smtplib
@@ -23,7 +22,7 @@ with open(_cred) as in_file:
 
 
 class Server(BaseHTTPRequestHandler):
-    def do_POST(self):
+    def do_POST(self):  # noqa
         """Handles posted email addresses."""
         l = int(self.headers['Content-Length'])
         new_address = self.rfile.read(l).decode('utf-8')
@@ -56,7 +55,7 @@ class Server(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Forwards posted emails to "
                                                  "sales@numat-tech.com.")
-    parser.add_argument('-p', '--port', type=int, default=52300, help="The "
+    parser.add_argument('-p', '--port', type=int, default=80, help="The "
                         "port on which to run the server.")
     args = parser.parse_args()
     to_address = 'sales@numat-tech.com'
@@ -65,7 +64,6 @@ if __name__ == '__main__':
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     handler = logging.StreamHandler(sys.stdout)
-    handler = RotatingFileHandler(log, maxBytes=2**24, backupCount=5)
     handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s '
                          '%(funcName)s(%(lineno)d)\n%(message)s\n'))
     logger.addHandler(handler)
