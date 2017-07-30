@@ -17,6 +17,20 @@
   }
 }
 
+.partners-footer {
+  p {
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    min-height: 200px;
+
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
 .partner-img {
   @extend %lazy;
   height: auto;
@@ -26,4 +40,90 @@
   @media (min-width: 768px) {
     width: 100%;
   }
+}
+
+.partners,
+.partner-detail {
+  margin: 0;
+
+  img {
+    @extend %lazy;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.partner-description,
+.partners,
+.partners-footer {
+  margin-top: 25px;
+}
+
+.partner-title {
+  padding: 0;
+  text-align: center;
+}
+
+.partner-flow {
+  margin-top: 25px;
+}
+
+.partner-detail {
+  border: 1px solid transparent;  // From http://stackoverflow.com/questions/1335461/jquery-slide-is-jumpy
+  display: none;
+  margin-bottom: 20px;
+
+  div {
+    padding: 5px;
+  }
+
+  p {
+    @media (min-width: 768px) {
+      font-size: 10px;
+    }
+
+    @media (min-width: 991px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.partner {
+  cursor: pointer;
+  padding: 5px;
+
+  figure {
+    border: 1px solid $black;
+    position: relative;
+  }
+
+  figcaption {
+    @include transparent-background($black);
+    bottom: 0;
+    color: $white;
+    font-size: 6px;
+    font-weight: $normal;
+    padding: 1px;
+    position: absolute;
+    width: 100%;
+
+    @media (min-width: 460px) {
+      font-size: 10px;
+      padding: 5px;
+    }
+  }
+
+  &:hover {
+    figure {
+      border: 1px solid $purple;
+    }
+
+    figcaption {
+      @include transparent-background($purple);
+    }
+  }
+}
+
+.grayscale {
+  @include filter(grayscale(100%));
 }
