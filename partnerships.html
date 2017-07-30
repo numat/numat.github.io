@@ -1,14 +1,14 @@
 ---
-title: Partners | NuMat
+title: Partnerships | NuMat
 layout: default
-permalink: /partners/
+permalink: /partnerships/
 ---
 
 <div class="header">
-  <div class="header-background" data-src="/img/backgrounds/{{ site.data.partners.header.background }}"></div>
+  <div class="header-background" data-src="/img/backgrounds/{{ site.data.partnerships.header.background }}"></div>
   <div class="vertical-center-table">
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
-      <h1>{{ site.data.partners.header.title }}</h1>
+      <h1>{{ site.data.partnerships.header.title }}</h1>
     </div>
   </div>
 </div>
@@ -17,25 +17,25 @@ permalink: /partners/
 
   <div class="row partner-description">
     <div class="col-xs-12">
-      <h2>{{ site.data.partners.description.title }}</h2>
-      <p>{{ site.data.partners.description.content }}</p>
+      <h2>{{ site.data.partnerships.description.title }}</h2>
+      <p>{{ site.data.partnerships.description.content }}</p>
     </div>
   </div>
   <div class="row text-center">
     <div class="col-xs-12">
       <img class="partner-flow"
-           height="{{ site.data.partners.description.height }}"
+           height="{{ site.data.partnerships.description.height }}"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-           data-src="/img/partners/{{ site.data.partners.description.image }}" />
+           data-src="/img/partners/{{ site.data.partnerships.description.image }}" />
     </div>
   </div>
 
   <div class="row partners">
     <div class="col-xs-12 partner-title">
-      <h2>{{ site.data.partners.title }}</h2>
+      <h2>{{ site.data.partnerships.title }}</h2>
     </div>
     {% assign currentOffset = -4 %}
-    {% for member in site.data.partners.members %}
+    {% for member in site.data.partnerships.members %}
     <div class="col-xs-3 partner" id="{{member.name | downcase | replace:' ','-'}}">
       <figure>
         <img class="grayscale" alt="{{ member.name }}"
@@ -48,7 +48,7 @@ permalink: /partners/
     {% if mod == "0" or forloop.last %}
     </div>
       {% assign currentOffset = currentOffset | plus:4 %}
-      {% for member in site.data.partners.members limit:4 offset:currentOffset %}
+      {% for member in site.data.partnerships.members limit:4 offset:currentOffset %}
       <div class="row partner-detail" id="{{member.name | downcase | replace:' ','-'}}-detail">
         <div class="col-xs-12 col-sm-6">
           <img alt="{{ member.name }}"
@@ -67,7 +67,7 @@ permalink: /partners/
   </div>
   <div class="row partners-footer">
     <div class="col-xs-12">
-      <p>{{ site.data.partners.footer }}</p>
+      <p>{{ site.data.partnerships.footer }}</p>
     </div>
   </div>
 </div>
