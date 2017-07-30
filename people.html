@@ -33,11 +33,12 @@ permalink: /people/
   <div class="row people">
     {% assign currentOffset = -4 %}
     {% for member in group.members %}
-    <div class="col-xs-3 person" id="{{member.name | downcase | replace:' ','-'}}">
+    {% assign name = member.name | downcase | remove: 'dr. ' | remove: 'prof. ' %}
+    <div class="col-xs-3 person" id="{{name | replace: ' ','-'}}">
       <figure>
         <img class="grayscale" alt="{{ member.name }}"
              src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-             data-src="/img/people/{{member.name | downcase | replace:' ','_'}}.jpg">
+             data-src="/img/people/{{name | replace: ' ','_'}}.jpg">
         <figcaption>{{ member.name }}</figcaption>
       </figure>
     </div>
@@ -46,11 +47,12 @@ permalink: /people/
     </div>
       {% assign currentOffset = currentOffset | plus:4 %}
       {% for member in group.members limit:4 offset:currentOffset %}
-      <div class="row person-detail" id="{{member.name | downcase | replace:' ','-'}}-detail">
+      {% assign name = member.name | downcase | remove: 'dr. ' | remove: 'prof. ' %}
+      <div class="row person-detail" id="{{name | replace: ' ','-'}}-detail">
         <div class="col-xs-12 col-sm-6">
           <img alt="{{ member.name }}"
                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-               data-src="/img/people/{{member.name | downcase | replace:' ','_'}}_full.jpg">
+               data-src="/img/people/{{name | replace: ' ','_'}}_full.jpg">
         </div>
         <div class="col-xs-12 col-sm-6">
           <h2>{{ member.name }}</h2>

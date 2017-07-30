@@ -30,7 +30,7 @@ groups:
           enterprise growth. He has also worked as a management consultant at a
           top-tier firm and as an engineer in the aerospace defense industry.
 
-      - name: Omar Farha
+      - name: Dr. Omar Farha
         position: Chief Science Officer, Co-founder
         linkedin: https://www.linkedin.com/pub/omar-farha/49/616/242
         email: omar@numat-tech.com
@@ -48,7 +48,7 @@ groups:
           In addition to NuMat, Omar is a Research Professor at Northwestern
           University.
 
-      - name: Jose Arno
+      - name: Dr. Jose Arno
         position: Chief Technology Officer
         email: j.arno@numat-tech.com
         description: |
@@ -71,7 +71,7 @@ groups:
           B.S. degrees in both chemistry and physics, and a Ph.D. in physical
           chemistry from Texas A&M University.
 
-      - name: Glenn Tom
+      - name: Dr. Glenn Tom
         position: Product Leader & Technical Fellow
         email: glenn@numat-tech.com
         description: |
@@ -143,7 +143,7 @@ groups:
           lifelong passion for automation, and has created software used by
           multiple Fortune 500 companies and research institutions.
 
-      - name: Mitch Weston
+      - name: Dr. Mitch Weston
         position: Chemistry
         linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
         email: mitch@numat-tech.com
@@ -156,7 +156,7 @@ groups:
           gas storage, heterogeneous catalysis, and chemical separation
           applications.
 
-      - name: Paul Siu
+      - name: Dr. Paul Siu
         position: Chemistry
         linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
         email: paul@numat-tech.com
@@ -191,7 +191,7 @@ groups:
           assistant at Xavier University, where she researched anti-cancer
           nano-therapeutic drugs.
 
-      - name: William Morris
+      - name: Dr. William Morris
         position: Chemistry
         email: william@numat-tech.com
         description: |
@@ -215,7 +215,7 @@ groups:
             undergoing harsh conditions such as starvation. She also discussed
             important topics in chemistry on a journaling web-log.
 
-      - name: Christopher Murdock
+      - name: Dr. Christopher Murdock
         position: Chemistry
         email: christopher@numat-tech.com
         description: |
@@ -361,7 +361,7 @@ groups:
           and guided organizations in business strategy, technology
           development, valuation, and deployment.
 
-      - name: Christopher Wilmer
+      - name: Prof. Christopher Wilmer
         position: Computational, Co-founder
         description: |
           Chris is currently an [assistant professor](http://wilmerlab.com/) in
@@ -377,7 +377,7 @@ groups:
           the submission of innovative solutions to
           real-world challenges.
 
-      - name: Randall Snurr
+      - name: Prof. Randall Snurr
         position: Computational
         description: |
           Randy Snurr is a [professor](http://www.iec.northwestern.edu/) of
@@ -393,7 +393,7 @@ groups:
           Communications. His work has been recognized with multiple awards,
           including a CAREER award from the National Science Foundation.
 
-      - name: Joseph Hupp
+      - name: Prof. Joseph Hupp
         position: Chemistry
         description: |
           Joe is a [professor](http://chemgroups.northwestern.edu/hupp/) of
