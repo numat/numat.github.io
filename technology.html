@@ -27,13 +27,13 @@ permalink: /technology/
 
 <div class="container">
   <div class="row header-description">
-    <div class="col-sm-7 {% cycle 'col-sm-push-5', nil %}">
-      <img class="tech-img" alt="{{ item.alt }}"
+    <div class="col-sm-7 tech-content {% cycle 'col-sm-push-5', nil %}">
+      <img class="tech-img"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
            data-src="/img/technology/{{ item.image }}">
     </div>
-    <div class="col-sm-5 {% cycle 'col-sm-pull-7', nil %} tech-content">
-      <p>{{ item.description | markdownify }}</p>
+    <div class="col-sm-5 tech-content {% cycle 'col-sm-pull-7', nil %}">
+      <div>{{ item.description | markdownify }}</div>
     </div>
   </div>
 </div>

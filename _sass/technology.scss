@@ -1,13 +1,10 @@
 .tech-content {
-  display: table;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
   @media (min-width: 768px) {
     height: 500px;
-  }
-
-  p {
-    display: table-cell;
-    vertical-align: middle;
   }
 }
 
@@ -20,4 +17,10 @@
   @media (min-width: 768px) {
     width: 100%;
   }
+}
+
+blockquote > p {
+  color: $gray;
+  font-size: 14px;
+  text-align: justify;
 }
