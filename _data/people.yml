@@ -10,7 +10,7 @@ header:
 
 groups:
 
-  - name: Team
+  - name: Selected Profiles
     members:
 
       - name: Benjamin Hernandez
@@ -288,6 +288,14 @@ groups:
           also serves on the Rice University board of trustees, and as chairman
           of the council of overseers of the Jones graduate school of business.
 
+      - name: Jeff Klunzinger
+        description: |
+            Jeff is the Managing Director of the [OS Fund](http://osfund.co/),
+            a venture fund dedicated to supporting entrepreneurs who are
+            working on advancements that are fundamental to the future of
+            humanity. Previous to OS Fund, Jeff was the CEO of BRJ Ventures and
+            also a founding member and CFO of West Family Investments.
+
       - name: Luka Erceg
         description: |
           Luka was founder, President, and CEO of [Simbol
@@ -305,33 +313,6 @@ groups:
           acquisitions of an oil and gas field telemetry business, intellectual
           property licensing, and pipeline and gas gathering system
           transactions.
-
-      - name: Jeff Klunzinger
-        description: |
-            Jeff is the Managing Director of the [OS Fund](http://osfund.co/),
-            a venture fund dedicated to supporting entrepreneurs who are
-            working on advancements that are fundamental to the future of
-            humanity. Previous to OS Fund, Jeff was the CEO of BRJ Ventures and
-            also a founding member and CFO of West Family Investments.
-
-      - name: Jack Gill
-        position: Board Observer
-        description: |
-          At 33, Jack founded his first business, which pioneered
-          microprocessor-based scientific instruments and computers for
-          chromatography laboratories. In 1972, Jack merged the company into
-          [Spectra Physics](http://www.spectra-physics.com/), a manufacturer of
-          commercial, scientific and industrial lasers. Jack stayed on with
-          Spectra for nine years as an Executive Vice President, managing a
-          five-division group of laser and instrument companies. In 1981, Jack
-          founded [Vanguard Ventures](http://www.vanguardventures.com/), a
-          high-tech venture capital firm in Palo Alto, California. Jack worked
-          as a managing general partner of Vanguard Ventures for 20 years.
-          Vanguard’s first five funds, totaling $155 million in capital,
-          returned over $1 billion to investors, ranking it among the top VC
-          returns. Since 2000, Jack has been teaching Entrepreneur Courses at
-          Harvard, MIT, Rice, UC Davis, Indiana University, and University
-          College London.
 
       - name: Amy Francetic
         position: Board Observer
