@@ -42,12 +42,12 @@
 .nav > li > a {
   font-size: 14px;
   line-height: 30px;
-  padding: 10px 15px;
+  padding: 10px;
   text-decoration: none;
 
   @media (min-width: 992px) {
     font-size: 20px;
-    padding: 20px 15px;
+    padding: 20px 12px;
   }
 }
 

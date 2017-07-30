@@ -1,0 +1,52 @@
+---
+title: Platforms | NuMat
+layout: default
+permalink: /platforms/
+---
+
+{% for item in site.data.platforms %}
+
+{% if forloop.first %}
+<div class="header">
+  <div class="header-background" data-src="/img/backgrounds/{{ item.background }}"></div>
+  <div class="vertical-center-table">
+    <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
+      <h1>{{ item.title }}</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row header-description">
+    <div class="col-sm-7 platform-content {% cycle 'col-sm-push-5', nil %}">
+      <img class="platform-img"
+           src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           data-src="/img/platforms/{{ item.image }}">
+    </div>
+    <div class="col-sm-5 platform-content {% cycle 'col-sm-pull-7', nil %}">
+      <div>{{ item.description | markdownify }}</div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 platforms-title">
+      {% if item.subtitle %}
+      <h4>{{ item.subtitle }}</h4>
+      {% endif %}
+      <h2>{{ item.title }}</h2>
+    </div>
+  </div>
+  <div class="row header-description">
+    <div class="col-sm-7 platform-content {% cycle 'col-sm-push-5', nil %}">
+      <img class="platform-img"
+           src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           data-src="/img/platforms/{{ item.image }}">
+    </div>
+    <div class="col-sm-5 platform-content {% cycle 'col-sm-pull-7', nil %}">
+      <div>{{ item.description | markdownify }}</div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
