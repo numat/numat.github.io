@@ -1,21 +1,3 @@
 header:
-
-  title: Re-imagining how the world stores, separates, and transports gases.
-  background: cylinders.jpg
-
-content:
-
-  - title: The challenge.
-    description: |
-      Gases are a 500-billion-dollar input to nearly every sector of the global
-      economy. However, storing, separating, and transporting gas requires
-      energy-intensive compression - accounting for nearly 10% of global energy
-      draw. Compression requirements impact our ability to efficiently create
-      life-sustaining gases and effectively capture life-threatening toxins.
-
-  - title: The solution.
-    description: |
-      NuMat creates value by fundamentally challenging the need to compress
-      gases. In doing so, we unlock massively valuable design flexibility and
-      cost-advantaged production economics in the healthcare, industrial
-      technology, and energy sectors.
+  title: Solving the world’s toughest challenges at the atomic level.
+  background: refinery.jpg

@@ -4,22 +4,11 @@ layout: default
 permalink: /
 ---
 {% assign header = site.data.index.header %}
-<div class="header">
+<div class="header index-header">
   <div class="header-background" data-src="/img/backgrounds/{{ header.background }}"></div>
   <div class="vertical-center-table">
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
       <h1>{{ header.title }}</h1>
     </div>
-  </div>
-</div>
-
-<div class="container header-description">
-  <div class="row">
-    {% for item in site.data.index.content %}
-    <div class="col-sm-6">
-      <h2>{{ item.title }}</h2>
-      <p>{{ item.description }}</p>
-    </div>
-    {% endfor %}
   </div>
 </div>
