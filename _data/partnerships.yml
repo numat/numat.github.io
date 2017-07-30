@@ -1,42 +1,49 @@
-header:
-
-  title: Partnerships driving industry innovation.
+- title: Partnerships driving industry innovation.
   background: spherical_tank.jpg
+  description: |
+    We partner with the world’s leading organizations to develop new technologies,
+    products, and markets. Our activities include leading-edge material R&D,
+    application joint development, manufacturing, and supply-chain integration
+    toward global product launches. As a developer of integrated solutions, we are
+    capable of leading complex development programs from ideation to customer
+    qualification.
 
-description:
-  title: Our Partnership Model
-  image: flow.png
-  height: 87
-  content: |
-      NuMat provides a <i>total solutions</i> platform for integration of
-      specialty adsorbents into commercial products. We collaborate with a
-      wide range of partners across the full path to market.
+    Today, our diverse partnership portfolio involves developing next-generation
+    gas delivery, separation, and purification technologies, as well as advanced
+    materials for the electronics, healthcare, industrial technology, and energy
+    sectors.
 
-title: Example Partnerships
-members:
+- title: Better, Faster, Cheaper
+  subtitle: Our Partnership Rationale
+  background: centrifuge.jpg
+  description: |
+    ## True technology innovation is hard.
 
-  - name: The Linde Group
-    category: Industry
-    image: linde.png
-    description: |
-      Tech development partnership focused on next-generation gas storage and
-      separation technologies.
-  - name: Northwestern University
-    category: Academic
-    image: northwestern.png
-    description: |
-      Joint development and commercialization of specialty materials.
-  - name: Department of Defense
-    category: Defense
-    image: dod.png
-    description: |
-      Development of innovative filtration and catalysis materials for defense.
-  - name: Department of Energy
-    category: Federal
-    image: doe.png
-    description: |
-      Computationally guided discovery of catalytic materials for energy
-      storage and production.
+    At NuMat, our partnering thesis involves a set of core questions.
 
-footer: |
-  For partnership inquiries, please contact us at <a href="mailto:info@numat-tech.com">info@numat-tech.com</a>.
+     - Can we design and develop a better product through partnering?
+     - Can we introduce a new product faster together?
+     - Can we reduce costs and risks through partnering?
+     - If successful, are we creating sufficient value to justify our joint
+       investment?
+
+- title: Risk Sharing + Open Innovation
+  subtitle: Our Partnership Approach
+  background: chemists.jpg
+  description: |
+    Our experience has shown that the most successful development partnerships
+    involve the following elements.
+
+     - An open innovation approach with an emphasis on application discovery
+     - Committed technical and commercial engagement across both organizations.
+     - Stage-gate methodology with defined milestones and clear objectives.
+     - An emphasis on early proofs of concept and rapid, low-cost prototyping
+       toward Go/No-Go decisions.
+     - Risk sharing with each party contributing expertise and resources to
+       help the other be successful.
+
+    We pride ourselves in being trusted collaborators who care deeply about our
+    partner’s success. This is our ethos and how we do business.
+
+    To continue the conversation, please contact us at <a
+    href="mailto:partnerships@numat-tech.com">partnerships@numat-tech.com</a>.
