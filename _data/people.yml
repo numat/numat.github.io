@@ -8,6 +8,10 @@ header:
     integration, and manufacturing – all focused on designing next-generation
     products that unlock value for our customers and partners.
 
+    Our rich technical depth is complemented by a team of seasoned executives
+    with a track record of commercializing technology platforms which provide
+    the foundation for future growth.
+
 groups:
 
   - name: Selected Profiles
@@ -127,7 +131,7 @@ groups:
             Frankfurt, Germany.
 
       - name: Patrick Fuller
-        position: Engineering
+        position: Engineering, Computational
         linkedin: https://www.linkedin.com/in/patrickemmettfuller
         email: pat@numat-tech.com
         github: patrickfuller
@@ -144,7 +148,7 @@ groups:
           multiple Fortune 500 companies and research institutions.
 
       - name: Dr. Mitch Weston
-        position: Chemistry
+        position: Chemistry, Applications Development
         linkedin: http://www.linkedin.com/pub/mitchell-weston/5a/3a5/77b
         email: mitch@numat-tech.com
         description: |
@@ -157,7 +161,7 @@ groups:
           applications.
 
       - name: Dr. Paul Siu
-        position: Chemistry
+        position: Chemistry, Applications Development
         linkedin: http://ca.linkedin.com/pub/paul-siu/53/628/43a
         email: paul@numat-tech.com
         description: |
@@ -192,7 +196,7 @@ groups:
           nano-therapeutic drugs.
 
       - name: Dr. William Morris
-        position: Chemistry
+        position: Chemistry, Applications Development
         email: william@numat-tech.com
         description: |
             William dedicates his time at NuMat to the synthesis of novel
@@ -230,7 +234,7 @@ groups:
             synthesis of novel porous frameworks.
 
       - name: Lydia Thurman
-        position: Strategy
+        position: Business Development
         email: l.thurman@numat-tech.com
         description: |
             Lydia supports a variety of commercialization activities and
@@ -241,7 +245,7 @@ groups:
             and implementation, and mergers and integrations.
 
       - name: Roberto Flores
-        position: Engineering
+        position: Engineering, Manufacturing
         email: roberto@numat-tech.com
         description: |
             Bob’s expertise lies in the commercial scale-up of novel porous
