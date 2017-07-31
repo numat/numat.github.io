@@ -1,4 +1,5 @@
-- title: A platform for product and process innovation.
+header:
+  title: A platform for product and process innovation.
   background: tree.png
   image: platforms.png
   description: |
@@ -8,37 +9,38 @@
     form factors, performance, and cost-advantaged production economics in the
     electronics, healthcare, industrial, and energy sectors.
 
-- title: Store & Capture
-  image: storage_capture.png
-  description: |
-    A universal property of gases is that they highly concentrate on surfaces. NuMat
-    takes advantage of this property by creating materials with vast internal surface
-    areas. One of our materials has the highest reported surface area to date; one
-    gram of this material, when unfolded, would cover *over 1.5 football fields*. This
-    surface area enables our materials to soak up gases like a bath sponge soaks up
-    water, displacing the need for high compression. Reducing compression
-    requirements unlocks significant form factor innovation and improved safety,
-    fundamentally changing how gases are stored, transported, and delivered.
+content:
+  - title: Store & Capture
+    image: storage_capture.png
+    description: |
+      A universal property of gases is that they highly concentrate on surfaces. NuMat
+      takes advantage of this property by creating materials with vast internal surface
+      areas. One of our materials has the highest reported surface area to date; one
+      gram of this material, when unfolded, would cover *over 1.5 football fields*. This
+      surface area enables our materials to soak up gases like a bath sponge soaks up
+      water, displacing the need for high compression. Reducing compression
+      requirements unlocks significant form factor innovation and improved safety,
+      fundamentally changing how gases are stored, transported, and delivered.
 
-- title: Separate & Harvest
-  image: separate_harvest.png
-  description: |
-    Increasingly demanding purity requirements in the electronics, healthcare,
-    and industrial sectors are pushing the limits of current separation
-    technologies. In fact, tremendous amounts of energy are consumed to upgrade gases and
-    liquids, impacting our ability to efficiently create life-sustaining
-    resources and effectively capture life-threatening ones.
+  - title: Separate & Harvest
+    image: separate_harvest.png
+    description: |
+      Increasingly demanding purity requirements in the electronics, healthcare,
+      and industrial sectors are pushing the limits of current separation
+      technologies. In fact, tremendous amounts of energy are consumed to upgrade gases and
+      liquids, impacting our ability to efficiently create life-sustaining
+      resources and effectively capture life-threatening ones.
 
-    By programming materials to have ultra-selective interactions with target
-    molecules, we can fundamentally alter the scale versus purity trade-offs of
-    incumbent separation technologies, enabling miniaturized, energy-efficient
-    separation – creating novel supply-chains in the process.
+      By programming materials to have ultra-selective interactions with target
+      molecules, we can fundamentally alter the scale versus purity trade-offs of
+      incumbent separation technologies, enabling miniaturized, energy-efficient
+      separation – creating novel supply-chains in the process.
 
-- title: Electronic Materials – A Total Fab Solution
-  subtitle: Platform Case Study
-  image: fab_solution.png
-  description: |
-    The electronics industry is under significant pressure to address increased
-    process complexity, performance, and regulatory requirements. Our
-    material-enabled application platform will support cost-advantaged production,
-    improved yields, and increased safety throughout the fab.
+  - title: Electronic Materials – A Total Fab Solution
+    subtitle: Platform Case Study
+    image: fab_solution.png
+    description: |
+      The electronics industry is under significant pressure to address increased
+      process complexity, performance, and regulatory requirements. Our
+      material-enabled application platform will support cost-advantaged production,
+      improved yields, and increased safety throughout the fab.

@@ -4,49 +4,48 @@ layout: default
 permalink: /platforms/
 ---
 
-{% for item in site.data.platforms %}
-
-{% if forloop.first %}
+{% assign header = site.data.platforms.header %}
 <div class="header">
-  <div class="header-background" data-src="/img/backgrounds/{{ item.background }}"></div>
+  <div class="header-background" data-src="/img/backgrounds/{{ header.background }}"></div>
   <div class="vertical-center-table">
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
-      <h1>{{ item.title }}</h1>
+      <h1>{{ header.title }}</h1>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row header-description">
-    <div class="col-sm-7 platform-content {% cycle 'col-sm-push-5', nil %}">
+<div class="container header-description">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 platforms-top">
+      {{ header.description | markdownify }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
       <img class="platform-img"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-           data-src="/img/platforms/{{ item.image }}">
-    </div>
-    <div class="col-sm-5 platform-content {% cycle 'col-sm-pull-7', nil %}">
-      <div>{{ item.description | markdownify }}</div>
+           data-src="/img/platforms/{{ header.image }}">
     </div>
   </div>
-</div>
-{% else %}
-<div class="container">
+  {% for item in site.data.platforms.content %}
   <div class="row">
     <div class="col-xs-12 platforms-title">
       {% if item.subtitle %}
-      <h4>{{ item.subtitle }}</h4>
+      <h4 class="platforms-subtitle">{{ item.subtitle }}</h4>
       {% endif %}
       <h2>{{ item.title }}</h2>
     </div>
   </div>
-  <div class="row header-description">
-    <div class="col-sm-7 platform-content {% cycle 'col-sm-push-5', nil %}">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
       <img class="platform-img"
            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
            data-src="/img/platforms/{{ item.image }}">
     </div>
-    <div class="col-sm-5 platform-content {% cycle 'col-sm-pull-7', nil %}">
-      <div>{{ item.description | markdownify }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      {{ item.description | markdownify }}
     </div>
   </div>
+  {% endfor %}
 </div>
-{% endif %}
-{% endfor %}
