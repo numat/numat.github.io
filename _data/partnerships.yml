@@ -47,30 +47,23 @@ sections:
       partner’s success. This is our ethos and how we do business.
 
 examples:
-    title: Example Partnerships
-    members:
-      - name: The Linde Group
-        category: Industry
-        image: linde.png
-        description: |
-          Tech development partnership focused on next-generation gas storage and
-          separation technologies.
-      - name: Northwestern University
-        category: Academic
-        image: northwestern.png
-        description: |
-          Joint development and commercialization of specialty materials.
-      - name: Department of Defense
-        category: Defense
-        image: dod.png
-        description: |
-          Development of innovative filtration and catalysis materials for defense.
-      - name: Department of Energy
-        category: Federal
-        image: doe.png
-        description: |
-          Computationally guided discovery of catalytic materials for energy
-          storage and production.
+  title: Example Partnerships
+  members:
+    - name: The Linde Group
+      image: linde.png
+      link: http://www.the-linde-group.com/en/index.html
+    - name: Northwestern University
+      image: northwestern.png
+      link: http://www.northwestern.edu/
+    - name: Versum Materials
+      image: versum.png
+      link: https://www.versummaterials.com/
+    - name: Department of Defense
+      image: dod.png
+      link: https://www.defense.gov/
+    - name: Department of Energy
+      image: doe.png
+      link: https://energy.gov/
 
 footer: |
   To continue the conversation, please contact us at <a

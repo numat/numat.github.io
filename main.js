@@ -79,7 +79,7 @@ $(document).ready(function () {
         });
     };
 
-    $('.post-img, .tech-img, .platform-img').each(lazy);
+    $('.post-img, .tech-img, .platform-img, .partner-img').each(lazy);
     $('.person, .partner').find('img').each(lazy);
     $('.person-detail, .partner-detail').find('img').each(lazy);
     $('.header-background').each(lazyBackground);

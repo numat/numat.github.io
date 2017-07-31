@@ -43,39 +43,19 @@ permalink: /partnerships/
     <div class="col-xs-12 partner-title">
       <h2>{{ site.data.partnerships.examples.title }}</h2>
     </div>
-    {% assign currentOffset = -4 %}
     {% for member in site.data.partnerships.examples.members %}
-    <div class="col-xs-3 partner" id="{{member.name | downcase | replace:' ','-'}}">
-      <figure>
-        <img class="grayscale" alt="{{ member.name }}"
+    <div class="col-xs-6 col-md-4 partner-member">
+      <a href="{{ member.link }}">
+        <img class="partner-img"
+             alt="{{ member.name }}"
              src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-             data-src="/img/partnerships/{{ member.image }}" />
-        <figcaption>{{ member.category }}</figcaption>
-      </figure>
+             data-src="/img/partnerships/{{ member.image }}">
+      </a>
     </div>
-    {% capture mod %}{{ forloop.index | modulo:4 }}{% endcapture %}
-    {% if mod == "0" or forloop.last %}
-    </div>
-      {% assign currentOffset = currentOffset | plus:4 %}
-      {% for member in site.data.partnerships.examples.members limit:4 offset:currentOffset %}
-      <div class="row partner-detail" id="{{member.name | downcase | replace:' ','-'}}-detail">
-        <div class="col-xs-12 col-sm-6">
-          <img alt="{{ member.name }}"
-               src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-               data-src="/img/partnerships/{{ member.image }}" />
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <h2>{{ member.name }}</h2>
-          <p>{{ member.description | markdownify }}</p>
-        </div>
-      </div>
-      {% endfor %}
-      <div class="row partners">
-    {% endif %}
-  {% endfor %}
+    {% endfor %}
   </div>
 
-  <div class="row partners-footer">
+  <div class="row partner-footer">
     <div class="col-xs-12">
       <p>{{ site.data.partnerships.footer }}</p>
     </div>
