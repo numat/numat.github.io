@@ -3,7 +3,7 @@
 'use strict';
 
 $(document).ready(function () {
-    var lazy, lazyBackground, emailRegex, $hb, $nb, $masonry, detectIE;
+    var lazy, lazyBackground, emailRegex, $hb, $nb, $masonry, isIE;
 
     // Move headers on scroll. Disable mobile because adding #skrollr-body messes
     // with the navbar colorchage logic below
@@ -14,7 +14,7 @@ $(document).ready(function () {
     }
 
     // From http://stackoverflow.com/questions/19999388/jquery-check-if-user-is-using-ie
-    detectIE = function () {
+    isIE = function () {
         var ua, rv, msie, trident, edge;
         ua = window.navigator.userAgent;
         msie = ua.indexOf('MSIE ');
@@ -31,7 +31,7 @@ $(document).ready(function () {
             return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
         }
         return false;
-    };
+    }();
 
     // Open all non-local links in new tab
     // This allows us to use markdown syntax without worrying about target="_blank"
@@ -41,11 +41,11 @@ $(document).ready(function () {
     // Disable for IE, as it doesn't support image filters
     $hb = $('.header-background, .background-video');
     $nb = $('.navbar');
-    if ((!$hb.length || detectIE()) && $nb.hasClass('navbar-transparent')) {
+    if ((!$hb.length || isIE) && $nb.hasClass('navbar-transparent')) {
         $nb.removeClass('navbar-transparent').addClass('navbar-white');
     }
     $(document).on('scroll', function () {
-        if ($hb.length && !detectIE()) {
+        if ($hb.length && !isIE) {
             if ($(document).scrollTop() > $hb.height() && $nb.hasClass('navbar-transparent')) {
                 $nb.removeClass('navbar-transparent').addClass('navbar-white');
             } else if ($(document).scrollTop() < $hb.height() && $nb.hasClass('navbar-white')) {
@@ -53,6 +53,11 @@ $(document).ready(function () {
             }
         }
     });
+
+    // Reduce navbar padding on IE to handle its different CSS interpretation
+    if (isIE) {
+        $('.nav > li > a').css({'padding-left': '8px', 'padding-right': '8px'});
+    }
 
     // Lazy load images
     lazy = function () {
