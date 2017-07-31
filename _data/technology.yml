@@ -15,10 +15,10 @@
     The biggest problems often require the smallest solutions. NuMat is a
     recognized pioneer in the design of atomically-engineered materials called
     MOFs (Metal-Organic Frameworks). MOFs are a breakthrough material class with
-    vast surface areas, highly tunable porosities and near infinite
+    vast surface areas, highly tunable porosities, and near-infinite
     combinatorial possibilities. Critically, they can be programmed to uniquely
     interact with target molecules in ways that incumbent material technologies
-    cannot – providing a differentiated platform for downstream product and
+    cannot, providing a differentiated platform for downstream product and
     process innovation.
 
 - title: Materials science meets big data.
@@ -29,9 +29,9 @@
     computing infrastructure to proprietary material discovery algorithms. Using
     our world-class discovery platform, we create millions of hypothetical
     structures, store these structures in databases, and then use
-    high-performance cloud computing to rapidly simulate their properties. We
+    high-performance computing to rapidly simulate their properties. We
     then experimentally validate the performance of materials through an
-    automated work-flow, providing a powerful prediction meets data feedback
+    automated workflow, providing a powerful prediction-meets-data feedback
     loop. This capital-light approach allows us to dramatically reduce
     development cycles, rapidly generate IP, and support valuable application
     platforms with tailor-designed solutions.
@@ -41,23 +41,23 @@
   image: combinations.png
   description: |
     NuMat’s state-of-the-art pilot and commercial-scale operations support the rapid
-    scale-up of target materials from milligram to ton. Beyond scale-up, our
+    scale-up of target materials from milligram to ton scales. Beyond scale-up, our
     dedicated team of process engineers bring years of expertise in yield
     optimization, post-synthesis processing, and material formation. These
     capabilities are critical in informing our development activities, supporting
-    rapid prototyping and ensuring we prioritize scalable, cost-enabled materials.
+    rapid prototyping, and ensuring we prioritize scalable, cost-enabled materials.
 
 - title: System engineering and product design.
   background: cylinders.jpg
   image: schematic.png
   description: |
     Beyond material discovery, NuMat’s core expertise is in the rapid design,
-    integration and build of hardware systems enabled by novel material
+    integration, and build of hardware systems enabled by novel material
     technologies. To do this, we focus first on the performance requirements of
     fully integrated systems. We then work backwards to identify the enabling
     properties of candidate materials which will translate to our target
     performance requirements. Our experience shows this is the key capability gap
-    in material commercialization.  NuMat’s team brings years of experience in
+    in material commercialization. NuMat’s team brings years of experience in
     successfully developing the material-enabled product platforms the world wants
     and needs.
 
@@ -67,9 +67,9 @@
   description: |
     NuMat builds the hardware products we’ve designed in our ISO:9001 certified
     assembly facility. Our best-in-class quality management system integrates
-    state of the art analytical capabilities with batch-level data and global
+    state-of-the-art analytical capabilities with batch-level data and global
     asset tracking software, providing full traceability and visibility on every
-    step of the production process and supply-chain.
+    step of the production process and supply chain.
 
     > We are committed to achieving business excellence through the development
     of innovative products and processes that critically depend on material
