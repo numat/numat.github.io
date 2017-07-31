@@ -29,12 +29,7 @@
 .partner-img {
   @extend %lazy;
   height: auto;
-  max-width: 500px;
-  width: 250px;
-
-  @media (min-width: 768px) {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 .partner-footer {
