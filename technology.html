@@ -3,28 +3,41 @@ title: Technology | NuMat
 layout: default
 permalink: /technology/
 ---
-{% for item in site.data.technology %}
-
-{% if forloop.first %}
+{% assign header = site.data.technology.header %}
 <div class="header">
-{% else %}
-<div class="subheader">
-{% endif %}
-
-  <div class="header-background" data-src="/img/backgrounds/{{ item.background }}"></div>
+  <div class="header-background" data-src="/img/backgrounds/{{ header.background }}"></div>
   <div class="vertical-center-table">
-
-    {% if forloop.first %}
     <div class="header-title skrollable skrollable-between" data-0="top: 0px; opacity: 1;" data-top="top: 100px; opacity:0;">
-    {% else %}
-    <div class="header-title">
-    {% endif %}
-
-      <h1>{{ item.title }}</h1>
+      <h1>{{ header.title }}</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row header-description">
+    <div class="tech-content">
+      <div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <img class="tech-img tech-header-img"
+               src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+               data-src="/img/technology/{{ header.image }}">
+        </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          {{ header.description | markdownify }}
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
+{% for item in site.data.technology.content %}
+<div class="subheader">
+  <div class="header-background" data-src="/img/backgrounds/{{ item.background }}"></div>
+  <div class="vertical-center-table">
+    <div class="header-title">
+      <h1>{{ item.title }}</h1>
+    </div>
+  </div>
+</div>
 <div class="container">
   <div class="row header-description">
     <div class="col-sm-7 tech-content {% cycle 'col-sm-push-5', nil %}">

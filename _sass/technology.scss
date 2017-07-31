@@ -17,6 +17,11 @@
   @media (min-width: 768px) {
     width: 100%;
   }
+
+  &.tech-header-img {
+    max-width: none;
+    width: 100%;
+  }
 }
 
 blockquote > p {
