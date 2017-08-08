@@ -63,7 +63,7 @@ examples:
       link: https://www.defense.gov/
     - name: Department of Energy
       image: doe.png
-      link: https://energy.gov/
+      link: http://www1.chem.umn.edu/icdc/
 
 footer: |
   To continue the conversation, please contact us at <a
