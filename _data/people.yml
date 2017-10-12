@@ -242,6 +242,18 @@ groups:
             commercialized multiple products for the petrochemical and water
             treatment industries.
 
+      - name: Owen Lumsden
+        position: Manufacturing
+        email: owen@numat-tech.com
+        description: |
+            Owen is a manufacturing specialist at NuMat Technologies. Here, he
+            is responsible for filling and testing cylinders, as well as the
+            construction of equipment utilized in the manufacturing process.
+            He has a degree in CNC machining, and his extensive experience in
+            the field brings focused manufacturing expertise to the team.
+            Previously, he assembled and calibrated flow meters for
+            applications ranging from energy to defense.
+
   - name: Board
     members:
 
