@@ -3,5 +3,5 @@ name: "NuMat Technologies"
 description: Changing the way the world stores, separates, and transports gases.
 sass:
     style: compressed
-gems:
+plugins:
   - jekyll-redirect-from
