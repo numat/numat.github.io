@@ -331,8 +331,6 @@ groups:
             greater Midwest through direct investment and new technology
             incubation.
 
-  - name: Advisors
-    members:
       - name: Bill Noglows
         description: |
           Bill is the Executive Chairman and former President and CEO of
@@ -345,6 +343,9 @@ groups:
           on meeting the demanding requirements of the technology industry on a global
           basis. Bill is a Director of [Littelfuse](http://www.littelfuse.com/)
           and [Aspen Aerogels](http://www.aerogel.com/).
+
+  - name: Advisors
+    members:
 
       - name: Richard Penning
         position: Strategy, Engineering
