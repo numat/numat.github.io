@@ -243,6 +243,28 @@ groups:
             Previously, he assembled and calibrated flow meters for
             applications ranging from energy to defense.
 
+      - name: Dr. Ross Verploegh
+        position: Computational
+        email: ross@numat-tech.com
+        github: RossVerploegh
+        description: |
+            Ross is a computational engineer at NuMat. He combines novel
+            atomistic simulations with traditional unit and process modeling
+            to drive new product and process development. He also employs
+            predictive analytics that leverage NuMat’s growing RD&E databases
+            to accelerate materials innovation. Ross received his Ph.D. in
+            chemical engineering from the Georgia Institute of Technology.
+
+      - name: Edwin Argueta
+        position: Engineering
+        email: edwin@numat-tech.com
+        description: |
+            Edwin supports pilot lab operation and process modeling at NuMat.
+            Prior to joining the team, Edwin completed his Masters degree in
+            Chemical Engineering at Northwestern University. Before NuMat,
+            Edwin worked with the Snurr Lab to develop a novel charge-assigning
+            method to improve the accuracy of MOF simulations.
+
   - name: Board
     members:
 
