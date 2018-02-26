@@ -265,6 +265,20 @@ groups:
             Edwin worked with the Snurr Lab to develop a novel charge-assigning
             method to improve the accuracy of MOF simulations.
 
+      - name: Jill Johnson
+        position: Director of Administration
+        email: jill@numat-tech.com
+        description: |
+            Jill Johnson works with the CEO and senior level management to
+            execute on NuMat's key initiatives.  She is responsible for
+            administrative functions, including managing day-to-day operations,
+            accounting processes, and marketing projects, and acts as the main
+            organizational contact for vendors, regulatory agents, and other key
+            relationships. Prior to NuMat, Jill worked at Northwestern University
+            for over nine years. Her most recent position was with the
+            Department of Chemistry serving at the Associate Director
+            for Administration.
+
   - name: Board
     members:
 
