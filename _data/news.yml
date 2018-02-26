@@ -1,3 +1,12 @@
+- title: NuMat exhibits products at SemiCon Korea
+  images:
+    - file: semicon.jpg
+      height: 80
+      alt: SemiCon Korea
+      link: https://www.versummaterials.com/versum-materials-exhibit-semicon-korea/
+  date: January 2018
+  description: |
+      NuMat and Versum exhibited ION-X at SEMICON Korea, a premier event for microelectronics manufacturing.
 - title: NuMat CSO honored as American Association for the Advancement of Science Fellow
   images:
     - file: aaas_logo.png
