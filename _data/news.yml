@@ -1,4 +1,14 @@
-- title: NuMat exhibits products at SemiCon Korea
+- title: NuMat Technologies named "Rising Star" by Global Cleantech 100 Awards
+  images:
+    - file: global_cleantech.png
+      height: 322
+      alt: Global Cleantech
+      link: https://www.cleantech.com/release/cleantech-group-unveils-the-2018-global-cleantech-100-list/
+  date: January 2018
+  description: |
+      NuMat was recognized as one of five global rising stars by the Global Cleantech 100 Awards,
+      which recognizes innovative technology organizations best positioned to solve complex energy challenges.
+- title: NuMat exhibits product at SemiCon Korea
   images:
     - file: semicon.jpg
       height: 228
