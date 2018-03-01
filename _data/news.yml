@@ -1,3 +1,13 @@
+- title: Supporting technology roadmaps of the future
+  images:
+    - file: circuit_image.png
+      height: 235
+      alt: Gasworld
+      link:
+  date: January 2018
+  description: |
+      The electronics sector is under significant pressure to address increased process complexity, performance,
+      and regulatory requirements. Gasworld, a leading industry publication, highlights how NuMat is developing innovative technology solutions to these long-term challenges.
 - title: NuMat Technologies named "Rising Star" by Global Cleantech 100 Awards
   images:
     - file: global_cleantech.png
