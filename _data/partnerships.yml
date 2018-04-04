@@ -53,7 +53,7 @@ examples:
       image: linde.png
       link: http://www.the-linde-group.com/en/index.html
     - name: Northwestern University
-      image: northwestern.png
+      image: northwestern_logo.png
       link: http://www.northwestern.edu/
     - name: Versum Materials
       image: versum.png
