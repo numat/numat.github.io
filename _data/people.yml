@@ -282,6 +282,23 @@ groups:
   - name: Board
     members:
 
+      - name: Benjamin Hernandez
+        position: Chief Executive Officer, Co-founder
+        linkedin: https://www.linkedin.com/pub/benjamin-hernandez/8/a22/30b
+        email: ben@numat-tech.com
+        description: |
+          Ben is the CEO of NuMat and a member of the board of
+          directors. In this role, he is responsible for managing the rapid
+          scale-up of NuMat’s application platform and all other aspects
+          of the business. An engineer by training, he also received graduate
+          degrees in law and business at Northwestern University. Prior to
+          NuMat, Ben was an operations professional at a global private equity
+          and venture capital firm with over $30 B in invested capital. In this
+          capacity, he led board-level strategy, operations, and human capital
+          initiatives at material technology companies to drive
+          enterprise growth. He has also worked as a management consultant at a
+          top-tier firm and as an engineer in the aerospace defense industry.
+
       - name: William Kroll
         description: |
           Bill is the Executive Chairman, and former CEO of [Matheson TriGas](
