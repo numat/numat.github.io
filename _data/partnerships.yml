@@ -65,7 +65,7 @@ examples:
       image: doe.png
       link: http://www1.chem.umn.edu/icdc/
     - name: Northwestern University
-      image: northwestern.png
+      image: northwestern_logo.png
       link: http://www.northwestern.edu/
 
 footer: |
