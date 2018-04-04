@@ -58,6 +58,9 @@ examples:
     - name: Department of Defense
       image: dod.png
       link: https://www.defense.gov/
+    - name: Patagonia
+      image: patagonia.png
+      link: http://www.tinshedventures.com/
     - name: Department of Energy
       image: doe.png
       link: http://www1.chem.umn.edu/icdc/
