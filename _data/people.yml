@@ -317,6 +317,19 @@ groups:
           In addition to NuMat, Omar is a Research Professor at Northwestern
           University.
 
+      - name: Bill Noglows
+        description: |
+          Bill is the Executive Chairman and former President and CEO of
+          of [Cabot Microelectronics Corporation](https://www.cabotcmp.com/)
+          (NYSE: [CCMP](http://finance.yahoo.com/q?s=CCMP)), the leading global
+          supplier of chemical mechanical planarization (CMP) slurries and a CMP
+          pad supplier to the semiconductor industry. Previously, Bill served in
+          various management positions at Cabot Corporation from 1984 to 2003 and
+          is a 23-year veteran of the specialty chemical industry, with an emphasis
+          on meeting the demanding requirements of the technology industry on a global
+          basis. Bill is a Director of [Littelfuse](http://www.littelfuse.com/)
+          and [Aspen Aerogels](http://www.aerogel.com/).
+
       - name: William Kroll
         description: |
           Bill is the Executive Chairman, and former CEO of [Matheson TriGas](
@@ -357,19 +370,6 @@ groups:
             working on advancements that are fundamental to the future of
             humanity. Previous to OS Fund, Jeff was the CEO of BRJ Ventures and
             also a founding member and CFO of West Family Investments.
-
-      - name: Bill Noglows
-        description: |
-          Bill is the Executive Chairman and former President and CEO of
-          of [Cabot Microelectronics Corporation](https://www.cabotcmp.com/)
-          (NYSE: [CCMP](http://finance.yahoo.com/q?s=CCMP)), the leading global
-          supplier of chemical mechanical planarization (CMP) slurries and a CMP
-          pad supplier to the semiconductor industry. Previously, Bill served in
-          various management positions at Cabot Corporation from 1984 to 2003 and
-          is a 23-year veteran of the specialty chemical industry, with an emphasis
-          on meeting the demanding requirements of the technology industry on a global
-          basis. Bill is a Director of [Littelfuse](http://www.littelfuse.com/)
-          and [Aspen Aerogels](http://www.aerogel.com/).
 
   - name: Advisors
     members:
