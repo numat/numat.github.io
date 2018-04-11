@@ -1,3 +1,12 @@
+- title: Next Generation Hydrogen Storage
+  images:
+    - file: doe_eere.png
+      height: 185
+      alt: DOE
+      link:
+  date: April 2018
+  description: |
+      NuMat partners with the Department of Energy (DOE) to develop next generation hydrogen storage technology for bulk transport and storage. This is a continuation of NuMat's technology leadership in developing gas densification technology for demanding industry requirements.
 - title: Supporting technology roadmaps of the future
   images:
     - file: circuit_image.png
