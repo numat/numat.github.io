@@ -1,13 +1,13 @@
 ---
-title: Director, Manufacturing & Operations | NuMat
-job: Director, Manufacturing & Operations
+title: Director, Operations & Manufacturing Technology | NuMat
+job: Director, Operations & Manufacturing Technology
 layout: career
 permalink: /careers/manufacturing/
 ---
 
 ## Responsibilities
 
-**Manufacturing Operations Management**
+**Operations & Manufacturing Technology Management**
 
  * Direct all manufacturing operations related to new product introductions, including procurement of raw materials and equipment, preparation of standard operating procedures (SOPs), design and operation of manufacturing facilities, management of outsourced manufacturing operations, product packaging and labeling, quality assurance, and shipment
  * Hire, develop, and manage Manufacturing Specialists for each new product line
