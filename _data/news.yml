@@ -1,3 +1,24 @@
+- title: $12 million invested toward Next Generation Catalyst Research
+  images:
+    - file: icdc_logo.jpg
+      height: 128
+      alt: ICDC
+      link: https://twin-cities.umn.edu/news-events/university-minnesota-based-center-awarded-12-million-continue-energy-materials-research
+  date: June 2018
+  description: |
+      The Inorganometallic Catalyst Design Center, an Energy Frontier Research Center (EFRC), comprised of leading academic institutions and NuMat, was
+      awarded $12 million to accelerate work on next generation catalysts for the chemicals industry.
+- title: NuMat Technologies to Evaluate MOFs in CO2 Scrubbing Systems for NASA
+  images:
+    - file: NASA_logo.png
+      height: 298
+      alt: NASA
+      link:
+  date: June 2018
+  description: |
+      NuMat Technologies, in partnership with Northwestern University, will evaluate the potential of MOFs in
+      CO2 scrubbing systems utilized by NASA. This work will build upon existing expertise at Northwestern University and
+      NuMat Technologies in the areas of MOF synthesis and formation.
 - title: How NuMat is Engineering the Building Blocks of the Future, One Molecule at a Time
   images:
     - file: IONX_farha_hernandez.jpg
@@ -6,7 +27,7 @@
       link: https://medium.com/future-literacy/how-numat-is-engineering-the-building-blocks-of-the-future-one-molecule-at-a-time-a77f92d5e5c0
   date: June 2018
   description: |
-      NuMat is featured in the first part of a series of articles, published by Medium, focusing on companies that are redefining the future and creating new worlds of possibilities.
+      NuMat is featured in the first part of a series of articles, published by leading entrepenuer and investor Brian Johnson, focusing on companies that are redefining the future and creating new worlds of possibilities.
 - title: NuMat to develop filtration systems to combat toxic chemicals
   images:
     - file: cwmd_logo.png
