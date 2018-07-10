@@ -3,27 +3,14 @@
   text-align: center;
 }
 
-.partner-content {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
-  @media (min-width: 768px) {
-    min-height: 400px;
-
-    p,
-    li {
-      font-size: 22px;
-    }
-
-    h2 {
-      margin-bottom: 30px;
-    }
-  }
+.partners {
+  display: table;
 }
 
 .partner-member {
-  padding: 15px;
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
 }
 
 .partner-img {

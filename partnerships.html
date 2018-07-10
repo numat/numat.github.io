@@ -39,12 +39,14 @@ permalink: /partnerships/
 {% endfor %}
 
 <div class="container">
-  <div class="row partners">
+  <div class="row">
     <div class="col-xs-12 partner-title">
       <h2>{{ site.data.partnerships.examples.title }}</h2>
     </div>
+  </div>
+  <div class="row partners">
     {% for member in site.data.partnerships.examples.members %}
-    <div class="col-xs-6 col-md-4 partner-member">
+    <div class="col-xs-4 partner-member">
       <a href="{{ member.link }}">
         <img class="partner-img"
              alt="{{ member.name }}"
@@ -52,6 +54,11 @@ permalink: /partnerships/
              data-src="/img/partnerships/{{ member.image }}">
       </a>
     </div>
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    {% if loopindex == 0 %}
+  </div>
+  <div class="row partners">
+    {% endif %}
     {% endfor %}
   </div>
 
