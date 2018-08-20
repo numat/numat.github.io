@@ -6,6 +6,8 @@ This repository contains the source code and history of the NuMat Technologies
 website, all the way back to the [very first version](
 https://github.com/numat/numat.github.io/tree/871daa61b076c51812edfe94b13df473aa1ee24e).
 
+##### Note: This repository is current to August 1, 2018. Since then, NuMat's site has been maintained by a third party.
+
 Usage
 =====
 
